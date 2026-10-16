@@ -1,0 +1,49 @@
+schema_version: "1.0"
+method_id: esstfnet
+display_name: EssTFNet
+publication: {year: 2026, doi: 10.1093/bib/bbag349}
+implementation:
+  class: adapted_variant
+  provenance: source-release
+  status: adapted/source-release
+  source_repository: https://github.com/QIANJINYDX/EssTFNet
+  source_commit: 4f9ee839bd35eccf00de5580a9ed3d9d1363922e
+decision_threshold_source: validation_accuracy
+score_kind: probability
+inference_scope: sequence
+feature_contract:
+  availability_basis: paired_cds_and_protein_exact_alphabet
+  construction: raw_86151_physicochemical_candidates_plus_adapted_evo2_7b_base_then_fold_local_rfe
+  fold_dependent: true
+  raw_feature_dimensions: 86151
+  primary_input: feature/source/{dataset_lower}/raw_candidates_86151.parquet
+  raw_feature_output: feature/{dataset}/{split_strategy}/fold_{outer_fold}/physicochemical_features.parquet
+  raw_feature_columns: feature/source/feature_contract/raw_candidate_columns.parquet
+  selected_feature_dimensions: 4250
+  selected_feature_status: adapted_outer_train_safe_rfe
+  split_source: fold_genes/fold_{outer_fold}_genes.parquet under egbench.data.folds_directory(cohort_id, split_strategy)
+  dna_language_model: arcinstitute/evo2_7b_base
+  dna_embedding_contract: adapted_full_cds_windowed_weighted_mean
+  dna_embedding_output: feature/{dataset}/{split_strategy}/fold_{outer_fold}/evo2_embeddings.parquet
+  dna_model_cache: feature/source/model_assets/huggingface
+  dna_model_checkpoint: feature/source/model_assets/evo2_7b_base.pt
+  rebuild_command:
+    - python acquire_assets.py
+    - python build_raw_candidates.py --dataset <cohort_id>
+    - CUDA_VISIBLE_DEVICES=<physical_gpu> python code/embed_dna.py --dataset <cohort_id> --gene-list support_gene_list.csv --device cuda:0
+    - python ../derive_cohort_source_assets.py --cohort <cohort_id> --method esstfnet
+  training_labels: [essential, nonessential]
+  auxiliary_labels: [excluded, uncertain]
+  split_artifacts: []
+data_contract:
+  dataset_universes:
+    deg: feature/source/datasets/deg_gene_universe.parquet
+    depmap: feature/source/datasets/depmap_gene_universe.parquet
+  sequence_sources:
+    ensembl97: feature/source/sequences/{source}.cds.fa.gz and feature/source/sequences/{source}.pep.fa.gz
+    gencode50: feature/source/sequences/{source}.cds.fa.gz and feature/source/sequences/{source}.pep.fa.gz
+
+trainable_parameters: 17846256
+parameter_rule: >-
+  Neural network: number of elements of the trainable tensors in weights/ of the DEG protein-family folds, integer tensors and batch-normalisation buffers excluded; identical across the five folds
+frozen_upstream_parameters: 7000000000

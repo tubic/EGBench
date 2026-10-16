@@ -1,0 +1,7 @@
+complex_id,complex,corum_name,subunits,pan_essential,context_specific,non_essential,unlabelled
+CORUM:1492,LSD1-CoREST (BHC110) complex,BHC110 complex,10,0,6,2,2
+CORUM:1624,Fanconi anaemia core complex,FA core complex (Fanconi anemia core complex),9,0,5,1,3
+CORUM:178,Respiratory complex I,"Respiratory chain complex I (holoenzyme), mitochondrial",44,15,6,13,10
+CORUM:181,26S proteasome,26S proteasome,22,22,0,0,0
+CORUM:306,Cytosolic ribosome,"Ribosome, cytoplasmic",80,74,1,2,3
+CORUM:8561,TNFR1 signalling complex,"TNFR1 signaling complex, TNF-induced",24,0,12,8,4

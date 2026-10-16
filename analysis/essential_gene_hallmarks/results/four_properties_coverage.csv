@@ -1,0 +1,5 @@
+cohort_id,task,scope,scope_name,genes,essentials,genes_three_or_more,essentials_three_or_more,share_of_genes,share_of_essentials
+deg,DEG,all,all genes,11216,1984,2722,1590,0.24268901569186876,0.8014112903225806
+deg,DEG,other,outside the core functions,10453,1377,2129,1049,0.20367358653018272,0.7618010167029775
+depmap,DepMap,all,all genes,13600,1786,3331,1355,0.2449264705882353,0.7586786114221724
+depmap,DepMap,other,outside the core functions,12998,1319,2853,945,0.21949530697030312,0.7164518574677786

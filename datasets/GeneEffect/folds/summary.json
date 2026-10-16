@@ -1,0 +1,133 @@
+{
+  "cohort_id": "gene_effect",
+  "genes": 13152,
+  "maximum_target_mean_deviation": 0.008880433829397155,
+  "n_splits": 5,
+  "roles": [
+    {
+      "absolute_target_mean_deviation": 0.004610379870609027,
+      "clusters": 1862,
+      "genes": 2623,
+      "outer_fold": 0,
+      "role": "test",
+      "target_mean": -0.17897881120022874
+    },
+    {
+      "absolute_target_mean_deviation": 0.002576126243330451,
+      "clusters": 6640,
+      "genes": 9217,
+      "outer_fold": 0,
+      "role": "train",
+      "target_mean": -0.17179230508628926
+    },
+    {
+      "absolute_target_mean_deviation": 0.008880433829397155,
+      "clusters": 948,
+      "genes": 1312,
+      "outer_fold": 0,
+      "role": "validation",
+      "target_mean": -0.18324886515901687
+    },
+    {
+      "absolute_target_mean_deviation": 0.0013239346625095183,
+      "clusters": 1904,
+      "genes": 2641,
+      "outer_fold": 1,
+      "role": "test",
+      "target_mean": -0.1730444966671102
+    },
+    {
+      "absolute_target_mean_deviation": 0.0011298607665584104,
+      "clusters": 6599,
+      "genes": 9196,
+      "outer_fold": 1,
+      "role": "train",
+      "target_mean": -0.17549829209617812
+    },
+    {
+      "absolute_target_mean_deviation": 0.005242348414892434,
+      "clusters": 947,
+      "genes": 1315,
+      "outer_fold": 1,
+      "role": "validation",
+      "target_mean": -0.16912608291472728
+    },
+    {
+      "absolute_target_mean_deviation": 0.0014759723662220448,
+      "clusters": 1903,
+      "genes": 2642,
+      "outer_fold": 2,
+      "role": "test",
+      "target_mean": -0.17289245896339767
+    },
+    {
+      "absolute_target_mean_deviation": 0.0005333326470722821,
+      "clusters": 6616,
+      "genes": 9206,
+      "outer_fold": 2,
+      "role": "train",
+      "target_mean": -0.17383509868254743
+    },
+    {
+      "absolute_target_mean_deviation": 0.006755659003455511,
+      "clusters": 931,
+      "genes": 1304,
+      "outer_fold": 2,
+      "role": "validation",
+      "target_mean": -0.18112409033307522
+    },
+    {
+      "absolute_target_mean_deviation": 0.0005387219231060281,
+      "clusters": 1897,
+      "genes": 2636,
+      "outer_fold": 3,
+      "role": "test",
+      "target_mean": -0.17382970940651368
+    },
+    {
+      "absolute_target_mean_deviation": 0.0007444871168948153,
+      "clusters": 6567,
+      "genes": 9201,
+      "outer_fold": 3,
+      "role": "train",
+      "target_mean": -0.17511291844651453
+    },
+    {
+      "absolute_target_mean_deviation": 0.0041292433256591154,
+      "clusters": 986,
+      "genes": 1315,
+      "outer_fold": 3,
+      "role": "validation",
+      "target_mean": -0.1702391880039606
+    },
+    {
+      "absolute_target_mean_deviation": 0.0012555268107485862,
+      "clusters": 1884,
+      "genes": 2610,
+      "outer_fold": 4,
+      "role": "test",
+      "target_mean": -0.17311290451887112
+    },
+    {
+      "absolute_target_mean_deviation": 0.00022078043563225624,
+      "clusters": 6662,
+      "genes": 9215,
+      "outer_fold": 4,
+      "role": "train",
+      "target_mean": -0.17458921176525197
+    },
+    {
+      "absolute_target_mean_deviation": 0.0009362722394140044,
+      "clusters": 904,
+      "genes": 1327,
+      "outer_fold": 4,
+      "role": "validation",
+      "target_mean": -0.17530470356903372
+    }
+  ],
+  "split_build_hash": "90ac94af0b415feb",
+  "split_strategy": "family_5fold",
+  "target_column": "gene_effect",
+  "target_mean": -0.1743684313296197,
+  "target_std": 0.4445922230749102
+}

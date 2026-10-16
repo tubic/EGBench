@@ -1,0 +1,25 @@
+schema_version: "1.0"
+method_id: help
+display_name: HELP
+publication: {year: 2024, doi: 10.1371/journal.pcbi.1012076}
+implementation: {class: adapted_variant, source_commit: f9ca7bacf162a5bbb8486f9268ce2403594dad67}
+decision_threshold_source: fixed_0.5
+score_kind: probability
+inference_scope: author_embedding_table
+feature_contract:
+  availability_basis: imputed_help
+  construction: static_bio_cccfs_and_node2vec
+  feature_dimensions: 3447
+  rebuild_command: python code/build_help_features.py
+  primary_input: feature/{dataset}/{split_strategy}/fold_{outer_fold}/features.parquet
+  feature_source: feature/source/help_features_gene_map.parquet
+  split_authority: egbench.data.folds_directory(cohort_id, split_strategy)
+  training_labels: [essential, nonessential]
+  auxiliary_labels: [excluded, uncertain]
+determinism:
+  thread_count: 16
+  library_switches: [lightgbm.deterministic, lightgbm.force_row_wise]
+
+trainable_parameters: 31000
+parameter_rule: >-
+  Gradient-boosted trees: leaves of all trees of the ten voters; median over the five DEG protein-family folds

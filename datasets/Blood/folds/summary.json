@@ -1,0 +1,165 @@
+{
+  "cohort_id": "blood",
+  "genes": 9343,
+  "largest_projected_cluster": 280,
+  "maximum_prevalence_deviation": 2.1314724280296904e-05,
+  "n_splits": 5,
+  "negatives": 8723,
+  "positives": 620,
+  "prevalence": 0.06635984159263619,
+  "projected_clusters": 6643,
+  "roles": [
+    {
+      "absolute_prevalence_deviation": 1.4202213288946886e-05,
+      "clusters": 1309,
+      "genes": 1869,
+      "negatives": 1745,
+      "outer_fold": 0,
+      "positives": 124,
+      "prevalence": 0.06634563937934725,
+      "role": "test"
+    },
+    {
+      "absolute_prevalence_deviation": 1.014676476951415e-06,
+      "clusters": 4673,
+      "genes": 6540,
+      "negatives": 6106,
+      "outer_fold": 0,
+      "positives": 434,
+      "prevalence": 0.06636085626911314,
+      "role": "train"
+    },
+    {
+      "absolute_prevalence_deviation": 2.1314724280296904e-05,
+      "clusters": 661,
+      "genes": 934,
+      "negatives": 872,
+      "outer_fold": 0,
+      "positives": 62,
+      "prevalence": 0.06638115631691649,
+      "role": "validation"
+    },
+    {
+      "absolute_prevalence_deviation": 1.4202213288946886e-05,
+      "clusters": 1331,
+      "genes": 1869,
+      "negatives": 1745,
+      "outer_fold": 1,
+      "positives": 124,
+      "prevalence": 0.06634563937934725,
+      "role": "test"
+    },
+    {
+      "absolute_prevalence_deviation": 1.014676476951415e-06,
+      "clusters": 4652,
+      "genes": 6540,
+      "negatives": 6106,
+      "outer_fold": 1,
+      "positives": 434,
+      "prevalence": 0.06636085626911314,
+      "role": "train"
+    },
+    {
+      "absolute_prevalence_deviation": 2.1314724280296904e-05,
+      "clusters": 660,
+      "genes": 934,
+      "negatives": 872,
+      "outer_fold": 1,
+      "positives": 62,
+      "prevalence": 0.06638115631691649,
+      "role": "validation"
+    },
+    {
+      "absolute_prevalence_deviation": 1.4202213288946886e-05,
+      "clusters": 1334,
+      "genes": 1869,
+      "negatives": 1745,
+      "outer_fold": 2,
+      "positives": 124,
+      "prevalence": 0.06634563937934725,
+      "role": "test"
+    },
+    {
+      "absolute_prevalence_deviation": 1.014676476951415e-06,
+      "clusters": 4619,
+      "genes": 6540,
+      "negatives": 6106,
+      "outer_fold": 2,
+      "positives": 434,
+      "prevalence": 0.06636085626911314,
+      "role": "train"
+    },
+    {
+      "absolute_prevalence_deviation": 2.1314724280296904e-05,
+      "clusters": 690,
+      "genes": 934,
+      "negatives": 872,
+      "outer_fold": 2,
+      "positives": 62,
+      "prevalence": 0.06638115631691649,
+      "role": "validation"
+    },
+    {
+      "absolute_prevalence_deviation": 2.1314724280296904e-05,
+      "clusters": 1334,
+      "genes": 1868,
+      "negatives": 1744,
+      "outer_fold": 3,
+      "positives": 124,
+      "prevalence": 0.06638115631691649,
+      "role": "test"
+    },
+    {
+      "absolute_prevalence_deviation": 9.13069216225415e-06,
+      "clusters": 4624,
+      "genes": 6541,
+      "negatives": 6107,
+      "outer_fold": 3,
+      "positives": 434,
+      "prevalence": 0.06635071090047394,
+      "role": "train"
+    },
+    {
+      "absolute_prevalence_deviation": 2.1314724280296904e-05,
+      "clusters": 685,
+      "genes": 934,
+      "negatives": 872,
+      "outer_fold": 3,
+      "positives": 62,
+      "prevalence": 0.06638115631691649,
+      "role": "validation"
+    },
+    {
+      "absolute_prevalence_deviation": 2.1314724280296904e-05,
+      "clusters": 1335,
+      "genes": 1868,
+      "negatives": 1744,
+      "outer_fold": 4,
+      "positives": 124,
+      "prevalence": 0.06638115631691649,
+      "role": "test"
+    },
+    {
+      "absolute_prevalence_deviation": 9.13069216225415e-06,
+      "clusters": 4653,
+      "genes": 6541,
+      "negatives": 6107,
+      "outer_fold": 4,
+      "positives": 434,
+      "prevalence": 0.06635071090047394,
+      "role": "train"
+    },
+    {
+      "absolute_prevalence_deviation": 2.1314724280296904e-05,
+      "clusters": 655,
+      "genes": 934,
+      "negatives": 872,
+      "outer_fold": 4,
+      "positives": 62,
+      "prevalence": 0.06638115631691649,
+      "role": "validation"
+    }
+  ],
+  "split_build_hash": "98bc1327f082c4c7",
+  "validation_fraction_of_remainder": 0.125
+}

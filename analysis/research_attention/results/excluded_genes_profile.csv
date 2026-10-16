@@ -1,0 +1,15 @@
+cohort_id,group,class_name,literature_edge,genes,pubmed_median,least_studied_share
+deg,retained,all,23.0,11216,50.0,0.26221469329529246
+deg,retained,essential,23.0,1984,131.0,0.013608870967741936
+deg,retained,nonessential,23.0,9232,40.0,0.3156412478336222
+deg,excluded,all,23.0,2008,7.0,0.8361553784860558
+deg,excluded,essential,23.0,21,111.0,0.14285714285714285
+deg,excluded,nonessential,23.0,1987,7.0,0.8434826371414192
+deg,candidate,all,23.0,13224,40.0,0.34936479128856623
+depmap,retained,all,26.0,13600,58.0,0.255
+depmap,retained,essential,26.0,1786,126.0,0.0341545352743561
+depmap,retained,nonessential,26.0,11814,50.0,0.2883866598950398
+depmap,excluded,all,26.0,1297,9.0,0.7987663839629915
+depmap,excluded,essential,26.0,41,30.0,0.4878048780487805
+depmap,excluded,nonessential,26.0,1256,8.0,0.8089171974522293
+depmap,candidate,all,26.0,14897,52.0,0.3023427535745452

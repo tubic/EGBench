@@ -1,0 +1,16 @@
+predictor,display_name,split_strategy,mean_rank,task_count
+mahi,Mahi,family_5fold,1.5,6
+help,HELP,family_5fold,1.6666666666666667,6
+esssubgraph,EssSubgraph,family_5fold,3.5,6
+deepsnap,DeEPsnap,family_5fold,3.8333333333333335,6
+xgep,XGEP-XGB,family_5fold,4.833333333333333,6
+proteomelm,ProteomeLM-Ess,family_5fold,6.166666666666667,6
+epgat,EPGAT,family_5fold,6.833333333333333,6
+deephe,DeepHE,family_5fold,7.666666666666667,6
+deeplyessential,DeeplyEssential,family_5fold,9.666666666666666,6
+bingo,BiNGO,family_5fold,10.0,6
+esstfnet,EssTFNet,family_5fold,11.833333333333334,6
+ednn_eg,eDNN-EG,family_5fold,12.333333333333334,6
+deepcelless,DeepCellEss,family_5fold,12.5,6
+pheg,Pheg,family_5fold,12.666666666666666,6
+gcnn_sfm,GCNN-SFM,family_5fold,15.0,6

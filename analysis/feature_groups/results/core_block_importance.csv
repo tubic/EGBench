@@ -1,0 +1,9 @@
+cohort_id,task,block,name,category,columns,used_columns_mean,importance,fold_sd,fold_drops
+deg,DEG,tcga_pca,TCGA expression principal components (50 fitted per fold),expression,50,49.8,0.32491005207884904,0.04615266950412787,0.34137;0.29936;0.34455;0.37945;0.25982
+deg,DEG,cccfs,GO cellular component localisation confidence,annotation and localisation,3301,412.6,0.22130873246072746,0.014951417949111428,0.24180;0.21176;0.23278;0.21019;0.21000
+deg,DEG,help_bio,HELP multi-omics annotation (18 columns),annotation and localisation,18,16.2,0.05573405389358586,0.009544695190771588,0.05253;0.04304;0.05818;0.06941;0.05550
+deg,DEG,orthology,Orthologues in 194 species and missing indicator,evolution,195,35.4,0.016017912374944286,0.0027207602172982922,0.01393;0.01961;0.01801;0.01320;0.01534
+depmap,DepMap,tcga_pca,TCGA expression principal components (50 fitted per fold),expression,50,50.0,0.3225050749714875,0.03155379130571825,0.28241;0.30998;0.31750;0.33499;0.36764
+depmap,DepMap,cccfs,GO cellular component localisation confidence,annotation and localisation,3301,490.8,0.2777799803550388,0.023446317567069642,0.27870;0.25071;0.30098;0.25778;0.30074
+depmap,DepMap,help_bio,HELP multi-omics annotation (18 columns),annotation and localisation,18,15.0,0.06583752424358816,0.012155432142630438,0.06393;0.07021;0.06527;0.08171;0.04806
+depmap,DepMap,orthology,Orthologues in 194 species and missing indicator,evolution,195,38.2,0.014145449818542452,0.00708749461017985,0.00929;0.01598;0.01684;0.02344;0.00518

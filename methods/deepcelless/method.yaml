@@ -1,0 +1,18 @@
+schema_version: "1.0"
+method_id: deepcelless
+display_name: DeepCellEss
+publication: {year: 2023, doi: 10.1093/bioinformatics/btac779}
+implementation: {class: clean_room_adapted_variant, source_commit: 8214a6a67e19c50df13d57b04b7287c8d54ce641}
+feature_contract:
+  availability_basis: sequence
+  construction: dynamic_protein_one_hot_600_by_21
+  primary_input: feature/{dataset}/{split_strategy}/fold_{outer_fold}/selected_proteins.fa.gz
+  training_labels: [essential, nonessential]
+  auxiliary_labels: [excluded, uncertain]
+decision_threshold_source: validation_accuracy
+score_kind: probability
+inference_scope: sequence
+
+trainable_parameters: 47907
+parameter_rule: >-
+  Neural network: number of elements of the trainable tensors in weights/ of the DEG protein-family folds, integer tensors and batch-normalisation buffers excluded; identical across the five folds

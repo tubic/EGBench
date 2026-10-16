@@ -1,0 +1,5 @@
+group,genes,count_0,count_1,count_2,count_3,count_4,share_complex,share_old,share_connected,share_expressed,became_common_essential,became_strongly_selective
+foreground,322,16.0,34.0,86.0,128.0,58.0,0.5496894409937888,0.35403726708074534,0.8167701863354038,0.8322981366459627,,
+background,11730,3974.0,3265.0,2612.0,1587.0,292.0,0.22745098039215686,0.15720375106564366,0.4216538789428815,0.42284739982949704,,
+negatives_rich,3042,,,,,,,,,,186.0,977.0
+negatives_poor,12375,,,,,,,,,,136.0,2388.0

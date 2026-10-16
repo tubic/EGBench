@@ -1,0 +1,17 @@
+dataset_id	organism	reference	pubmed_id	cell_or_context	reported_essential_count	method	condition	last_updated
+DEG2006	Homo sapiens	Liao BY, Zhang J (2008). Null mutations in human and mouse orthologs frequently result in different phenotypes. Proc Natl Acad Sci U S A, 105:6987-92.	18458337	Uncertain	118	OMIM annotation	-	2018-11-11
+DEG2010	Homo sapiens	Georgi, B., Voight, B. F., & Bućan, M. (2013). From mouse to human: evolutionary genomics analysis of human orthologs of essential genes. PLoS Genet, 9(5), e1003484.	23675308	Uncertain	2472	-	Rich medium	2018-11-11
+DEG2011	Homo sapiens	Lek, M., Karczewski, K. J., Minikel, E. V., Samocha, K. E., Banks, E., Fennell, T., ... & Tukiainen, T. (2016). Analysis of protein-coding genetic variation in 60,706 humans. Nature, 536(7616), 285-291.	27535533	Uncertain	3230	Exome sequencing	-	2018-11-11
+DEG2012	Homo sapiens	"Blomen, Vincent A., et al. ""Gene essentiality and synthetic lethality in haploid human cells."" Science 350.6264 (2015): 1092-1096."	26472760	KBM7	2054	CRISPR	Rich medium	2018-11-11
+DEG2013	Homo sapiens	"Blomen, Vincent A., et al. ""Gene essentiality and synthetic lethality in haploid human cells."" Science 350.6264 (2015): 1092-1096. "	26472760	HAP1	2181	CRISPR	Rich medium	2018-11-11
+DEG2014	Homo sapiens	"Wang, Tim, et al. ""Identification and characterization of essential genes in the human genome."" Science 350.6264 (2015): 1096-1101."	26472758	KBM7	1878	CRISPR	Rich medium	2018-11-11
+DEG2015	Homo sapiens	"Wang, Tim, et al. ""Identification and characterization of essential genes in the human genome."" Science 350.6264 (2015): 1096-1101."	26472758	K562	1660	CRISPR	Rich medium	2018-11-11
+DEG2016	Homo sapiens	"Wang, Tim, et al. ""Identification and characterization of essential genes in the human genome."" Science 350.6264 (2015): 1096-1101."	26472758	Jiyoye	1630	CRISPR	Rich medium	2018-11-11
+DEG2017	Homo sapiens	"Wang, Tim, et al. ""Identification and characterization of essential genes in the human genome."" Science 350.6264 (2015): 1096-1101."	26472758	Raji	1461	CRISPR	Rich medium	2018-11-11
+DEG2018	Homo sapiens	"Hart, Traver, et al. ""High-Resolution CRISPR Screens Reveal Fitness Genes and Genotype-Specific Cancer Liabilities."" Cell (2015)."	26627737	A375	1196	CRISPR	Rich medium	2018-11-11
+DEG2019	Homo sapiens	"Hart, Traver, et al. ""High-Resolution CRISPR Screens Reveal Fitness Genes and Genotype-Specific Cancer Liabilities."" Cell (2015)."	26627737	DLD1	1892	CRISPR	Rich medium	2018-11-11
+DEG2020	Homo sapiens	"Hart, Traver, et al. ""High-Resolution CRISPR Screens Reveal Fitness Genes and Genotype-Specific Cancer Liabilities."" Cell (2015)."	26627737	GBM	2196	CRISPR	Rich medium	2018-11-11
+DEG2021	Homo sapiens	"Hart, Traver, et al. ""High-Resolution CRISPR Screens Reveal Fitness Genes and Genotype-Specific Cancer Liabilities."" Cell (2015)."	26627737	HCT116	2073	CRISPR	Rich medium	2018-11-11
+DEG2022	Homo sapiens	"Hart, Traver, et al. ""High-Resolution CRISPR Screens Reveal Fitness Genes and Genotype-Specific Cancer Liabilities."" Cell (2015)."	26627737	HCT116 shRNA	386	CRISPR	Rich medium	2018-11-11
+DEG2023	Homo sapiens	"Hart, Traver, et al. ""High-Resolution CRISPR Screens Reveal Fitness Genes and Genotype-Specific Cancer Liabilities."" Cell (2015)."	26627737	HELA	1696	CRISPR	Rich medium	2018-11-11
+DEG2024	Homo sapiens	"Hart, Traver, et al. ""High-Resolution CRISPR Screens Reveal Fitness Genes and Genotype-Specific Cancer Liabilities."" Cell (2015)."	26627737	REP1	2038	CRISPR	Rich medium	2018-11-11

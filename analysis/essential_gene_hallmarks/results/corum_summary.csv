@@ -1,0 +1,3 @@
+cohort_id,task,complexes,member_genes,member_positives,member_positive_share,other_genes,other_positives,other_positive_share,all_positive_share,complexes_all_positive
+deg,DEG,376,1219,960,0.7875307629204266,9997,1024,0.10243072921876563,0.1768901569186876,201
+depmap,DepMap,479,1669,944,0.5656081485919713,11931,842,0.0705724583019026,0.1313235294117647,86

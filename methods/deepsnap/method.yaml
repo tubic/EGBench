@@ -1,0 +1,24 @@
+schema_version: "1.0"
+method_id: deepsnap
+display_name: DeEPsnap
+publication: {year: 2025, doi: 10.1038/s41598-025-99164-9}
+implementation: {class: clean_room_adapted_variant, source_commit: f5c02b1b798e608746f0afc2666e7f71de21ffbf}
+determinism:
+  thread_count: 1
+decision_threshold_source: fixed_0.5
+score_kind: probability
+inference_scope: network
+feature_contract:
+  availability_basis: sequence
+  construction: fold_local_258_dimensional_multiomics_view
+  rebuild_command:
+    - python code/acquire_assets.py --output-directory feature/source/annotations
+    - python code/build_features.py build-node2vec
+  feature_dimensions: 258
+  primary_input: feature/{dataset}/{split_strategy}/fold_{outer_fold}/features.parquet
+  training_labels: [essential, nonessential]
+  auxiliary_labels: [excluded, uncertain]
+
+trainable_parameters: 9216010
+parameter_rule: >-
+  Snapshot ensemble: trainable tensor elements of each of the ten snapshots, summed; identical across the five folds

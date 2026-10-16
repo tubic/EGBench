@@ -1,0 +1,21 @@
+schema_version: "1.0"
+method_id: ednn_eg
+display_name: eDNN-EG
+publication: {year: 2020, doi: 10.3390/ijms21239070}
+implementation: {class: clean_room_adapted_variant, source_commit: 2e1084361fa0649dbdd58cac53241b97fd27c959}
+decision_threshold_source: fixed_0.5
+score_kind: calibrated_probability
+inference_scope: sequence
+feature_contract:
+  availability_basis: sequence
+  construction: fold_local_supervised_fasttext_from_cds
+  feature_dimensions: 100
+  primary_input: feature/{dataset}/{split_strategy}/fold_{outer_fold}/features.parquet
+  source_input: feature/source/{dataset_lower}_cds_sequences.fa.gz
+  split_authority: egbench.data.folds_directory(cohort_id, split_strategy)
+  training_labels: [essential, nonessential]
+  auxiliary_labels: [excluded, uncertain]
+
+trainable_parameters: 722524
+parameter_rule: >-
+  Stacked ensemble: each member counted by its own rule (tensor elements for the two neural networks, leaves of all trees for the random forest, support vectors times features for the kernel SVM, zero for k-nearest neighbours, coefficients and intercepts for the linear stacker and the Platt calibration); the supervised fastText representation of the fold is not counted; median over the five DEG protein-family folds

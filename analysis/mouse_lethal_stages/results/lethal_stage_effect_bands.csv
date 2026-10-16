@@ -1,0 +1,51 @@
+scope,gene_effect_band,stage,genes,band_genes,share
+all_genes,<=-1.0,before_organogenesis,202,360,0.5611111111111111
+all_genes,<=-1.0,during_organogenesis,10,360,0.027777777777777776
+all_genes,<=-1.0,after_e12,4,360,0.011111111111111112
+all_genes,<=-1.0,unstaged,136,360,0.37777777777777777
+all_genes,<=-1.0,viable,8,360,0.022222222222222223
+all_genes,-1.0 to -0.5,before_organogenesis,135,343,0.3935860058309038
+all_genes,-1.0 to -0.5,during_organogenesis,23,343,0.06705539358600583
+all_genes,-1.0 to -0.5,after_e12,14,343,0.04081632653061224
+all_genes,-1.0 to -0.5,unstaged,153,343,0.446064139941691
+all_genes,-1.0 to -0.5,viable,18,343,0.052478134110787174
+all_genes,-0.5 to -0.25,before_organogenesis,97,440,0.22045454545454546
+all_genes,-0.5 to -0.25,during_organogenesis,39,440,0.08863636363636364
+all_genes,-0.5 to -0.25,after_e12,38,440,0.08636363636363636
+all_genes,-0.5 to -0.25,unstaged,133,440,0.30227272727272725
+all_genes,-0.5 to -0.25,viable,133,440,0.30227272727272725
+all_genes,-0.25 to -0.1,before_organogenesis,53,1068,0.04962546816479401
+all_genes,-0.25 to -0.1,during_organogenesis,38,1068,0.035580524344569285
+all_genes,-0.25 to -0.1,after_e12,91,1068,0.0852059925093633
+all_genes,-0.25 to -0.1,unstaged,133,1068,0.12453183520599251
+all_genes,-0.25 to -0.1,viable,753,1068,0.7050561797752809
+all_genes,>-0.1,before_organogenesis,38,4687,0.00810753147002347
+all_genes,>-0.1,during_organogenesis,70,4687,0.014934926392148495
+all_genes,>-0.1,after_e12,208,4687,0.04437806699381267
+all_genes,>-0.1,unstaged,330,4687,0.07040751013441433
+all_genes,>-0.1,viable,4041,4687,0.862171965009601
+one_gene_per_family,<=-1.0,before_organogenesis,187,332,0.5632530120481928
+one_gene_per_family,<=-1.0,during_organogenesis,10,332,0.030120481927710843
+one_gene_per_family,<=-1.0,after_e12,4,332,0.012048192771084338
+one_gene_per_family,<=-1.0,unstaged,124,332,0.37349397590361444
+one_gene_per_family,<=-1.0,viable,7,332,0.02108433734939759
+one_gene_per_family,-1.0 to -0.5,before_organogenesis,128,317,0.4037854889589905
+one_gene_per_family,-1.0 to -0.5,during_organogenesis,20,317,0.06309148264984227
+one_gene_per_family,-1.0 to -0.5,after_e12,13,317,0.04100946372239748
+one_gene_per_family,-1.0 to -0.5,unstaged,144,317,0.45425867507886436
+one_gene_per_family,-1.0 to -0.5,viable,12,317,0.03785488958990536
+one_gene_per_family,-0.5 to -0.25,before_organogenesis,92,394,0.233502538071066
+one_gene_per_family,-0.5 to -0.25,during_organogenesis,36,394,0.09137055837563451
+one_gene_per_family,-0.5 to -0.25,after_e12,31,394,0.07868020304568528
+one_gene_per_family,-0.5 to -0.25,unstaged,123,394,0.31218274111675126
+one_gene_per_family,-0.5 to -0.25,viable,112,394,0.28426395939086296
+one_gene_per_family,-0.25 to -0.1,before_organogenesis,48,880,0.05454545454545454
+one_gene_per_family,-0.25 to -0.1,during_organogenesis,30,880,0.03409090909090909
+one_gene_per_family,-0.25 to -0.1,after_e12,84,880,0.09545454545454546
+one_gene_per_family,-0.25 to -0.1,unstaged,112,880,0.12727272727272726
+one_gene_per_family,-0.25 to -0.1,viable,606,880,0.6886363636363636
+one_gene_per_family,>-0.1,before_organogenesis,36,3645,0.009876543209876543
+one_gene_per_family,>-0.1,during_organogenesis,55,3645,0.015089163237311385
+one_gene_per_family,>-0.1,after_e12,166,3645,0.045541838134430725
+one_gene_per_family,>-0.1,unstaged,255,3645,0.06995884773662552
+one_gene_per_family,>-0.1,viable,3133,3645,0.8595336076817558

@@ -1,0 +1,7 @@
+split_strategy,definition,spearman,p
+family_5fold,base,1.0,0.0
+family_5fold,threshold_6,1.0,0.0
+family_5fold,drop_hart,0.9964285714285712,2.4159793199703526e-15
+family_5fold,drop_wang,0.9964285714285712,2.4159793199703526e-15
+family_5fold,drop_blomen,1.0,0.0
+family_5fold,depmap,0.9928571428571428,2.1681214863293027e-13

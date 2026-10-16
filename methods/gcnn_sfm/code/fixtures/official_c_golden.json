@@ -1,0 +1,39 @@
+{
+  "source_repository": "https://github.com/xing1999/GCNN-SFM",
+  "source_commit": "77a81ad7427d415caaf5bc4911ceec4fbcd1f137",
+  "source_path": "GCNN-SFM/encode_seq.c",
+  "source_c_sha256": "86076d988e039adacdde9301405d3e1adf926c91810ca2c547867f862922781e",
+  "fixture_generation": {
+    "artifact": "author-generated Cython C",
+    "cython_metadata_version": "0.29.33",
+    "compatibility_change": "NumPy 2 descriptor accessor only; encoding body unchanged",
+    "dtype": "float64",
+    "byte_order": "native-little-endian"
+  },
+  "cases": [
+    {
+      "sequence": "ACGTACGTACGT",
+      "vector_length": 12288,
+      "vector_sum": 300.0,
+      "vector_sha256": "008b748ca30b76ef8a85ea9f039ed110b9b453d765ee6cf159d754d3d9795664"
+    },
+    {
+      "sequence": "AAACCCGGGTTTAAACCCGGGTTT",
+      "vector_length": 12288,
+      "vector_sum": 300.0,
+      "vector_sha256": "05d158f04078d1a6a86ea6fe4712d645b0c5237b3888bdcf4085a266be55709d"
+    },
+    {
+      "sequence": "ACGTNNNACGTACGT",
+      "vector_length": 12288,
+      "vector_sum": 199.16666666666666,
+      "vector_sha256": "f39b49262985e9ee2a172cc66fb92b6b262a741daedf5a21922649b7908f8571"
+    },
+    {
+      "sequence": "TTTTTTTTTTTTTTT",
+      "vector_length": 12288,
+      "vector_sum": 300.0,
+      "vector_sha256": "8b29df4b6577e43e978020a0f7150c1e61d3464b8bc44ac9968a693a572c08d7"
+    }
+  ]
+}

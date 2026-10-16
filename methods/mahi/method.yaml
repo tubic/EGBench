@@ -1,0 +1,27 @@
+schema_version: "1.0"
+method_id: mahi
+display_name: Mahi
+publication: {year: 2026, doi: 10.64898/2026.02.17.706433}
+implementation: {class: official_global_embedding, source_commit: not_applicable}
+feature_contract:
+  availability_basis: official_mahi_global_embedding
+  construction: mahi_global_context_float16
+  feature_dimensions: 3666
+  primary_input: feature/source/{dataset_lower}/features.parquet
+  primary_output: feature/{dataset}/{split_strategy}/fold_{outer_fold}/features.parquet
+  split_source: fold_genes/fold_{outer_fold}_genes.parquet under egbench.data.folds_directory(cohort_id, split_strategy)
+  rebuild_command:
+    - python acquire_assets.py
+    - python ../derive_cohort_source_assets.py --cohort <cohort_id> --method mahi
+  training_labels: [essential, nonessential]
+  auxiliary_labels: [excluded, uncertain]
+determinism:
+  thread_count: 4
+decision_threshold_source: validation_mcc
+score_kind: probability
+inference_scope: author_embedding_table
+
+trainable_parameters: 5935
+parameter_rule: >-
+  Gradient-boosted trees: leaves of all trees; median over the five DEG protein-family folds
+frozen_upstream_parameters: 575036992

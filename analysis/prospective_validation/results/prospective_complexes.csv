@@ -1,0 +1,6 @@
+complex_id,complex,corum_name,subunits,essential_23q4,newly_essential,strongly_selective,unchanged,not_in_cohort,p
+CORUM:306,Cytosolic ribosome,"Ribosome, cytoplasmic",80,75,0,0,2,3,1.0
+CORUM:181,26S proteasome,26S proteasome,22,22,0,0,0,0,
+CORUM:320,Mitochondrial ribosome,"55S ribosome, mitochondrial",78,16,24,2,36,0,1.126504806996233e-22
+CORUM:178,Respiratory complex I,"Respiratory chain complex I (holoenzyme), mitochondrial",44,7,9,9,13,6,2.273580437489925e-09
+CORUM:7305,Cytochrome c oxidase,"Cytochrome c oxidase including assembly factors (COX, PET100, PET117, MR-1S)",18,2,5,2,4,5,1.5229326992122988e-06

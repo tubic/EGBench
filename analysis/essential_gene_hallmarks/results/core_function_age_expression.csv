@@ -1,0 +1,5 @@
+cohort_id,task,group,group_name,genes,essentials,oldest_layer_share,tcga_median_of_group
+deg,DEG,core,core function genes,763,607,0.5190039318479686,9.679337406390667
+deg,DEG,other,other genes,10453,1377,0.1961159475748589,7.570981989265043
+depmap,DepMap,core,core function genes,602,467,0.5830564784053156,9.789552937789782
+depmap,DepMap,other,other genes,12998,1319,0.18987536544083705,7.947287416786758

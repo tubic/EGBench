@@ -1,0 +1,19 @@
+schema_version: "1.0"
+method_id: gcnn_sfm
+display_name: GCNN-SFM
+publication: {year: 2024, doi: 10.1186/s12864-024-09958-w}
+implementation: {class: clean_room_adapted_variant, source_commit: 77a81ad7427d415caaf5bc4911ceec4fbcd1f137}
+feature_contract:
+  availability_basis: sequence
+  construction: dynamic_cds_sequence_feature_map
+  encoded_dimensions: 12288
+  primary_input: feature/{dataset}/{split_strategy}/fold_{outer_fold}/selected_cds.fa.gz
+  training_labels: [essential, nonessential]
+  auxiliary_labels: [excluded, uncertain]
+decision_threshold_source: validation_accuracy
+score_kind: probability
+inference_scope: sequence
+
+trainable_parameters: 177447214
+parameter_rule: >-
+  Neural network: number of elements of the trainable tensors in weights/ of the DEG protein-family folds, integer tensors and batch-normalisation buffers excluded; identical across the five folds

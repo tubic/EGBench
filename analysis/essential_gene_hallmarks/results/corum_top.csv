@@ -1,0 +1,856 @@
+cohort_id,task,rank,complex_id,complex_name,genes,positives,positive_share,top15
+deg,DEG,1,CORUM:308,"60S ribosomal subunit, cytoplasmic",41,41,1.0,True
+deg,DEG,2,CORUM:8369,"Spliceosome, C complex",33,33,1.0,True
+deg,DEG,3,CORUM:338,"40S ribosomal subunit, cytoplasmic",28,28,1.0,True
+deg,DEG,4,CORUM:315,"28S ribosomal subunit, mitochondrial",26,26,1.0,True
+deg,DEG,5,CORUM:230,Mediator complex,24,24,1.0,True
+deg,DEG,6,CORUM:181,26S proteasome,22,22,1.0,True
+deg,DEG,7,CORUM:5380,"TRBP containing complex (DICER, RPL7A, EIF6, MOV10 and subunits of the 60S ribosomal particle)",22,22,1.0,True
+deg,DEG,8,CORUM:5450,Mediator complex,22,22,1.0,True
+deg,DEG,9,CORUM:2825,BRCA1-RNA polymerase II complex,21,21,1.0,True
+deg,DEG,10,CORUM:430,18S U11/U12 snRNP,20,20,1.0,True
+deg,DEG,11,CORUM:103,RNA polymerase II holoenzyme complex,19,19,1.0,True
+deg,DEG,12,CORUM:194,PA28gamma-20S proteasome,15,15,1.0,True
+deg,DEG,13,CORUM:493,DAB complex,14,14,1.0,True
+deg,DEG,14,CORUM:8850,20S proteasome,14,14,1.0,True
+deg,DEG,15,CORUM:2685,RNA polymerase II (RNAPII),13,13,1.0,True
+deg,DEG,16,CORUM:470,TFTC complex (TATA-binding protein-free TAF-II-containing complex),13,13,1.0,False
+deg,DEG,17,CORUM:492,DA complex,13,13,1.0,False
+deg,DEG,18,CORUM:1068,12S U11 snRNP,12,12,1.0,False
+deg,DEG,19,CORUM:1154,DSS1 complex,12,12,1.0,False
+deg,DEG,20,CORUM:1155,Integrator-RNAPII complex,12,12,1.0,False
+deg,DEG,21,CORUM:462,TFTC complex (TATA-binding protein-free TAF-II-containing complex),12,12,1.0,False
+deg,DEG,22,CORUM:7581,ESR1-Mediator complex,12,12,1.0,False
+deg,DEG,23,CORUM:1097,"eIF3 complex (EIF3S6, EIF3S5, EIF3S4, EIF3S3, EIF3S6IP, EIF3S2, EIF3S9, EIF3S12,  EIF3S10, EIF3S8,  EIF3S1, EIF3S7, PCID1)",11,11,1.0,False
+deg,DEG,24,CORUM:1141,CF IIAm complex (Cleavage factor IIAm complex),11,11,1.0,False
+deg,DEG,25,CORUM:1153,Integrator complex,11,11,1.0,False
+deg,DEG,26,CORUM:301,SMCC complex,11,11,1.0,False
+deg,DEG,27,CORUM:778,LARC complex (LCR-associated remodeling complex),11,11,1.0,False
+deg,DEG,28,CORUM:789,Exosome,11,11,1.0,False
+deg,DEG,29,CORUM:2686,BRCA1-core RNA polymerase II complex,10,10,1.0,False
+deg,DEG,30,CORUM:287,ARC-L complex,10,10,1.0,False
+deg,DEG,31,CORUM:469,TFIID-beta complex,10,10,1.0,False
+deg,DEG,32,CORUM:535,TRAP complex,10,10,1.0,False
+deg,DEG,33,CORUM:6664,"STAGA complex, SPT3-linked",10,10,1.0,False
+deg,DEG,34,CORUM:742,"eIF3 complex (EIF3S6, EIF3S5, EIF3S4, EIF3S3, EIF3S6IP, EIF3S2, EIF3S9, EIF3S12,  EIF3S10, EIF3S8,  EIF3S1, EIF3S7)",10,10,1.0,False
+deg,DEG,35,CORUM:7443,Exosome,10,10,1.0,False
+deg,DEG,36,CORUM:7814,CDYL-CAF1-MCM complex,10,10,1.0,False
+deg,DEG,37,CORUM:788,Exosome,10,10,1.0,False
+deg,DEG,38,CORUM:1003,RC sub-complex,9,9,1.0,False
+deg,DEG,39,CORUM:104,RNA polymerase II core complex,9,9,1.0,False
+deg,DEG,40,CORUM:123,Rnase/Mrp complex,9,9,1.0,False
+deg,DEG,41,CORUM:3082,DGCR8 multiprotein complex,9,9,1.0,False
+deg,DEG,42,CORUM:463,TFIID complex,9,9,1.0,False
+deg,DEG,43,CORUM:509,TFIID complex,9,9,1.0,False
+deg,DEG,44,CORUM:547,SMCC complex,9,9,1.0,False
+deg,DEG,45,CORUM:6469,Set1A complex,9,9,1.0,False
+deg,DEG,46,CORUM:798,NuA4/Tip60-HAT complex A,9,9,1.0,False
+deg,DEG,47,CORUM:803,BRG1-SIN3A-HDAC containing SWI/SNF remodeling complex I,9,9,1.0,False
+deg,DEG,48,CORUM:822,"mRNA decay complex (UPF1, UPF2, UPF3B, DCP2, XRN1, XRN2, EXOSC2, EXOSC4, EXOSC10, PARN)",9,9,1.0,False
+deg,DEG,49,CORUM:867,TRAP-SMCC mediator complex,9,9,1.0,False
+deg,DEG,50,CORUM:909,ARC92-Mediator complex,9,9,1.0,False
+deg,DEG,51,CORUM:1029,TFIIH transcription factor complex,8,8,1.0,False
+deg,DEG,52,CORUM:107,TFIIH transcription factor complex,8,8,1.0,False
+deg,DEG,53,CORUM:1114,5S-DNA-TFIIIA-TFIIIC2-TFIIIB subcomplex,8,8,1.0,False
+deg,DEG,54,CORUM:126,CCT complex (chaperonin containing TCP1 complex),8,8,1.0,False
+deg,DEG,55,CORUM:1401,MOF complex,8,8,1.0,False
+deg,DEG,56,CORUM:1413,NCOR1 complex,8,8,1.0,False
+deg,DEG,57,CORUM:155,TFIID complex,8,8,1.0,False
+deg,DEG,58,CORUM:189,BAF complex,8,8,1.0,False
+deg,DEG,59,CORUM:2715,"Ubiquitin E3 ligase (CUL1/2/3, CSN1/8, RBX1, SKP1/2)",8,8,1.0,False
+deg,DEG,60,CORUM:274,9-1-1-RAD17-RFC complex,8,8,1.0,False
+deg,DEG,61,CORUM:2857,NuA4/Tip60 HAT complex,8,8,1.0,False
+deg,DEG,62,CORUM:300,PC2 complex,8,8,1.0,False
+deg,DEG,63,CORUM:3066,"RNA polymerase II complex, chromatin structure modifying",8,8,1.0,False
+deg,DEG,64,CORUM:475,STAGA complex,8,8,1.0,False
+deg,DEG,65,CORUM:476,STAGA complex,8,8,1.0,False
+deg,DEG,66,CORUM:508,TFIID complex,8,8,1.0,False
+deg,DEG,67,CORUM:5183,DNA-PK-Ku-eIF2-NF90-NF45 complex,8,8,1.0,False
+deg,DEG,68,CORUM:566,BAF complex,8,8,1.0,False
+deg,DEG,69,CORUM:6462,MLL1 complex,8,8,1.0,False
+deg,DEG,70,CORUM:7221,NSL complex,8,8,1.0,False
+deg,DEG,71,CORUM:7388,CENP-A nucleosomal complex,8,8,1.0,False
+deg,DEG,72,CORUM:7974,cBAF complex,8,8,1.0,False
+deg,DEG,73,CORUM:799,DMAP1-associated complex,8,8,1.0,False
+deg,DEG,74,CORUM:806,BRM-SIN3A-HDAC complex,8,8,1.0,False
+deg,DEG,75,CORUM:807,BRG1-associated complex,8,8,1.0,False
+deg,DEG,76,CORUM:8151,"Repairosome complex, XPA-specific",8,8,1.0,False
+deg,DEG,77,CORUM:87,Nup 107-160 subcomplex,8,8,1.0,False
+deg,DEG,78,CORUM:910,CRSP-Mediator 2 complex,8,8,1.0,False
+deg,DEG,79,CORUM:1237,BAF complex,7,7,1.0,False
+deg,DEG,80,CORUM:1252,EBAFa complex,7,7,1.0,False
+deg,DEG,81,CORUM:149,PBAF complex (Polybromo- and BAF containing complex),7,7,1.0,False
+deg,DEG,82,CORUM:1737,SF3b complex,7,7,1.0,False
+deg,DEG,83,CORUM:1749,SMN-PolII-RHA complex,7,7,1.0,False
+deg,DEG,84,CORUM:2174,COP9 signalosome complex,7,7,1.0,False
+deg,DEG,85,CORUM:2179,CNS-P53 complex,7,7,1.0,False
+deg,DEG,86,CORUM:218,CRSP complex,7,7,1.0,False
+deg,DEG,87,CORUM:238,SWI-SNF chromatin remodeling-related-BRCA1 complex,7,7,1.0,False
+deg,DEG,88,CORUM:2639,HES1 promoter-Notch enhancer complex,7,7,1.0,False
+deg,DEG,89,CORUM:282,SNF2h-cohesin-NuRD complex,7,7,1.0,False
+deg,DEG,90,CORUM:3065,"RNA polymerase II complex, chromatin structure modifying",7,7,1.0,False
+deg,DEG,91,CORUM:441,TFTC-type histone acetyl transferase complex,7,7,1.0,False
+deg,DEG,92,CORUM:555,BAF complex,7,7,1.0,False
+deg,DEG,93,CORUM:6460,MLL2 complex,7,7,1.0,False
+deg,DEG,94,CORUM:6657,"ATAC complex, GCN5-linked",7,7,1.0,False
+deg,DEG,95,CORUM:6665,"ATAC complex, YEATS2-linked",7,7,1.0,False
+deg,DEG,96,CORUM:6888,v-ATPase-Ragulator-AXIN/LKB1-AMPK complex,7,7,1.0,False
+deg,DEG,97,CORUM:711,Brm-associated complex,7,7,1.0,False
+deg,DEG,98,CORUM:7285,HEXIM1-DNA-PK-paraspeckle components-ribonucleoprotein complex,7,7,1.0,False
+deg,DEG,99,CORUM:785,Exon junction complex,7,7,1.0,False
+deg,DEG,100,CORUM:7977,cBAF complex,7,7,1.0,False
+deg,DEG,101,CORUM:8022,SRCAP-containing complex,7,7,1.0,False
+deg,DEG,102,CORUM:808,BRM-associated complex,7,7,1.0,False
+deg,DEG,103,CORUM:832,Anti-Sm protein complex,7,7,1.0,False
+deg,DEG,104,CORUM:8417,SOX9-TRAP complex,7,7,1.0,False
+deg,DEG,105,CORUM:86,NUMAC complex (nucleosomal methylation activator complex),7,7,1.0,False
+deg,DEG,106,CORUM:1031,ORC complex (origin recognition complex),6,6,1.0,False
+deg,DEG,107,CORUM:1094,Frataxin complex,6,6,1.0,False
+deg,DEG,108,CORUM:1106,TFIIIC containing-TOP1-SUB1 complex,6,6,1.0,False
+deg,DEG,109,CORUM:1147,"Polyadenylation complex (CSTF1, CSTF2, CSTF3, SYMPK CPSF1, CPSF2, CPSF3)",6,6,1.0,False
+deg,DEG,110,CORUM:1182,CDC5L core complex,6,6,1.0,False
+deg,DEG,111,CORUM:1238,PBAF complex (Polybromo- and BAF containing complex),6,6,1.0,False
+deg,DEG,112,CORUM:1239,EBAFb complex,6,6,1.0,False
+deg,DEG,113,CORUM:1251,BAF complex,6,6,1.0,False
+deg,DEG,114,CORUM:1254,Menin-associated histone methyltransferase complex,6,6,1.0,False
+deg,DEG,115,CORUM:1256,MLL-HCF complex,6,6,1.0,False
+deg,DEG,116,CORUM:2203,BRD4-RFC complex,6,6,1.0,False
+deg,DEG,117,CORUM:229,NAT complex,6,6,1.0,False
+deg,DEG,118,CORUM:2600,BRD4 complex,6,6,1.0,False
+deg,DEG,119,CORUM:2731,Set1A complex,6,6,1.0,False
+deg,DEG,120,CORUM:2804,CTF18-cohesion-RFC complex,6,6,1.0,False
+deg,DEG,121,CORUM:2856,NuA4/Tip60 HAT complex,6,6,1.0,False
+deg,DEG,122,CORUM:302,INO80 chromatin remodeling complex,6,6,1.0,False
+deg,DEG,123,CORUM:3063,Brg1-associated complex II,6,6,1.0,False
+deg,DEG,124,CORUM:3070,CTF18-cohesion-RFC-POLH complex,6,6,1.0,False
+deg,DEG,125,CORUM:3118,"SMN complex (GEMIN2, SMN1, SNRPB, SNRPDs)",6,6,1.0,False
+deg,DEG,126,CORUM:387,MCM complex,6,6,1.0,False
+deg,DEG,127,CORUM:471,PCAF complex,6,6,1.0,False
+deg,DEG,128,CORUM:5251,Ku-ORC complex,6,6,1.0,False
+deg,DEG,129,CORUM:554,PBAF complex,6,6,1.0,False
+deg,DEG,130,CORUM:556,"PBAF complex, BAF200-specific",6,6,1.0,False
+deg,DEG,131,CORUM:570,p300-CBP-p270-SWI/SNF complex,6,6,1.0,False
+deg,DEG,132,CORUM:6332,"Elongator complex (ELP1, ELP2, ELP3, ELP4, ELP5, ELP6)",6,6,1.0,False
+deg,DEG,133,CORUM:6435,HAUS augmin-like complex,6,6,1.0,False
+deg,DEG,134,CORUM:6893,Gamma-tubulin complex,6,6,1.0,False
+deg,DEG,135,CORUM:7657,AQR-ISY1-PPIE-PRPF19-XAB2-ZNF830 complex,6,6,1.0,False
+deg,DEG,136,CORUM:7699,MCPH1-Condensin II complex,6,6,1.0,False
+deg,DEG,137,CORUM:770,TREX complex,6,6,1.0,False
+deg,DEG,138,CORUM:777,Exon junction complex,6,6,1.0,False
+deg,DEG,139,CORUM:787,NuA4/Tip60-HAT complex B,6,6,1.0,False
+deg,DEG,140,CORUM:7938,CDC5L-PRP19 complex,6,6,1.0,False
+deg,DEG,141,CORUM:7962,SMC5-6-NSMCE4A complex,6,6,1.0,False
+deg,DEG,142,CORUM:8008,"APC/C complex, 1.5 MDa",6,6,1.0,False
+deg,DEG,143,CORUM:835,6S methyltransferase and RG-containing Sm proteins complex,6,6,1.0,False
+deg,DEG,144,CORUM:8623,Rixosome,6,6,1.0,False
+deg,DEG,145,CORUM:96,Anaphase-promoting complex,6,6,1.0,False
+deg,DEG,146,CORUM:10,Condensin I complex,5,5,1.0,False
+deg,DEG,147,CORUM:1038,ORC 1-5 complex (origin recognition 1-5 complex),5,5,1.0,False
+deg,DEG,148,CORUM:1105,transcription factor IIIC multisubunit complex,5,5,1.0,False
+deg,DEG,149,CORUM:1113,5S-DNA-TFIIIA-TFIIIC2 subcomplex,5,5,1.0,False
+deg,DEG,150,CORUM:114,SNAPc (small nuclear RNA-activating protein) complex,5,5,1.0,False
+deg,DEG,151,CORUM:1144,Cleavage and polyadenylation factor (CPSF),5,5,1.0,False
+deg,DEG,152,CORUM:1166,p400-associated complex,5,5,1.0,False
+deg,DEG,153,CORUM:1167,Paf complex,5,5,1.0,False
+deg,DEG,154,CORUM:11681,mTORC1-TFEB-Rag-Ragulator complex,5,5,1.0,False
+deg,DEG,155,CORUM:11686,mTORC1-TELO2-TTI1 complex,5,5,1.0,False
+deg,DEG,156,CORUM:11687,mTORC2-TELO2-TTI1 complex,5,5,1.0,False
+deg,DEG,157,CORUM:1176,NCBP1-NCBP2-PHAX-RAN-XPO1 complex,5,5,1.0,False
+deg,DEG,158,CORUM:1261,SRm160/300 complex,5,5,1.0,False
+deg,DEG,159,CORUM:159,Condensin I-PARP-1-XRCC1 complex,5,5,1.0,False
+deg,DEG,160,CORUM:160,Condensin II,5,5,1.0,False
+deg,DEG,161,CORUM:2201,PCNA-RFC2-5 complex,5,5,1.0,False
+deg,DEG,162,CORUM:228,SMCC complex,5,5,1.0,False
+deg,DEG,163,CORUM:261,RAD51B-RAD51C-RAD51D-XRCC2-XRCC3 complex,5,5,1.0,False
+deg,DEG,164,CORUM:2638,HES1 promoter corepressor complex,5,5,1.0,False
+deg,DEG,165,CORUM:266,RAD17-RFC complex,5,5,1.0,False
+deg,DEG,166,CORUM:2730,Set1B complex,5,5,1.0,False
+deg,DEG,167,CORUM:2757,"SMN complex, U7 snRNA specific",5,5,1.0,False
+deg,DEG,168,CORUM:2766,TERF2-RAP1 complex,5,5,1.0,False
+deg,DEG,169,CORUM:279,RFC complex,5,5,1.0,False
+deg,DEG,170,CORUM:2797,PCNA-CHL12-RFC2-5 complex,5,5,1.0,False
+deg,DEG,171,CORUM:3067,"RNA polymerase II complex, (CDK8 complex), chromatin structure modifying",5,5,1.0,False
+deg,DEG,172,CORUM:3102,DHX9-ADAR-vigilin-DNA-PK-Ku antigen complex,5,5,1.0,False
+deg,DEG,173,CORUM:3284,"SMN complex (GEMIN2, GEMIN3, GEMIN4, GEMIN5, SMN)",5,5,1.0,False
+deg,DEG,174,CORUM:4403,"EIF3 complex (EIF3A, EIF3B, EIF3G, EIF3I, EIF3J)",5,5,1.0,False
+deg,DEG,175,CORUM:5179,TRBP-DNA-PK complex,5,5,1.0,False
+deg,DEG,176,CORUM:5195,PTIP-HMT complex,5,5,1.0,False
+deg,DEG,177,CORUM:525,TIP60 histone acetylase complex,5,5,1.0,False
+deg,DEG,178,CORUM:5378,"TRBP containing complex (DICER, TRBP, AGO2, RPL7A, EIF6, MOV10)",5,5,1.0,False
+deg,DEG,179,CORUM:6167,Exocyst complex,5,5,1.0,False
+deg,DEG,180,CORUM:6461,MLL3 complex,5,5,1.0,False
+deg,DEG,181,CORUM:6467,MLL4 complex,5,5,1.0,False
+deg,DEG,182,CORUM:6742,SMG1-UPF2-Y14-MAGOH-UPF3B-EIF4A3 complex,5,5,1.0,False
+deg,DEG,183,CORUM:6838,IGF2BP1 complex,5,5,1.0,False
+deg,DEG,184,CORUM:6851,ASH2L-DPY30-KMT2A-RBBP5-WDR5 complex,5,5,1.0,False
+deg,DEG,185,CORUM:6855,LAS1L-PELP1-TEX10-WDR18-NOL9-SENP3  complex,5,5,1.0,False
+deg,DEG,186,CORUM:7214,"CCR4-NOT complex, CNOT7-CNOT6L-specific",5,5,1.0,False
+deg,DEG,187,CORUM:7292,EIF2B1-EIF2B2-EIF2B3-EIF2B4-EIF2B5 complex,5,5,1.0,False
+deg,DEG,188,CORUM:7556,PRAME complex,5,5,1.0,False
+deg,DEG,189,CORUM:7595,NARC1 complex,5,5,1.0,False
+deg,DEG,190,CORUM:7596,tRNA splicing ligase,5,5,1.0,False
+deg,DEG,191,CORUM:7696,DONSON-MCM2-MCM7-PCNA-TICRR complex,5,5,1.0,False
+deg,DEG,192,CORUM:7809,m(6)A methyltransferase complex,5,5,1.0,False
+deg,DEG,193,CORUM:7981,ncBAF complex,5,5,1.0,False
+deg,DEG,194,CORUM:8072,AHCYL1-CPSF complex,5,5,1.0,False
+deg,DEG,195,CORUM:8104,"TFIIH transcription factor subcomplex, cdk7-specific",5,5,1.0,False
+deg,DEG,196,CORUM:8105,"TFIIH transcription factor subcomplex, p63-specific",5,5,1.0,False
+deg,DEG,197,CORUM:8239,PPIE-AQR-XAB2-ISY1-ZNF830 complex,5,5,1.0,False
+deg,DEG,198,CORUM:824,Anti-SMN protein complex,5,5,1.0,False
+deg,DEG,199,CORUM:8309,BRCA2-PALB2-RAD51-RAD51C-XRCC3 complex,5,5,1.0,False
+deg,DEG,200,CORUM:834,20S methylosome and RG-containing Sm protein complex,5,5,1.0,False
+deg,DEG,201,CORUM:93,Anaphase-promoting complex,5,5,1.0,False
+deg,DEG,202,CORUM:306,"Ribosome, cytoplasmic",71,70,0.9859154929577465,False
+deg,DEG,203,CORUM:8371,"Spliceosome, B complex",35,34,0.9714285714285714,False
+deg,DEG,204,CORUM:8370,"Spliceosome, pre-B complex",32,31,0.96875,False
+deg,DEG,205,CORUM:305,"40S ribosomal subunit, cytoplasmic",30,29,0.9666666666666667,False
+deg,DEG,206,CORUM:320,"55S ribosome, mitochondrial",69,66,0.9565217391304348,False
+deg,DEG,207,CORUM:1257,ALL-1 supercomplex,21,20,0.9523809523809523,False
+deg,DEG,208,CORUM:1004,"RC complex, S-phase-specific",19,18,0.9473684210526315,False
+deg,DEG,209,CORUM:8372,"Spliceosome, A complex",88,83,0.9431818181818182,False
+deg,DEG,210,CORUM:1005,"RC complex, G2/M-phase-specific",15,14,0.9333333333333333,False
+deg,DEG,211,CORUM:324,"39S ribosomal subunit, mitochondrial",43,40,0.9302325581395349,False
+deg,DEG,212,CORUM:1181,C complex spliceosome,70,65,0.9285714285714286,False
+deg,DEG,213,CORUM:2755,17S U2 snRNP,28,26,0.9285714285714286,False
+deg,DEG,214,CORUM:1183,CDC5L complex,26,24,0.9230769230769231,False
+deg,DEG,215,CORUM:1143,SMN complex (16 subunits),13,12,0.9230769230769231,False
+deg,DEG,216,CORUM:513,TFTC complex (TATA-binding protein-free TAF-II-containing complex),13,12,0.9230769230769231,False
+deg,DEG,217,CORUM:7582,ESR2-Mediator complex,13,12,0.9230769230769231,False
+deg,DEG,218,CORUM:7992,RNA polymerase III complex,13,12,0.9230769230769231,False
+deg,DEG,219,CORUM:8391,"Spliceosome, E complex",103,95,0.9223300970873787,False
+deg,DEG,220,CORUM:8674,Nuclear pore complex,25,23,0.92,False
+deg,DEG,221,CORUM:232,ARC complex,12,11,0.9166666666666666,False
+deg,DEG,222,CORUM:2721,HCF-1 complex,12,11,0.9166666666666666,False
+deg,DEG,223,CORUM:3055,Nop56p-associated pre-rRNA complex,88,80,0.9090909090909091,False
+deg,DEG,224,CORUM:1745,SMN complex,11,10,0.9090909090909091,False
+deg,DEG,225,CORUM:3064,"RNA polymerase II complex, chromatin structure modifying",11,10,0.9090909090909091,False
+deg,DEG,226,CORUM:529,NuA4/Tip60-HAT complex,11,10,0.9090909090909091,False
+deg,DEG,227,CORUM:713,BRG1-SIN3A complex,11,10,0.9090909090909091,False
+deg,DEG,228,CORUM:1111,"DNA synthesome complex, breast cancer MCF7 cells",20,18,0.9,False
+deg,DEG,229,CORUM:5386,MLL1-WDR5 complex,20,18,0.9,False
+deg,DEG,230,CORUM:485,"TFIID complex, B-cell specific",10,9,0.9,False
+deg,DEG,231,CORUM:514,TFIID-beta complex,10,9,0.9,False
+deg,DEG,232,CORUM:528,NuA4/Tip60-HAT complex,10,9,0.9,False
+deg,DEG,233,CORUM:548,DRIP complex,10,9,0.9,False
+deg,DEG,234,CORUM:6470,Set1B complex,10,9,0.9,False
+deg,DEG,235,CORUM:714,BRM-SIN3A complex,10,9,0.9,False
+deg,DEG,236,CORUM:726,DDB2 complex,10,9,0.9,False
+deg,DEG,237,CORUM:727,CSA complex,10,9,0.9,False
+deg,DEG,238,CORUM:728,CSA-POLIIa complex,10,9,0.9,False
+deg,DEG,239,CORUM:739,SIN3-ING1b complex II,10,9,0.9,False
+deg,DEG,240,CORUM:1098,"DNA synthesome complex, leukemia cells",18,16,0.8888888888888888,False
+deg,DEG,241,CORUM:1751,SMN complex,9,8,0.8888888888888888,False
+deg,DEG,242,CORUM:3040,Multisynthetase complex,9,8,0.8888888888888888,False
+deg,DEG,243,CORUM:5266,TNF-alpha/NF-kappa B signaling complex 6,9,8,0.8888888888888888,False
+deg,DEG,244,CORUM:781,URI complex (Unconventional prefoldin RPB5 Interactor),9,8,0.8888888888888888,False
+deg,DEG,245,CORUM:9739,VDR-DRIP complex,9,8,0.8888888888888888,False
+deg,DEG,246,CORUM:1108,"DNA synthesome complex, breast cancer cells",17,15,0.8823529411764706,False
+deg,DEG,247,CORUM:1335,SNW1 complex,16,14,0.875,False
+deg,DEG,248,CORUM:192,PA28-20S proteasome,16,14,0.875,False
+deg,DEG,249,CORUM:304,SRCAP complex,8,7,0.875,False
+deg,DEG,250,CORUM:7372,BRD7-SWI–SNF complex,8,7,0.875,False
+deg,DEG,251,CORUM:7975,PBAF complex,8,7,0.875,False
+deg,DEG,252,CORUM:1332,Large Drosha complex,15,13,0.8666666666666667,False
+deg,DEG,253,CORUM:193,PA700-20S-PA28 complex,36,31,0.8611111111111112,False
+deg,DEG,254,CORUM:1107,DNA synthesome core complex,14,12,0.8571428571428571,False
+deg,DEG,255,CORUM:244,BRAFT complex,7,6,0.8571428571428571,False
+deg,DEG,256,CORUM:248,BRAFT complex,7,6,0.8571428571428571,False
+deg,DEG,257,CORUM:7978,PBAF complex,7,6,0.8571428571428571,False
+deg,DEG,258,CORUM:924,Toposome,7,6,0.8571428571428571,False
+deg,DEG,259,CORUM:32,PA700 complex,20,17,0.85,False
+deg,DEG,260,CORUM:7627,H2A.Z histone-exchange complex p400/TIP60,18,15,0.8333333333333334,False
+deg,DEG,261,CORUM:5613,Emerin complex 25,12,10,0.8333333333333334,False
+deg,DEG,262,CORUM:1752,SMN complex,6,5,0.8333333333333334,False
+deg,DEG,263,CORUM:2739,FA complex (Fanconi anemia complex),6,5,0.8333333333333334,False
+deg,DEG,264,CORUM:2815,BRCA1-BARD1-BACH1-DNA damage complex II,6,5,0.8333333333333334,False
+deg,DEG,265,CORUM:5589,"LINC complex, S-phase",6,5,0.8333333333333334,False
+deg,DEG,266,CORUM:6245,Telomerase holoenzyme,6,5,0.8333333333333334,False
+deg,DEG,267,CORUM:632,Anti-HDAC2 complex,6,5,0.8333333333333334,False
+deg,DEG,268,CORUM:6765,CCR4-NOT complex,6,5,0.8333333333333334,False
+deg,DEG,269,CORUM:691,SIN3-SAP25 complex,6,5,0.8333333333333334,False
+deg,DEG,270,CORUM:7192,"CCR4-NOT complex, CNOT7-CNOT6-specific",6,5,0.8333333333333334,False
+deg,DEG,271,CORUM:7216,"CCR4-NOT complex, CNOT8-CNOT6L-specific",6,5,0.8333333333333334,False
+deg,DEG,272,CORUM:7851,APC/C-ANAPC16 complex,6,5,0.8333333333333334,False
+deg,DEG,273,CORUM:7960,ER membrane protein complex (EMC8),6,5,0.8333333333333334,False
+deg,DEG,274,CORUM:7963,SMC5-6-EID3 complex,6,5,0.8333333333333334,False
+deg,DEG,275,CORUM:811,FCP1-associated protein complex,6,5,0.8333333333333334,False
+deg,DEG,276,CORUM:814,Postsplicing complex,6,5,0.8333333333333334,False
+deg,DEG,277,CORUM:8563,"COA3-HSPA9-TIMM44-TIM23(sort) complex, mitochondrial",6,5,0.8333333333333334,False
+deg,DEG,278,CORUM:929,CEN complex,25,20,0.8,False
+deg,DEG,279,CORUM:1223,"H2AX complex, without IR exposure",10,8,0.8,False
+deg,DEG,280,CORUM:11605,GATOR2-CASTOR1 complex,5,4,0.8,False
+deg,DEG,281,CORUM:11606,GATOR2-SESN2 complex,5,4,0.8,False
+deg,DEG,282,CORUM:1199,Oligosaccharyltransferase complex (Stt3A variant),5,4,0.8,False
+deg,DEG,283,CORUM:1226,"H2AX complex I, IR-induced",5,4,0.8,False
+deg,DEG,284,CORUM:310,Cell cycle kinase complex CDC2,5,4,0.8,False
+deg,DEG,285,CORUM:5593,LINC core complex,5,4,0.8,False
+deg,DEG,286,CORUM:5596,"LINC complex, quiescent cells",5,4,0.8,False
+deg,DEG,287,CORUM:562,LSm2-8 complex,5,4,0.8,False
+deg,DEG,288,CORUM:5876,EIF4A1-PPME1-PPP2CA-PPP2R1A-PPP2R1B complex,5,4,0.8,False
+deg,DEG,289,CORUM:592,mSin3A corepressor complex,5,4,0.8,False
+deg,DEG,290,CORUM:6217,GATOR complex,5,4,0.8,False
+deg,DEG,291,CORUM:6641,USP22-SAGA complex,5,4,0.8,False
+deg,DEG,292,CORUM:6753,SOG complex,5,4,0.8,False
+deg,DEG,293,CORUM:7784,RNF8-ATX3-p97 complex,5,4,0.8,False
+deg,DEG,294,CORUM:7844,dREAM-like complex,5,4,0.8,False
+deg,DEG,295,CORUM:7845,MYBL2-LIN9-LIN37-LIN52-LIN54 complex,5,4,0.8,False
+deg,DEG,296,CORUM:8171,STRIPAK complex,5,4,0.8,False
+deg,DEG,297,CORUM:8328,mTORC2-PRR5L complex,5,4,0.8,False
+deg,DEG,298,CORUM:8441,CCR4-NOT-TOB1 complex,5,4,0.8,False
+deg,DEG,299,CORUM:8497,ZFAND2B complex,5,4,0.8,False
+deg,DEG,300,CORUM:2914,"Respiratory chain complex I (beta subunit), mitochondrial",9,7,0.7777777777777778,False
+deg,DEG,301,CORUM:7394,CENP-H-I complex,9,7,0.7777777777777778,False
+deg,DEG,302,CORUM:5233,TNFalpha-NFkappa B signaling complex 5,16,12,0.75,False
+deg,DEG,303,CORUM:6643,"SAGA complex, GCN5-linked",12,9,0.75,False
+deg,DEG,304,CORUM:433,BASC complex (BRCA1-associated genome surveillance complex),8,6,0.75,False
+deg,DEG,305,CORUM:438,GCN5-TRRAP histone acetyltransferase complex,8,6,0.75,False
+deg,DEG,306,CORUM:563,"F1F0-ATPase, mitochondrial",8,6,0.75,False
+deg,DEG,307,CORUM:6247,BBS-chaperonin complex,8,6,0.75,False
+deg,DEG,308,CORUM:10896,TIP60-C complex,15,11,0.7333333333333333,False
+deg,DEG,309,CORUM:1746,SMN containing complex,7,5,0.7142857142857143,False
+deg,DEG,310,CORUM:27,Arp2/3 protein complex,7,5,0.7142857142857143,False
+deg,DEG,311,CORUM:3015,"p27-cyclinE-Cdk2 - Ubiquitin E3 ligase (SKP1A, SKP2, CUL1, CKS1B, RBX1) complex",7,5,0.7142857142857143,False
+deg,DEG,312,CORUM:434,BASC (Ab 80) complex (BRCA1-associated genome surveillance complex),7,5,0.7142857142857143,False
+deg,DEG,313,CORUM:7215,"CCR4-NOT complex, CNOT8-CNOT6-specific",7,5,0.7142857142857143,False
+deg,DEG,314,CORUM:7961,ER membrane protein complex (EMC9),7,5,0.7142857142857143,False
+deg,DEG,315,CORUM:1179,CENP-A NAC-CAD complex,10,7,0.7,False
+deg,DEG,316,CORUM:1200,Oligosaccharyltransferase complex (Stt3B variant),6,4,0.6666666666666666,False
+deg,DEG,317,CORUM:1227,H2AX complex II,6,4,0.6666666666666666,False
+deg,DEG,318,CORUM:1231,FIB-associated protein complex,6,4,0.6666666666666666,False
+deg,DEG,319,CORUM:2851,ING2 complex,6,4,0.6666666666666666,False
+deg,DEG,320,CORUM:3075,UTX-MLL2/3 complex,6,4,0.6666666666666666,False
+deg,DEG,321,CORUM:5232,TNFalpha-NFkappa B signaling complex,6,4,0.6666666666666666,False
+deg,DEG,322,CORUM:6194,B-WICH complex,6,4,0.6666666666666666,False
+deg,DEG,323,CORUM:6302,B-WICH complex,6,4,0.6666666666666666,False
+deg,DEG,324,CORUM:6497,"TOM complex (TOMM5, TOMM6, TOMM7, TOMM20, TOMM22, TOMM40, TOMM70), mitochondrial",6,4,0.6666666666666666,False
+deg,DEG,325,CORUM:5614,Emerin complex 32,14,9,0.6428571428571429,False
+deg,DEG,326,CORUM:6859,HRD1 complex,8,5,0.625,False
+deg,DEG,327,CORUM:178,"Respiratory chain complex I (holoenzyme), mitochondrial",20,12,0.6,False
+deg,DEG,328,CORUM:8613,TRAPP III complex,10,6,0.6,False
+deg,DEG,329,CORUM:11677,DEPTOR-mTORC2 complex,5,3,0.6,False
+deg,DEG,330,CORUM:11678,DEPTOR-mTORC1 complex,5,3,0.6,False
+deg,DEG,331,CORUM:11689,mTORC1-RRAGB-RRAGD complex,5,3,0.6,False
+deg,DEG,332,CORUM:2235,ASF1-interacting protein complex,5,3,0.6,False
+deg,DEG,333,CORUM:2817,BRCA1-BARD1-BACH1-DNA damage complex I,5,3,0.6,False
+deg,DEG,334,CORUM:6388,CORVET complex,5,3,0.6,False
+deg,DEG,335,CORUM:6671,PI4K2A-WASH complex,5,3,0.6,False
+deg,DEG,336,CORUM:7376,BRD7-CBP-SWI–SNF complex,5,3,0.6,False
+deg,DEG,337,CORUM:8167,"ZMYND10 complex, cytoplasmic",5,3,0.6,False
+deg,DEG,338,CORUM:8206,PAXX complex,5,3,0.6,False
+deg,DEG,339,CORUM:8305,PP6 holoenzyme,5,3,0.6,False
+deg,DEG,340,CORUM:8587,"Mitofilin complex, mitochondrial",5,3,0.6,False
+deg,DEG,341,CORUM:1186,ESCRT-III complex,7,4,0.5714285714285714,False
+deg,DEG,342,CORUM:8634,mTRAPP II complex,7,4,0.5714285714285714,False
+deg,DEG,343,CORUM:5611,Emerin complex 24,11,6,0.5454545454545454,False
+deg,DEG,344,CORUM:6468,TRAPP complex oligomer,11,6,0.5454545454545454,False
+deg,DEG,345,CORUM:5615,Emerin complex 52,14,7,0.5,False
+deg,DEG,346,CORUM:2920,"Respiratory chain complex I (lambda subunit), mitochondrial",10,5,0.5,False
+deg,DEG,347,CORUM:6249,"MIB complex, mitochondrial",8,4,0.5,False
+deg,DEG,348,CORUM:8569,"MITRAC complex, mitochondrial",8,4,0.5,False
+deg,DEG,349,CORUM:8578,RAB3IP-TRAPP II complex,8,4,0.5,False
+deg,DEG,350,CORUM:1149,Histone H3.1 complex,6,3,0.5,False
+deg,DEG,351,CORUM:2948,"Respiratory chain complex I (incomplete intermediate), mitochondrial",6,3,0.5,False
+deg,DEG,352,CORUM:5609,Emerin regulatory complex,6,3,0.5,False
+deg,DEG,353,CORUM:725,P2X7 receptor signalling complex,6,3,0.5,False
+deg,DEG,354,CORUM:7305,"Cytochrome c oxidase including assembly factors (COX, PET100, PET117, MR-1S)",10,4,0.4,False
+deg,DEG,355,CORUM:116,"Polycomb repressive complex 1 (PRC1, hPRC-H, YY1)",5,2,0.4,False
+deg,DEG,356,CORUM:1194,E2F-6 complex,5,2,0.4,False
+deg,DEG,357,CORUM:2573,Class C VPS/HOPS complex,5,2,0.4,False
+deg,DEG,358,CORUM:8163,MVB12B-PDCD6-PDCD6IP-TSG101-VPS28-VPS37B complex,5,2,0.4,False
+deg,DEG,359,CORUM:8164,MVB12B-PDCD6-PDCD6IP-TSG101-VPS28-VPS37C complex,5,2,0.4,False
+deg,DEG,360,CORUM:8165,MVB12B-PDCD6-PDCD6IP-TSG101-VPS28-VPS37D complex,5,2,0.4,False
+deg,DEG,361,CORUM:8389,PRC1.6a complex,6,2,0.3333333333333333,False
+deg,DEG,362,CORUM:8390,PRC1.6b complex,6,2,0.3333333333333333,False
+deg,DEG,363,CORUM:443,BP-SMAD complex,7,2,0.2857142857142857,False
+deg,DEG,364,CORUM:6236,"Dynein-2 complex, cytoplasmic",9,2,0.2222222222222222,False
+deg,DEG,365,CORUM:2236,ASF1-histone containing complex,5,1,0.2,False
+deg,DEG,366,CORUM:8470,Distal appendage,8,1,0.125,False
+deg,DEG,367,CORUM:144,Gamma-BAR-AP1 complex,6,0,0.0,False
+deg,DEG,368,CORUM:652,AP3-BLOC1 complex,6,0,0.0,False
+deg,DEG,369,CORUM:343,Sarcoglycan-sarcospan complex SG-SPN,5,0,0.0,False
+deg,DEG,370,CORUM:36,AP1 adaptor complex,5,0,0.0,False
+deg,DEG,371,CORUM:6173,Intraflagellar transport complex B core complex,5,0,0.0,False
+deg,DEG,372,CORUM:654,BLOC1-BLOC2 complex,5,0,0.0,False
+deg,DEG,373,CORUM:6602,AP5-SPG11-SPG15 complex,5,0,0.0,False
+deg,DEG,374,CORUM:6639,"CCC-Wash (WASH1, FAM21C) complex",5,0,0.0,False
+deg,DEG,375,CORUM:7545,BORC complex,5,0,0.0,False
+deg,DEG,376,CORUM:848,"RICH1/AMOT polarity complex, Flag-Amot precipitated",5,0,0.0,False
+depmap,DepMap,1,CORUM:8370,"Spliceosome, pre-B complex",36,36,1.0,True
+depmap,DepMap,2,CORUM:338,"40S ribosomal subunit, cytoplasmic",30,30,1.0,True
+depmap,DepMap,3,CORUM:2825,BRCA1-RNA polymerase II complex,24,24,1.0,True
+depmap,DepMap,4,CORUM:103,RNA polymerase II holoenzyme complex,22,22,1.0,True
+depmap,DepMap,5,CORUM:181,26S proteasome,22,22,1.0,True
+depmap,DepMap,6,CORUM:2685,RNA polymerase II (RNAPII),16,16,1.0,True
+depmap,DepMap,7,CORUM:1143,SMN complex (16 subunits),14,14,1.0,True
+depmap,DepMap,8,CORUM:194,PA28gamma-20S proteasome,14,14,1.0,True
+depmap,DepMap,9,CORUM:8850,20S proteasome,14,14,1.0,True
+depmap,DepMap,10,CORUM:2686,BRCA1-core RNA polymerase II complex,12,12,1.0,True
+depmap,DepMap,11,CORUM:104,RNA polymerase II core complex,11,11,1.0,True
+depmap,DepMap,12,CORUM:789,Exosome,11,11,1.0,True
+depmap,DepMap,13,CORUM:7443,Exosome,10,10,1.0,True
+depmap,DepMap,14,CORUM:788,Exosome,10,10,1.0,True
+depmap,DepMap,15,CORUM:1003,RC sub-complex,9,9,1.0,True
+depmap,DepMap,16,CORUM:123,Rnase/Mrp complex,9,9,1.0,False
+depmap,DepMap,17,CORUM:799,DMAP1-associated complex,9,9,1.0,False
+depmap,DepMap,18,CORUM:1029,TFIIH transcription factor complex,8,8,1.0,False
+depmap,DepMap,19,CORUM:107,TFIIH transcription factor complex,8,8,1.0,False
+depmap,DepMap,20,CORUM:1114,5S-DNA-TFIIIA-TFIIIC2-TFIIIB subcomplex,8,8,1.0,False
+depmap,DepMap,21,CORUM:126,CCT complex (chaperonin containing TCP1 complex),8,8,1.0,False
+depmap,DepMap,22,CORUM:1737,SF3b complex,8,8,1.0,False
+depmap,DepMap,23,CORUM:2715,"Ubiquitin E3 ligase (CUL1/2/3, CSN1/8, RBX1, SKP1/2)",8,8,1.0,False
+depmap,DepMap,24,CORUM:5183,DNA-PK-Ku-eIF2-NF90-NF45 complex,8,8,1.0,False
+depmap,DepMap,25,CORUM:6435,HAUS augmin-like complex,8,8,1.0,False
+depmap,DepMap,26,CORUM:770,TREX complex,8,8,1.0,False
+depmap,DepMap,27,CORUM:87,Nup 107-160 subcomplex,8,8,1.0,False
+depmap,DepMap,28,CORUM:2174,COP9 signalosome complex,7,7,1.0,False
+depmap,DepMap,29,CORUM:2757,"SMN complex, U7 snRNA specific",7,7,1.0,False
+depmap,DepMap,30,CORUM:562,LSm2-8 complex,7,7,1.0,False
+depmap,DepMap,31,CORUM:785,Exon junction complex,7,7,1.0,False
+depmap,DepMap,32,CORUM:7938,CDC5L-PRP19 complex,7,7,1.0,False
+depmap,DepMap,33,CORUM:8022,SRCAP-containing complex,7,7,1.0,False
+depmap,DepMap,34,CORUM:835,6S methyltransferase and RG-containing Sm proteins complex,7,7,1.0,False
+depmap,DepMap,35,CORUM:1106,TFIIIC containing-TOP1-SUB1 complex,6,6,1.0,False
+depmap,DepMap,36,CORUM:1147,"Polyadenylation complex (CSTF1, CSTF2, CSTF3, SYMPK CPSF1, CPSF2, CPSF3)",6,6,1.0,False
+depmap,DepMap,37,CORUM:1166,p400-associated complex,6,6,1.0,False
+depmap,DepMap,38,CORUM:1182,CDC5L core complex,6,6,1.0,False
+depmap,DepMap,39,CORUM:1752,SMN complex,6,6,1.0,False
+depmap,DepMap,40,CORUM:2203,BRD4-RFC complex,6,6,1.0,False
+depmap,DepMap,41,CORUM:387,MCM complex,6,6,1.0,False
+depmap,DepMap,42,CORUM:6160,hTREX84 complex,6,6,1.0,False
+depmap,DepMap,43,CORUM:6893,Gamma-tubulin complex,6,6,1.0,False
+depmap,DepMap,44,CORUM:7657,AQR-ISY1-PPIE-PRPF19-XAB2-ZNF830 complex,6,6,1.0,False
+depmap,DepMap,45,CORUM:7699,MCPH1-Condensin II complex,6,6,1.0,False
+depmap,DepMap,46,CORUM:777,Exon junction complex,6,6,1.0,False
+depmap,DepMap,47,CORUM:811,FCP1-associated protein complex,6,6,1.0,False
+depmap,DepMap,48,CORUM:832,Anti-Sm protein complex,6,6,1.0,False
+depmap,DepMap,49,CORUM:924,Toposome,6,6,1.0,False
+depmap,DepMap,50,CORUM:10,Condensin I complex,5,5,1.0,False
+depmap,DepMap,51,CORUM:1105,transcription factor IIIC multisubunit complex,5,5,1.0,False
+depmap,DepMap,52,CORUM:1113,5S-DNA-TFIIIA-TFIIIC2 subcomplex,5,5,1.0,False
+depmap,DepMap,53,CORUM:114,SNAPc (small nuclear RNA-activating protein) complex,5,5,1.0,False
+depmap,DepMap,54,CORUM:1144,Cleavage and polyadenylation factor (CPSF),5,5,1.0,False
+depmap,DepMap,55,CORUM:11686,mTORC1-TELO2-TTI1 complex,5,5,1.0,False
+depmap,DepMap,56,CORUM:1176,NCBP1-NCBP2-PHAX-RAN-XPO1 complex,5,5,1.0,False
+depmap,DepMap,57,CORUM:1261,SRm160/300 complex,5,5,1.0,False
+depmap,DepMap,58,CORUM:159,Condensin I-PARP-1-XRCC1 complex,5,5,1.0,False
+depmap,DepMap,59,CORUM:160,Condensin II,5,5,1.0,False
+depmap,DepMap,60,CORUM:205,"Ubiquitin E3 ligase (VHL, TCEB1, TCEB2, CUL2, RBX1)",5,5,1.0,False
+depmap,DepMap,61,CORUM:2201,PCNA-RFC2-5 complex,5,5,1.0,False
+depmap,DepMap,62,CORUM:266,RAD17-RFC complex,5,5,1.0,False
+depmap,DepMap,63,CORUM:2766,TERF2-RAP1 complex,5,5,1.0,False
+depmap,DepMap,64,CORUM:279,RFC complex,5,5,1.0,False
+depmap,DepMap,65,CORUM:2797,PCNA-CHL12-RFC2-5 complex,5,5,1.0,False
+depmap,DepMap,66,CORUM:2804,CTF18-cohesion-RFC complex,5,5,1.0,False
+depmap,DepMap,67,CORUM:3036,"Ubiquitin E3 ligase (SKP1A, SKP2, CUL1, CKS1B, RBX1)",5,5,1.0,False
+depmap,DepMap,68,CORUM:3070,CTF18-cohesion-RFC-POLH complex,5,5,1.0,False
+depmap,DepMap,69,CORUM:3118,"SMN complex (GEMIN2, SMN1, SNRPB, SNRPDs)",5,5,1.0,False
+depmap,DepMap,70,CORUM:3551,COG1-COG8-COG2-COG3-COG4 subcomplex,5,5,1.0,False
+depmap,DepMap,71,CORUM:4403,"EIF3 complex (EIF3A, EIF3B, EIF3G, EIF3I, EIF3J)",5,5,1.0,False
+depmap,DepMap,72,CORUM:5179,TRBP-DNA-PK complex,5,5,1.0,False
+depmap,DepMap,73,CORUM:525,TIP60 histone acetylase complex,5,5,1.0,False
+depmap,DepMap,74,CORUM:6742,SMG1-UPF2-Y14-MAGOH-UPF3B-EIF4A3 complex,5,5,1.0,False
+depmap,DepMap,75,CORUM:6895,MMXD complex,5,5,1.0,False
+depmap,DepMap,76,CORUM:7292,EIF2B1-EIF2B2-EIF2B3-EIF2B4-EIF2B5 complex,5,5,1.0,False
+depmap,DepMap,77,CORUM:7595,NARC1 complex,5,5,1.0,False
+depmap,DepMap,78,CORUM:7696,DONSON-MCM2-MCM7-PCNA-TICRR complex,5,5,1.0,False
+depmap,DepMap,79,CORUM:774,THO complex,5,5,1.0,False
+depmap,DepMap,80,CORUM:8072,AHCYL1-CPSF complex,5,5,1.0,False
+depmap,DepMap,81,CORUM:8076,KIF4A-KIF14-KIF20A-KIF23-PRC1 complex,5,5,1.0,False
+depmap,DepMap,82,CORUM:8104,"TFIIH transcription factor subcomplex, cdk7-specific",5,5,1.0,False
+depmap,DepMap,83,CORUM:8105,"TFIIH transcription factor subcomplex, p63-specific",5,5,1.0,False
+depmap,DepMap,84,CORUM:8162,DNMT1-associated protein complex,5,5,1.0,False
+depmap,DepMap,85,CORUM:8239,PPIE-AQR-XAB2-ISY1-ZNF830 complex,5,5,1.0,False
+depmap,DepMap,86,CORUM:834,20S methylosome and RG-containing Sm protein complex,5,5,1.0,False
+depmap,DepMap,87,CORUM:308,"60S ribosomal subunit, cytoplasmic",45,44,0.9777777777777777,False
+depmap,DepMap,88,CORUM:8371,"Spliceosome, B complex",40,39,0.975,False
+depmap,DepMap,89,CORUM:306,"Ribosome, cytoplasmic",76,74,0.9736842105263158,False
+depmap,DepMap,90,CORUM:305,"40S ribosomal subunit, cytoplasmic",31,30,0.967741935483871,False
+depmap,DepMap,91,CORUM:5380,"TRBP containing complex (DICER, RPL7A, EIF6, MOV10 and subunits of the 60S ribosomal particle)",25,24,0.96,False
+depmap,DepMap,92,CORUM:430,18S U11/U12 snRNP,23,22,0.9565217391304348,False
+depmap,DepMap,93,CORUM:1111,"DNA synthesome complex, breast cancer MCF7 cells",21,20,0.9523809523809523,False
+depmap,DepMap,94,CORUM:1004,"RC complex, S-phase-specific",19,18,0.9473684210526315,False
+depmap,DepMap,95,CORUM:1098,"DNA synthesome complex, leukemia cells",19,18,0.9473684210526315,False
+depmap,DepMap,96,CORUM:8369,"Spliceosome, C complex",36,34,0.9444444444444444,False
+depmap,DepMap,97,CORUM:32,PA700 complex,18,17,0.9444444444444444,False
+depmap,DepMap,98,CORUM:1005,"RC complex, G2/M-phase-specific",16,15,0.9375,False
+depmap,DepMap,99,CORUM:1108,"DNA synthesome complex, breast cancer cells",16,15,0.9375,False
+depmap,DepMap,100,CORUM:2755,17S U2 snRNP,31,29,0.9354838709677419,False
+depmap,DepMap,101,CORUM:1107,DNA synthesome core complex,14,13,0.9285714285714286,False
+depmap,DepMap,102,CORUM:7992,RNA polymerase III complex,14,13,0.9285714285714286,False
+depmap,DepMap,103,CORUM:1097,"eIF3 complex (EIF3S6, EIF3S5, EIF3S4, EIF3S3, EIF3S6IP, EIF3S2, EIF3S9, EIF3S12,  EIF3S10, EIF3S8,  EIF3S1, EIF3S7, PCID1)",12,11,0.9166666666666666,False
+depmap,DepMap,104,CORUM:193,PA700-20S-PA28 complex,34,31,0.9117647058823529,False
+depmap,DepMap,105,CORUM:742,"eIF3 complex (EIF3S6, EIF3S5, EIF3S4, EIF3S3, EIF3S6IP, EIF3S2, EIF3S9, EIF3S12,  EIF3S10, EIF3S8,  EIF3S1, EIF3S7)",11,10,0.9090909090909091,False
+depmap,DepMap,106,CORUM:726,DDB2 complex,10,9,0.9,False
+depmap,DepMap,107,CORUM:727,CSA complex,10,9,0.9,False
+depmap,DepMap,108,CORUM:728,CSA-POLIIa complex,10,9,0.9,False
+depmap,DepMap,109,CORUM:8674,Nuclear pore complex,28,25,0.8928571428571429,False
+depmap,DepMap,110,CORUM:1751,SMN complex,9,8,0.8888888888888888,False
+depmap,DepMap,111,CORUM:304,SRCAP complex,9,8,0.8888888888888888,False
+depmap,DepMap,112,CORUM:3082,DGCR8 multiprotein complex,9,8,0.8888888888888888,False
+depmap,DepMap,113,CORUM:5266,TNF-alpha/NF-kappa B signaling complex 6,9,8,0.8888888888888888,False
+depmap,DepMap,114,CORUM:7221,NSL complex,9,8,0.8888888888888888,False
+depmap,DepMap,115,CORUM:781,URI complex (Unconventional prefoldin RPB5 Interactor),9,8,0.8888888888888888,False
+depmap,DepMap,116,CORUM:96,Anaphase-promoting complex,9,8,0.8888888888888888,False
+depmap,DepMap,117,CORUM:3055,Nop56p-associated pre-rRNA complex,98,87,0.8877551020408163,False
+depmap,DepMap,118,CORUM:192,PA28-20S proteasome,16,14,0.875,False
+depmap,DepMap,119,CORUM:1749,SMN-PolII-RHA complex,8,7,0.875,False
+depmap,DepMap,120,CORUM:2179,CNS-P53 complex,8,7,0.875,False
+depmap,DepMap,121,CORUM:274,9-1-1-RAD17-RFC complex,8,7,0.875,False
+depmap,DepMap,122,CORUM:822,"mRNA decay complex (UPF1, UPF2, UPF3B, DCP2, XRN1, XRN2, EXOSC2, EXOSC4, EXOSC10, PARN)",8,7,0.875,False
+depmap,DepMap,123,CORUM:93,Anaphase-promoting complex,8,7,0.875,False
+depmap,DepMap,124,CORUM:1181,C complex spliceosome,75,65,0.8666666666666667,False
+depmap,DepMap,125,CORUM:1141,CF IIAm complex (Cleavage factor IIAm complex),14,12,0.8571428571428571,False
+depmap,DepMap,126,CORUM:1745,SMN complex,14,12,0.8571428571428571,False
+depmap,DepMap,127,CORUM:1401,MOF complex,7,6,0.8571428571428571,False
+depmap,DepMap,128,CORUM:3015,"p27-cyclinE-Cdk2 - Ubiquitin E3 ligase (SKP1A, SKP2, CUL1, CKS1B, RBX1) complex",7,6,0.8571428571428571,False
+depmap,DepMap,129,CORUM:561,LSm1-7 complex,7,6,0.8571428571428571,False
+depmap,DepMap,130,CORUM:787,NuA4/Tip60-HAT complex B,7,6,0.8571428571428571,False
+depmap,DepMap,131,CORUM:8007,APC/C complex,7,6,0.8571428571428571,False
+depmap,DepMap,132,CORUM:8623,Rixosome,7,6,0.8571428571428571,False
+depmap,DepMap,133,CORUM:910,CRSP-Mediator 2 complex,7,6,0.8571428571428571,False
+depmap,DepMap,134,CORUM:1183,CDC5L complex,27,23,0.8518518518518519,False
+depmap,DepMap,135,CORUM:1154,DSS1 complex,13,11,0.8461538461538461,False
+depmap,DepMap,136,CORUM:1155,Integrator-RNAPII complex,13,11,0.8461538461538461,False
+depmap,DepMap,137,CORUM:8372,"Spliceosome, A complex",102,85,0.8333333333333334,False
+depmap,DepMap,138,CORUM:1153,Integrator complex,12,10,0.8333333333333334,False
+depmap,DepMap,139,CORUM:7814,CDYL-CAF1-MCM complex,12,10,0.8333333333333334,False
+depmap,DepMap,140,CORUM:112,Prefoldin complex,6,5,0.8333333333333334,False
+depmap,DepMap,141,CORUM:162,COG complex,6,5,0.8333333333333334,False
+depmap,DepMap,142,CORUM:27,Arp2/3 protein complex,6,5,0.8333333333333334,False
+depmap,DepMap,143,CORUM:2738,BLM complex II,6,5,0.8333333333333334,False
+depmap,DepMap,144,CORUM:2815,BRCA1-BARD1-BACH1-DNA damage complex II,6,5,0.8333333333333334,False
+depmap,DepMap,145,CORUM:6245,Telomerase holoenzyme,6,5,0.8333333333333334,False
+depmap,DepMap,146,CORUM:6332,"Elongator complex (ELP1, ELP2, ELP3, ELP4, ELP5, ELP6)",6,5,0.8333333333333334,False
+depmap,DepMap,147,CORUM:6855,LAS1L-PELP1-TEX10-WDR18-NOL9-SENP3  complex,6,5,0.8333333333333334,False
+depmap,DepMap,148,CORUM:7807,7SK snRNP-LEC complex,6,5,0.8333333333333334,False
+depmap,DepMap,149,CORUM:7962,SMC5-6-NSMCE4A complex,6,5,0.8333333333333334,False
+depmap,DepMap,150,CORUM:7963,SMC5-6-EID3 complex,6,5,0.8333333333333334,False
+depmap,DepMap,151,CORUM:814,Postsplicing complex,6,5,0.8333333333333334,False
+depmap,DepMap,152,CORUM:1257,ALL-1 supercomplex,17,14,0.8235294117647058,False
+depmap,DepMap,153,CORUM:469,TFIID-beta complex,11,9,0.8181818181818182,False
+depmap,DepMap,154,CORUM:8008,"APC/C complex, 1.5 MDa",11,9,0.8181818181818182,False
+depmap,DepMap,155,CORUM:1335,SNW1 complex,16,13,0.8125,False
+depmap,DepMap,156,CORUM:5450,Mediator complex,21,17,0.8095238095238095,False
+depmap,DepMap,157,CORUM:493,DAB complex,15,12,0.8,False
+depmap,DepMap,158,CORUM:3040,Multisynthetase complex,10,8,0.8,False
+depmap,DepMap,159,CORUM:463,TFIID complex,10,8,0.8,False
+depmap,DepMap,160,CORUM:485,"TFIID complex, B-cell specific",10,8,0.8,False
+depmap,DepMap,161,CORUM:1167,Paf complex,5,4,0.8,False
+depmap,DepMap,162,CORUM:11687,mTORC2-TELO2-TTI1 complex,5,4,0.8,False
+depmap,DepMap,163,CORUM:1318,"Transcription initiation factor complex (TAF1, TAF5, TAF11, TAF12, TBP)",5,4,0.8,False
+depmap,DepMap,164,CORUM:1728,CTCF-PARP1-HIS-KPNA-LMNA-TOP complex,5,4,0.8,False
+depmap,DepMap,165,CORUM:2188,"Ubiquitin E3 ligase (CDC34, NEDD8, BTRC, CUL1, SKP1A, RBX1)",5,4,0.8,False
+depmap,DepMap,166,CORUM:3067,"RNA polymerase II complex, (CDK8 complex), chromatin structure modifying",5,4,0.8,False
+depmap,DepMap,167,CORUM:3102,DHX9-ADAR-vigilin-DNA-PK-Ku antigen complex,5,4,0.8,False
+depmap,DepMap,168,CORUM:5231,53BP1-containing complex,5,4,0.8,False
+depmap,DepMap,169,CORUM:5283,tRNA splicing endonuclease,5,4,0.8,False
+depmap,DepMap,170,CORUM:5449,"Splicing-associated factors complex (ALYREF, DEK, RBM8A, RNPS1, SRRM1)",5,4,0.8,False
+depmap,DepMap,171,CORUM:6129,CBP80/20- dependent translation complex,5,4,0.8,False
+depmap,DepMap,172,CORUM:6854,5FMC (Friends of Methylated Chtop) complex,5,4,0.8,False
+depmap,DepMap,173,CORUM:6858,CHTOP-ERH-PRMT1-PRMT5-WDR77 complex,5,4,0.8,False
+depmap,DepMap,174,CORUM:7542,KNL1-MIS12-NDC80-SPC24-ZWINT complex,5,4,0.8,False
+depmap,DepMap,175,CORUM:7784,RNF8-ATX3-p97 complex,5,4,0.8,False
+depmap,DepMap,176,CORUM:8309,BRCA2-PALB2-RAD51-RAD51C-XRCC3 complex,5,4,0.8,False
+depmap,DepMap,177,CORUM:8557,"TIM22 holo-complex (AGK, TIMM9, TIMM10, TIMM10B, TIMM22, TIMM29), mitochondrial",5,4,0.8,False
+depmap,DepMap,178,CORUM:1068,12S U11 snRNP,14,11,0.7857142857142857,False
+depmap,DepMap,179,CORUM:492,DA complex,14,11,0.7857142857142857,False
+depmap,DepMap,180,CORUM:8391,"Spliceosome, E complex",115,90,0.782608695652174,False
+depmap,DepMap,181,CORUM:2856,NuA4/Tip60 HAT complex,9,7,0.7777777777777778,False
+depmap,DepMap,182,CORUM:508,TFIID complex,9,7,0.7777777777777778,False
+depmap,DepMap,183,CORUM:7851,APC/C-ANAPC16 complex,9,7,0.7777777777777778,False
+depmap,DepMap,184,CORUM:867,TRAP-SMCC mediator complex,9,7,0.7777777777777778,False
+depmap,DepMap,185,CORUM:798,NuA4/Tip60-HAT complex A,13,10,0.7692307692307693,False
+depmap,DepMap,186,CORUM:2857,NuA4/Tip60 HAT complex,12,9,0.75,False
+depmap,DepMap,187,CORUM:2914,"Respiratory chain complex I (beta subunit), mitochondrial",12,9,0.75,False
+depmap,DepMap,188,CORUM:155,TFIID complex,8,6,0.75,False
+depmap,DepMap,189,CORUM:8151,"Repairosome complex, XPA-specific",8,6,0.75,False
+depmap,DepMap,190,CORUM:529,NuA4/Tip60-HAT complex,15,11,0.7333333333333333,False
+depmap,DepMap,191,CORUM:300,PC2 complex,11,8,0.7272727272727273,False
+depmap,DepMap,192,CORUM:509,TFIID complex,11,8,0.7272727272727273,False
+depmap,DepMap,193,CORUM:514,TFIID-beta complex,11,8,0.7272727272727273,False
+depmap,DepMap,194,CORUM:230,Mediator complex,25,18,0.72,False
+depmap,DepMap,195,CORUM:7627,H2A.Z histone-exchange complex p400/TIP60,25,18,0.72,False
+depmap,DepMap,196,CORUM:5233,TNFalpha-NFkappa B signaling complex 5,14,10,0.7142857142857143,False
+depmap,DepMap,197,CORUM:528,NuA4/Tip60-HAT complex,14,10,0.7142857142857143,False
+depmap,DepMap,198,CORUM:7388,CENP-A nucleosomal complex,14,10,0.7142857142857143,False
+depmap,DepMap,199,CORUM:1094,Frataxin complex,7,5,0.7142857142857143,False
+depmap,DepMap,200,CORUM:1186,ESCRT-III complex,7,5,0.7142857142857143,False
+depmap,DepMap,201,CORUM:1413,NCOR1 complex,7,5,0.7142857142857143,False
+depmap,DepMap,202,CORUM:218,CRSP complex,7,5,0.7142857142857143,False
+depmap,DepMap,203,CORUM:6167,Exocyst complex,7,5,0.7142857142857143,False
+depmap,DepMap,204,CORUM:6838,IGF2BP1 complex,7,5,0.7142857142857143,False
+depmap,DepMap,205,CORUM:7556,PRAME complex,7,5,0.7142857142857143,False
+depmap,DepMap,206,CORUM:806,BRM-SIN3A-HDAC complex,7,5,0.7142857142857143,False
+depmap,DepMap,207,CORUM:909,ARC92-Mediator complex,7,5,0.7142857142857143,False
+depmap,DepMap,208,CORUM:927,CENP-A NAC complex,7,5,0.7142857142857143,False
+depmap,DepMap,209,CORUM:1223,"H2AX complex, without IR exposure",12,8,0.6666666666666666,False
+depmap,DepMap,210,CORUM:11681,mTORC1-TFEB-Rag-Ragulator complex,9,6,0.6666666666666666,False
+depmap,DepMap,211,CORUM:3066,"RNA polymerase II complex, chromatin structure modifying",9,6,0.6666666666666666,False
+depmap,DepMap,212,CORUM:714,BRM-SIN3A complex,9,6,0.6666666666666666,False
+depmap,DepMap,213,CORUM:8613,TRAPP III complex,9,6,0.6666666666666666,False
+depmap,DepMap,214,CORUM:1031,ORC complex (origin recognition complex),6,4,0.6666666666666666,False
+depmap,DepMap,215,CORUM:1150,Histone H3.3 complex,6,4,0.6666666666666666,False
+depmap,DepMap,216,CORUM:1199,Oligosaccharyltransferase complex (Stt3A variant),6,4,0.6666666666666666,False
+depmap,DepMap,217,CORUM:1200,Oligosaccharyltransferase complex (Stt3B variant),6,4,0.6666666666666666,False
+depmap,DepMap,218,CORUM:1464,Mis12 centromere complex,6,4,0.6666666666666666,False
+depmap,DepMap,219,CORUM:1746,SMN containing complex,6,4,0.6666666666666666,False
+depmap,DepMap,220,CORUM:238,SWI-SNF chromatin remodeling-related-BRCA1 complex,6,4,0.6666666666666666,False
+depmap,DepMap,221,CORUM:248,BRAFT complex,6,4,0.6666666666666666,False
+depmap,DepMap,222,CORUM:2639,HES1 promoter-Notch enhancer complex,6,4,0.6666666666666666,False
+depmap,DepMap,223,CORUM:2731,Set1A complex,6,4,0.6666666666666666,False
+depmap,DepMap,224,CORUM:2904,"Respiratory chain complex I (intermediate VII/650kD), mitochondrial",6,4,0.6666666666666666,False
+depmap,DepMap,225,CORUM:3065,"RNA polymerase II complex, chromatin structure modifying",6,4,0.6666666666666666,False
+depmap,DepMap,226,CORUM:310,Cell cycle kinase complex CDC2,6,4,0.6666666666666666,False
+depmap,DepMap,227,CORUM:434,BASC (Ab 80) complex (BRCA1-associated genome surveillance complex),6,4,0.6666666666666666,False
+depmap,DepMap,228,CORUM:435,BASC (Ab 81) complex (BRCA1-associated genome surveillance complex),6,4,0.6666666666666666,False
+depmap,DepMap,229,CORUM:49,DNMT3B complex,6,4,0.6666666666666666,False
+depmap,DepMap,230,CORUM:5251,Ku-ORC complex,6,4,0.6666666666666666,False
+depmap,DepMap,231,CORUM:6131,SELK multiprotein complex,6,4,0.6666666666666666,False
+depmap,DepMap,232,CORUM:6462,MLL1 complex,6,4,0.6666666666666666,False
+depmap,DepMap,233,CORUM:711,Brm-associated complex,6,4,0.6666666666666666,False
+depmap,DepMap,234,CORUM:7298,ACTB-ANP32A-C1QBP-PSMA1-PTMA-PSMA1 complex,6,4,0.6666666666666666,False
+depmap,DepMap,235,CORUM:7809,m(6)A methyltransferase complex,6,4,0.6666666666666666,False
+depmap,DepMap,236,CORUM:808,BRM-associated complex,6,4,0.6666666666666666,False
+depmap,DepMap,237,CORUM:8152,"Repairosome sub-complex, XPA-specific",6,4,0.6666666666666666,False
+depmap,DepMap,238,CORUM:8497,ZFAND2B complex,6,4,0.6666666666666666,False
+depmap,DepMap,239,CORUM:1332,Large Drosha complex,17,11,0.6470588235294118,False
+depmap,DepMap,240,CORUM:929,CEN complex,31,20,0.6451612903225806,False
+depmap,DepMap,241,CORUM:2721,HCF-1 complex,14,9,0.6428571428571429,False
+depmap,DepMap,242,CORUM:5613,Emerin complex 25,14,9,0.6428571428571429,False
+depmap,DepMap,243,CORUM:563,"F1F0-ATPase, mitochondrial",14,9,0.6428571428571429,False
+depmap,DepMap,244,CORUM:232,ARC complex,11,7,0.6363636363636364,False
+depmap,DepMap,245,CORUM:3064,"RNA polymerase II complex, chromatin structure modifying",11,7,0.6363636363636364,False
+depmap,DepMap,246,CORUM:6888,v-ATPase-Ragulator-AXIN/LKB1-AMPK complex,11,7,0.6363636363636364,False
+depmap,DepMap,247,CORUM:7305,"Cytochrome c oxidase including assembly factors (COX, PET100, PET117, MR-1S)",11,7,0.6363636363636364,False
+depmap,DepMap,248,CORUM:778,LARC complex (LCR-associated remodeling complex),11,7,0.6363636363636364,False
+depmap,DepMap,249,CORUM:189,BAF complex,8,5,0.625,False
+depmap,DepMap,250,CORUM:244,BRAFT complex,8,5,0.625,False
+depmap,DepMap,251,CORUM:7285,HEXIM1-DNA-PK-paraspeckle components-ribonucleoprotein complex,8,5,0.625,False
+depmap,DepMap,252,CORUM:803,BRG1-SIN3A-HDAC containing SWI/SNF remodeling complex I,8,5,0.625,False
+depmap,DepMap,253,CORUM:470,TFTC complex (TATA-binding protein-free TAF-II-containing complex),15,9,0.6,False
+depmap,DepMap,254,CORUM:6247,BBS-chaperonin complex,10,6,0.6,False
+depmap,DepMap,255,CORUM:6469,Set1A complex,10,6,0.6,False
+depmap,DepMap,256,CORUM:713,BRG1-SIN3A complex,10,6,0.6,False
+depmap,DepMap,257,CORUM:7394,CENP-H-I complex,10,6,0.6,False
+depmap,DepMap,258,CORUM:1038,ORC 1-5 complex (origin recognition 1-5 complex),5,3,0.6,False
+depmap,DepMap,259,CORUM:1204,Rap1 complex,5,3,0.6,False
+depmap,DepMap,260,CORUM:1231,FIB-associated protein complex,5,3,0.6,False
+depmap,DepMap,261,CORUM:1239,EBAFb complex,5,3,0.6,False
+depmap,DepMap,262,CORUM:1251,BAF complex,5,3,0.6,False
+depmap,DepMap,263,CORUM:138,Telomere-associated protein complex,5,3,0.6,False
+depmap,DepMap,264,CORUM:1729,TLE1 corepressor complex,5,3,0.6,False
+depmap,DepMap,265,CORUM:2189,"Ubiquitin E3 ligase (SMAD3, BTRC, CUL1, SKP1A, RBX1)",5,3,0.6,False
+depmap,DepMap,266,CORUM:229,NAT complex,5,3,0.6,False
+depmap,DepMap,267,CORUM:2739,FA complex (Fanconi anemia complex),5,3,0.6,False
+depmap,DepMap,268,CORUM:280,GAPDH-HMGB-HSPA8-PDIA3 complex,5,3,0.6,False
+depmap,DepMap,269,CORUM:3063,Brg1-associated complex II,5,3,0.6,False
+depmap,DepMap,270,CORUM:5209,Ubiquilin-proteasome complex,5,3,0.6,False
+depmap,DepMap,271,CORUM:5400,BRCC complex,5,3,0.6,False
+depmap,DepMap,272,CORUM:5876,EIF4A1-PPME1-PPP2CA-PPP2R1A-PPP2R1B complex,5,3,0.6,False
+depmap,DepMap,273,CORUM:6216,GATOR2 complex,5,3,0.6,False
+depmap,DepMap,274,CORUM:6497,"TOM complex (TOMM5, TOMM6, TOMM7, TOMM20, TOMM22, TOMM40, TOMM70), mitochondrial",5,3,0.6,False
+depmap,DepMap,275,CORUM:6985,ProTalpha C5 complex,5,3,0.6,False
+depmap,DepMap,276,CORUM:7299,ANP32A-ANP32B-PSMA3-PTMA-SLC25A5 complex,5,3,0.6,False
+depmap,DepMap,277,CORUM:7596,tRNA splicing ligase,5,3,0.6,False
+depmap,DepMap,278,CORUM:8324,Ragulator complex,5,3,0.6,False
+depmap,DepMap,279,CORUM:8510,CUL2-PTCH1-TCEB1-TCEB2-ZYG11B complex,5,3,0.6,False
+depmap,DepMap,280,CORUM:9210,LIG3-LIG4-PARP1-PARP3(short)-XRCC5-XRCC6 complex,5,3,0.6,False
+depmap,DepMap,281,CORUM:9211,LIG3-LIG4-PARP1-PARP3(long)-XRCC5-XRCC6 complex,5,3,0.6,False
+depmap,DepMap,282,CORUM:938,"FACT complex, UV-activated",5,3,0.6,False
+depmap,DepMap,283,CORUM:10896,TIP60-C complex,22,13,0.5909090909090909,False
+depmap,DepMap,284,CORUM:315,"28S ribosomal subunit, mitochondrial",29,17,0.5862068965517241,False
+depmap,DepMap,285,CORUM:5386,MLL1-WDR5 complex,24,14,0.5833333333333334,False
+depmap,DepMap,286,CORUM:1179,CENP-A NAC-CAD complex,12,7,0.5833333333333334,False
+depmap,DepMap,287,CORUM:302,INO80 chromatin remodeling complex,12,7,0.5833333333333334,False
+depmap,DepMap,288,CORUM:301,SMCC complex,14,8,0.5714285714285714,False
+depmap,DepMap,289,CORUM:462,TFTC complex (TATA-binding protein-free TAF-II-containing complex),14,8,0.5714285714285714,False
+depmap,DepMap,290,CORUM:1149,Histone H3.1 complex,7,4,0.5714285714285714,False
+depmap,DepMap,291,CORUM:228,SMCC complex,7,4,0.5714285714285714,False
+depmap,DepMap,292,CORUM:2600,BRD4 complex,7,4,0.5714285714285714,False
+depmap,DepMap,293,CORUM:2905,"Respiratory chain complex I (intermediate), mitochondrial",7,4,0.5714285714285714,False
+depmap,DepMap,294,CORUM:566,BAF complex,7,4,0.5714285714285714,False
+depmap,DepMap,295,CORUM:6460,MLL2 complex,7,4,0.5714285714285714,False
+depmap,DepMap,296,CORUM:6859,HRD1 complex,7,4,0.5714285714285714,False
+depmap,DepMap,297,CORUM:691,SIN3-SAP25 complex,7,4,0.5714285714285714,False
+depmap,DepMap,298,CORUM:807,BRG1-associated complex,7,4,0.5714285714285714,False
+depmap,DepMap,299,CORUM:86,NUMAC complex (nucleosomal methylation activator complex),7,4,0.5714285714285714,False
+depmap,DepMap,300,CORUM:287,ARC-L complex,9,5,0.5555555555555556,False
+depmap,DepMap,301,CORUM:433,BASC complex (BRCA1-associated genome surveillance complex),9,5,0.5555555555555556,False
+depmap,DepMap,302,CORUM:547,SMCC complex,11,6,0.5454545454545454,False
+depmap,DepMap,303,CORUM:548,DRIP complex,11,6,0.5454545454545454,False
+depmap,DepMap,304,CORUM:535,TRAP complex,13,7,0.5384615384615384,False
+depmap,DepMap,305,CORUM:178,"Respiratory chain complex I (holoenzyme), mitochondrial",28,15,0.5357142857142857,False
+depmap,DepMap,306,CORUM:513,TFTC complex (TATA-binding protein-free TAF-II-containing complex),15,8,0.5333333333333333,False
+depmap,DepMap,307,CORUM:320,"55S ribosome, mitochondrial",76,40,0.5263157894736842,False
+depmap,DepMap,308,CORUM:6468,TRAPP complex oligomer,12,6,0.5,False
+depmap,DepMap,309,CORUM:1227,H2AX complex II,10,5,0.5,False
+depmap,DepMap,310,CORUM:9739,VDR-DRIP complex,10,5,0.5,False
+depmap,DepMap,311,CORUM:149,PBAF complex (Polybromo- and BAF containing complex),8,4,0.5,False
+depmap,DepMap,312,CORUM:471,PCAF complex,8,4,0.5,False
+depmap,DepMap,313,CORUM:7977,cBAF complex,8,4,0.5,False
+depmap,DepMap,314,CORUM:8634,mTRAPP II complex,8,4,0.5,False
+depmap,DepMap,315,CORUM:11605,GATOR2-CASTOR1 complex,6,3,0.5,False
+depmap,DepMap,316,CORUM:11606,GATOR2-SESN2 complex,6,3,0.5,False
+depmap,DepMap,317,CORUM:1237,BAF complex,6,3,0.5,False
+depmap,DepMap,318,CORUM:1252,EBAFa complex,6,3,0.5,False
+depmap,DepMap,319,CORUM:1254,Menin-associated histone methyltransferase complex,6,3,0.5,False
+depmap,DepMap,320,CORUM:2730,Set1B complex,6,3,0.5,False
+depmap,DepMap,321,CORUM:438,GCN5-TRRAP histone acetyltransferase complex,6,3,0.5,False
+depmap,DepMap,322,CORUM:5378,"TRBP containing complex (DICER, TRBP, AGO2, RPL7A, EIF6, MOV10)",6,3,0.5,False
+depmap,DepMap,323,CORUM:551,core-histone (H2A/H2B/H3/H4)-TDIF2-TDT complex,6,3,0.5,False
+depmap,DepMap,324,CORUM:555,BAF complex,6,3,0.5,False
+depmap,DepMap,325,CORUM:556,"PBAF complex, BAF200-specific",6,3,0.5,False
+depmap,DepMap,326,CORUM:592,mSin3A corepressor complex,6,3,0.5,False
+depmap,DepMap,327,CORUM:6389,HOPS complex,6,3,0.5,False
+depmap,DepMap,328,CORUM:738,SIN3-ING1b complex I,6,3,0.5,False
+depmap,DepMap,329,CORUM:8028,CD4 receptor complex,6,3,0.5,False
+depmap,DepMap,330,CORUM:8325,Ragulator-Rag complex,6,3,0.5,False
+depmap,DepMap,331,CORUM:8563,"COA3-HSPA9-TIMM44-TIM23(sort) complex, mitochondrial",6,3,0.5,False
+depmap,DepMap,332,CORUM:324,"39S ribosomal subunit, mitochondrial",47,23,0.48936170212765956,False
+depmap,DepMap,333,CORUM:7581,ESR1-Mediator complex,13,6,0.46153846153846156,False
+depmap,DepMap,334,CORUM:7582,ESR2-Mediator complex,13,6,0.46153846153846156,False
+depmap,DepMap,335,CORUM:739,SIN3-ING1b complex II,11,5,0.45454545454545453,False
+depmap,DepMap,336,CORUM:282,SNF2h-cohesin-NuRD complex,9,4,0.4444444444444444,False
+depmap,DepMap,337,CORUM:6657,"ATAC complex, GCN5-linked",9,4,0.4444444444444444,False
+depmap,DepMap,338,CORUM:7974,cBAF complex,9,4,0.4444444444444444,False
+depmap,DepMap,339,CORUM:5615,Emerin complex 52,16,7,0.4375,False
+depmap,DepMap,340,CORUM:1238,PBAF complex (Polybromo- and BAF containing complex),7,3,0.42857142857142855,False
+depmap,DepMap,341,CORUM:441,TFTC-type histone acetyl transferase complex,7,3,0.42857142857142855,False
+depmap,DepMap,342,CORUM:5232,TNFalpha-NFkappa B signaling complex,7,3,0.42857142857142855,False
+depmap,DepMap,343,CORUM:554,PBAF complex,7,3,0.42857142857142855,False
+depmap,DepMap,344,CORUM:6217,GATOR complex,7,3,0.42857142857142855,False
+depmap,DepMap,345,CORUM:6753,SOG complex,7,3,0.42857142857142855,False
+depmap,DepMap,346,CORUM:7844,dREAM-like complex,7,3,0.42857142857142855,False
+depmap,DepMap,347,CORUM:8167,"ZMYND10 complex, cytoplasmic",7,3,0.42857142857142855,False
+depmap,DepMap,348,CORUM:8441,CCR4-NOT-TOB1 complex,7,3,0.42857142857142855,False
+depmap,DepMap,349,CORUM:6470,Set1B complex,12,5,0.4166666666666667,False
+depmap,DepMap,350,CORUM:475,STAGA complex,10,4,0.4,False
+depmap,DepMap,351,CORUM:5199,Kinase maturation complex 1,10,4,0.4,False
+depmap,DepMap,352,CORUM:6665,"ATAC complex, YEATS2-linked",10,4,0.4,False
+depmap,DepMap,353,CORUM:7978,PBAF complex,10,4,0.4,False
+depmap,DepMap,354,CORUM:8578,RAB3IP-TRAPP II complex,10,4,0.4,False
+depmap,DepMap,355,CORUM:207,"Ubiquitin E3 ligase (ASB2, TCEB1, TCEB2, CUL5, RNF7)",5,2,0.4,False
+depmap,DepMap,356,CORUM:208,"Ubiquitin E3 ligase (ASB1, TCEB1, TCEB2, CUL5, RNF7)",5,2,0.4,False
+depmap,DepMap,357,CORUM:209,"Ubiquitin E3 ligase (ASB6, TCEB1, TCEB2, CUL5, RNF7)",5,2,0.4,False
+depmap,DepMap,358,CORUM:210,"Ubiquitin E3 ligase (ASB7, TCEB1, TCEB2, CUL5, RNF7)",5,2,0.4,False
+depmap,DepMap,359,CORUM:211,"Ubiquitin E3 ligase (ASB12, TCEB1, TCEB2, CUL5, RNF7)",5,2,0.4,False
+depmap,DepMap,360,CORUM:2236,ASF1-histone containing complex,5,2,0.4,False
+depmap,DepMap,361,CORUM:2919,"Respiratory chain complex I (gamma subunit), mitochondrial",5,2,0.4,False
+depmap,DepMap,362,CORUM:3149,NK-3-Groucho-HIPK2-SIN3A-RbpA48-HDAC1 complex,5,2,0.4,False
+depmap,DepMap,363,CORUM:5593,LINC core complex,5,2,0.4,False
+depmap,DepMap,364,CORUM:591,SAP complex (Sin3-associated protein complex),5,2,0.4,False
+depmap,DepMap,365,CORUM:6084,AFF4 super elongation complex (SEC),5,2,0.4,False
+depmap,DepMap,366,CORUM:6444,SMAR1-HDAC1-SIN3A-SIN3B-p107-p130 repressor complex,5,2,0.4,False
+depmap,DepMap,367,CORUM:7667,Vps34 Complex I,5,2,0.4,False
+depmap,DepMap,368,CORUM:7980,ncBAF complex,5,2,0.4,False
+depmap,DepMap,369,CORUM:8327,mTORC2-PRR5 complex,5,2,0.4,False
+depmap,DepMap,370,CORUM:8328,mTORC2-PRR5L complex,5,2,0.4,False
+depmap,DepMap,371,CORUM:8378,PRC1.1d complex,5,2,0.4,False
+depmap,DepMap,372,CORUM:8632,VPS34-VPS15-BECLIN1-UVRAG-SLAMF1 complex,5,2,0.4,False
+depmap,DepMap,373,CORUM:9980,SOCS2 ubiquitin ligase complex,5,2,0.4,False
+depmap,DepMap,374,CORUM:1226,"H2AX complex I, IR-induced",8,3,0.375,False
+depmap,DepMap,375,CORUM:2851,ING2 complex,8,3,0.375,False
+depmap,DepMap,376,CORUM:5609,Emerin regulatory complex,8,3,0.375,False
+depmap,DepMap,377,CORUM:6194,B-WICH complex,8,3,0.375,False
+depmap,DepMap,378,CORUM:632,Anti-HDAC2 complex,8,3,0.375,False
+depmap,DepMap,379,CORUM:6765,CCR4-NOT complex,8,3,0.375,False
+depmap,DepMap,380,CORUM:7215,"CCR4-NOT complex, CNOT8-CNOT6-specific",8,3,0.375,False
+depmap,DepMap,381,CORUM:7216,"CCR4-NOT complex, CNOT8-CNOT6L-specific",8,3,0.375,False
+depmap,DepMap,382,CORUM:7372,BRD7-SWI–SNF complex,8,3,0.375,False
+depmap,DepMap,383,CORUM:8417,SOX9-TRAP complex,8,3,0.375,False
+depmap,DepMap,384,CORUM:2920,"Respiratory chain complex I (lambda subunit), mitochondrial",11,4,0.36363636363636365,False
+depmap,DepMap,385,CORUM:476,STAGA complex,11,4,0.36363636363636365,False
+depmap,DepMap,386,CORUM:7975,PBAF complex,11,4,0.36363636363636365,False
+depmap,DepMap,387,CORUM:5614,Emerin complex 32,17,6,0.35294117647058826,False
+depmap,DepMap,388,CORUM:6236,"Dynein-2 complex, cytoplasmic",9,3,0.3333333333333333,False
+depmap,DepMap,389,CORUM:6302,B-WICH complex,9,3,0.3333333333333333,False
+depmap,DepMap,390,CORUM:6671,PI4K2A-WASH complex,9,3,0.3333333333333333,False
+depmap,DepMap,391,CORUM:7192,"CCR4-NOT complex, CNOT7-CNOT6-specific",9,3,0.3333333333333333,False
+depmap,DepMap,392,CORUM:7214,"CCR4-NOT complex, CNOT7-CNOT6L-specific",9,3,0.3333333333333333,False
+depmap,DepMap,393,CORUM:725,P2X7 receptor signalling complex,9,3,0.3333333333333333,False
+depmap,DepMap,394,CORUM:7960,ER membrane protein complex (EMC8),9,3,0.3333333333333333,False
+depmap,DepMap,395,CORUM:7961,ER membrane protein complex (EMC9),9,3,0.3333333333333333,False
+depmap,DepMap,396,CORUM:8171,STRIPAK complex,9,3,0.3333333333333333,False
+depmap,DepMap,397,CORUM:8389,PRC1.6a complex,9,3,0.3333333333333333,False
+depmap,DepMap,398,CORUM:3075,UTX-MLL2/3 complex,6,2,0.3333333333333333,False
+depmap,DepMap,399,CORUM:5196,"TNF-alpha/NF-kappa B signaling complex (CHUK, BTRC, NFKB2, PPP6C, REL, CUL1, IKBKE, SAPS2, SAPS1, ANKRD28, RELA, SKP1)",6,2,0.3333333333333333,False
+depmap,DepMap,400,CORUM:5286,TNF-alpha/NF-kappa B signaling complex 10,6,2,0.3333333333333333,False
+depmap,DepMap,401,CORUM:5596,"LINC complex, quiescent cells",6,2,0.3333333333333333,False
+depmap,DepMap,402,CORUM:6461,MLL3 complex,6,2,0.3333333333333333,False
+depmap,DepMap,403,CORUM:6467,MLL4 complex,6,2,0.3333333333333333,False
+depmap,DepMap,404,CORUM:66,THRA-TRAP complex,6,2,0.3333333333333333,False
+depmap,DepMap,405,CORUM:7376,BRD7-CBP-SWI–SNF complex,6,2,0.3333333333333333,False
+depmap,DepMap,406,CORUM:7947,MBD3-NuRD complex,6,2,0.3333333333333333,False
+depmap,DepMap,407,CORUM:7981,ncBAF complex,6,2,0.3333333333333333,False
+depmap,DepMap,408,CORUM:5611,Emerin complex 24,13,4,0.3076923076923077,False
+depmap,DepMap,409,CORUM:8390,PRC1.6b complex,10,3,0.3,False
+depmap,DepMap,410,CORUM:2183,KAISO-NCOR complex,7,2,0.2857142857142857,False
+depmap,DepMap,411,CORUM:2948,"Respiratory chain complex I (incomplete intermediate), mitochondrial",7,2,0.2857142857142857,False
+depmap,DepMap,412,CORUM:443,BP-SMAD complex,7,2,0.2857142857142857,False
+depmap,DepMap,413,CORUM:5195,PTIP-HMT complex,7,2,0.2857142857142857,False
+depmap,DepMap,414,CORUM:5589,"LINC complex, S-phase",7,2,0.2857142857142857,False
+depmap,DepMap,415,CORUM:6249,"MIB complex, mitochondrial",8,2,0.25,False
+depmap,DepMap,416,CORUM:6641,USP22-SAGA complex,8,2,0.25,False
+depmap,DepMap,417,CORUM:8569,"MITRAC complex, mitochondrial",9,2,0.2222222222222222,False
+depmap,DepMap,418,CORUM:1194,E2F-6 complex,10,2,0.2,False
+depmap,DepMap,419,CORUM:1060,"Retromer complex (SNX1, SNX2, VPS35, VPS29, VPS26B)",5,1,0.2,False
+depmap,DepMap,420,CORUM:1474,SMAD3/4-E2F4/5-p107-DP1 complex,5,1,0.2,False
+depmap,DepMap,421,CORUM:5197,PTIP-DNA damage response complex,5,1,0.2,False
+depmap,DepMap,422,CORUM:5212,Kinase maturation complex 2,5,1,0.2,False
+depmap,DepMap,423,CORUM:5268,TNF-alpha/NF-kappa B signaling complex 7,5,1,0.2,False
+depmap,DepMap,424,CORUM:7845,MYBL2-LIN9-LIN37-LIN52-LIN54 complex,5,1,0.2,False
+depmap,DepMap,425,CORUM:7870,NGRN complex,5,1,0.2,False
+depmap,DepMap,426,CORUM:8587,"Mitofilin complex, mitochondrial",5,1,0.2,False
+depmap,DepMap,427,CORUM:9056,KCNA5-KCNAB1-RACK1 complex,5,1,0.2,False
+depmap,DepMap,428,CORUM:6643,"SAGA complex, GCN5-linked",16,3,0.1875,False
+depmap,DepMap,429,CORUM:6664,"STAGA complex, SPT3-linked",17,3,0.17647058823529413,False
+depmap,DepMap,430,CORUM:2573,Class C VPS/HOPS complex,6,1,0.16666666666666666,False
+depmap,DepMap,431,CORUM:6577,3M complex,6,1,0.16666666666666666,False
+depmap,DepMap,432,CORUM:7551,SMYLE 1 complex,6,1,0.16666666666666666,False
+depmap,DepMap,433,CORUM:7911,NADPH oxidase,6,1,0.16666666666666666,False
+depmap,DepMap,434,CORUM:8305,PP6 holoenzyme,6,1,0.16666666666666666,False
+depmap,DepMap,435,CORUM:846,"RICH1/AMOT polarity complex, Flag-Rich1 precipitated",6,1,0.16666666666666666,False
+depmap,DepMap,436,CORUM:8543,Centriolar subdistal appendage,6,1,0.16666666666666666,False
+depmap,DepMap,437,CORUM:6639,"CCC-Wash (WASH1, FAM21C) complex",7,1,0.14285714285714285,False
+depmap,DepMap,438,CORUM:7813,CDYL-complex,7,1,0.14285714285714285,False
+depmap,DepMap,439,CORUM:8382,PRC1.3a complex,7,1,0.14285714285714285,False
+depmap,DepMap,440,CORUM:8387,PRC1.5a complex,7,1,0.14285714285714285,False
+depmap,DepMap,441,CORUM:8405,GID/CTLH ubiquitin E3 ligase complex,7,1,0.14285714285714285,False
+depmap,DepMap,442,CORUM:116,"Polycomb repressive complex 1 (PRC1, hPRC-H, YY1)",8,1,0.125,False
+depmap,DepMap,443,CORUM:5604,Emerin complex 1,8,1,0.125,False
+depmap,DepMap,444,CORUM:8015,"CTLH complex, submodule of the IFT/lebercilin complex",8,1,0.125,False
+depmap,DepMap,445,CORUM:8383,PRC1.3b complex,8,1,0.125,False
+depmap,DepMap,446,CORUM:8388,PRC1.5c,8,1,0.125,False
+depmap,DepMap,447,CORUM:8406,GID/CTLH ubiquitin E3 ligase complex,8,1,0.125,False
+depmap,DepMap,448,CORUM:652,AP3-BLOC1 complex,11,0,0.0,False
+depmap,DepMap,449,CORUM:654,BLOC1-BLOC2 complex,11,0,0.0,False
+depmap,DepMap,450,CORUM:6173,Intraflagellar transport complex B core complex,9,0,0.0,False
+depmap,DepMap,451,CORUM:8470,Distal appendage,9,0,0.0,False
+depmap,DepMap,452,CORUM:23,BLOC-1 (biogenesis of lysosome-related organelles complex 1),8,0,0.0,False
+depmap,DepMap,453,CORUM:642,CtBP complex,8,0,0.0,False
+depmap,DepMap,454,CORUM:8561,"TNFR1 signaling complex, TNF-induced",8,0,0.0,False
+depmap,DepMap,455,CORUM:115,"Polycomb repressive complex 1 (PRC1, hPRC-H)",7,0,0.0,False
+depmap,DepMap,456,CORUM:6163,BBSome,7,0,0.0,False
+depmap,DepMap,457,CORUM:8381,PRC1.2c complex,7,0,0.0,False
+depmap,DepMap,458,CORUM:8386,PRC1.4c complex,7,0,0.0,False
+depmap,DepMap,459,CORUM:848,"RICH1/AMOT polarity complex, Flag-Amot precipitated",7,0,0.0,False
+depmap,DepMap,460,CORUM:5177,Polycystin-1 multiprotein complex,6,0,0.0,False
+depmap,DepMap,461,CORUM:6602,AP5-SPG11-SPG15 complex,6,0,0.0,False
+depmap,DepMap,462,CORUM:6645,CCC complex,6,0,0.0,False
+depmap,DepMap,463,CORUM:7065,WDR41-(C9orf72-SMCR8)-(FIP200-ULK1-ATG13-ATG101) complex,6,0,0.0,False
+depmap,DepMap,464,CORUM:7268,"HEPACAM-MLC1-Na,K-ATPase-Kir4.1-AQP4-TRPV4 complex",6,0,0.0,False
+depmap,DepMap,465,CORUM:7545,BORC complex,6,0,0.0,False
+depmap,DepMap,466,CORUM:10517,CHRNA1-CHRNB1-CHRND-CHRNE-CHRNA7 complex,5,0,0.0,False
+depmap,DepMap,467,CORUM:2529,LAT-VAV1 multiprotein complex,5,0,0.0,False
+depmap,DepMap,468,CORUM:6109,FHF complex,5,0,0.0,False
+depmap,DepMap,469,CORUM:6567,SWELL1-containing complex,5,0,0.0,False
+depmap,DepMap,470,CORUM:7110,IGF2R-PLG-PLAU-PLAUR-LTGFbeta1 complex,5,0,0.0,False
+depmap,DepMap,471,CORUM:7265,"MLC1-Na,K-ATPase-Kir4.1-AQP4-TRPV4-syntrophin complex",5,0,0.0,False
+depmap,DepMap,472,CORUM:7557,LGR4-RSPO supercomplex,5,0,0.0,False
+depmap,DepMap,473,CORUM:7884,ANP32A-APEX1-HMG2-NME1-SET complex,5,0,0.0,False
+depmap,DepMap,474,CORUM:8014,TULP3-Intraflagellar transport complex A,5,0,0.0,False
+depmap,DepMap,475,CORUM:8273,CTLH complex,5,0,0.0,False
+depmap,DepMap,476,CORUM:8280,AIM2 PANoptosome complex,5,0,0.0,False
+depmap,DepMap,477,CORUM:8560,Pericentrin complex,5,0,0.0,False
+depmap,DepMap,478,CORUM:8696,DDX58-MAVS-PPP6C-TRIM14-WHIP complex,5,0,0.0,False
+depmap,DepMap,479,CORUM:8734,HSP90-IRF3-MAVS-TBK1-TOMM70 complex,5,0,0.0,False

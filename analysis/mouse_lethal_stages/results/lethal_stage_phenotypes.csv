@@ -1,0 +1,48 @@
+rank,mp_term_name,genes,after_e12_genes
+1,abnormal embryo size,134,355
+2,edema,113,355
+3,abnormal craniofacial morphology,63,355
+4,embryonic growth retardation,57,355
+5,prenatal lethality prior to heart atrial septation,57,355
+6,hemorrhage,56,355
+7,cleft palate,51,355
+8,microphthalmia,51,355
+9,abnormal facial morphology,49,355
+10,abnormal placenta morphology,48,355
+11,abnormal head shape,41,355
+12,abnormal tail morphology,40,355
+13,abnormal limb morphology,36,355
+14,abnormal body wall morphology,32,355
+15,anophthalmia,32,355
+16,abnormal blood vessel morphology,30,355
+17,abnormal placenta vasculature,30,355
+18,prenatal lethality,22,355
+19,polydactyly,19,355
+20,spina bifida,17,355
+21,facial cleft,17,355
+22,abnormal placenta size,16,355
+23,abnormal head size,15,355
+24,protruding tongue,14,355
+25,exencephaly,12,355
+26,pallor,11,355
+27,syndactyly,9,355
+28,abnormal skin coloration,9,355
+29,cyanosis,7,355
+30,abnormal heart morphology,7,355
+31,abnormal embryo development,6,355
+32,abnormal eyelid fusion,5,355
+33,respiratory system phenotype,5,355
+34,unresponsive to tactile stimuli,5,355
+35,abnormal outer ear morphology,5,355
+36,abnormal skin appearance,5,355
+37,pale liver,4,355
+38,abnormal spine curvature,4,355
+39,microcephaly,4,355
+40,herniated abdominal wall,3,355
+41,abnormal abdominal wall morphology,2,355
+42,abnormal liver size,2,355
+43,abnormal ear morphology,1,355
+44,bleb,1,355
+45,abnormal vibrissa morphology,1,355
+46,pale placenta,1,355
+47,holoprosencephaly,1,355

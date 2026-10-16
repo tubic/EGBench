@@ -1,0 +1,5 @@
+cohort_id,group,genes,essential,not_in_tcga,in_tcga,median_zero,median_zero_share_of_measured
+deg,excluded,2008,21,930,1078,813,0.7541743970315399
+deg,retained,11216,1984,0,11216,844,0.07524964336661912
+depmap,excluded,1297,41,333,964,698,0.7240663900414938
+depmap,retained,13600,1786,0,13600,871,0.06404411764705882

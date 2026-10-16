@@ -1,0 +1,20 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "egbench"
+version = "0.1.0"
+description = "Evaluation library of the EGBench human gene essentiality benchmark."
+requires-python = ">=3.11"
+dependencies = [
+    "numpy",
+    "pandas",
+    "pyarrow",
+]
+
+[project.scripts]
+egbench = "egbench.cli:main"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/egbench"]

@@ -1,0 +1,20 @@
+schema_version: "1.0"
+method_id: deeplyessential
+display_name: DeeplyEssential
+publication: {year: 2020, doi: 10.1186/s12859-020-03688-y}
+implementation: {class: adapted_variant, source_commit: 9c9d35938db6f1cd516902a5b6d834e6c18e4882}
+decision_threshold_source: fixed_0.5
+score_kind: probability
+inference_scope: sequence
+feature_contract:
+  availability_basis: sequence
+  construction: static_deephe_sequence_features
+  feature_dimensions: 89
+  primary_input: feature/{dataset}/{split_strategy}/fold_{outer_fold}/features.parquet
+  split_authority: egbench.data.folds_directory(cohort_id, split_strategy)
+  training_labels: [essential, nonessential]
+  auxiliary_labels: [excluded, uncertain]
+
+trainable_parameters: 2801665
+parameter_rule: >-
+  Neural network: number of elements of the trainable tensors in weights/ of the DEG protein-family folds, integer tensors and batch-normalisation buffers excluded; identical across the five folds

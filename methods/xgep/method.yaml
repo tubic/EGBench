@@ -1,0 +1,24 @@
+schema_version: "1.0"
+method_id: xgep
+display_name: XGEP-XGB
+publication: {year: 2021, doi: 10.1093/bioinformatics/btaa717}
+implementation: {class: adapted_variant, source_commit: 9db7a566c18c8718e9988480dd9324a887113ab3}
+decision_threshold_source: fixed_0.5
+score_kind: probability
+inference_scope: author_embedding_table
+feature_contract:
+  availability_basis: xgep
+  construction: static_author_150_dimensional_embedding
+  feature_dimensions: 150
+  primary_input: feature/{dataset}/{split_strategy}/fold_{outer_fold}/features.parquet
+  source_matrix: feature/source/xgep_150.parquet
+  rebuild_command: python build_features.py rebuild-source
+  split_authority: egbench.data.folds_directory(cohort_id, split_strategy)
+  training_labels: [essential, nonessential]
+  auxiliary_labels: [excluded, uncertain]
+determinism:
+  thread_count: 8
+
+trainable_parameters: 3458
+parameter_rule: >-
+  Gradient-boosted trees: leaves of all trees; median over the five DEG protein-family folds

@@ -1,0 +1,23 @@
+schema_version: "1.0"
+method_id: deephe
+display_name: DeepHE
+publication: {year: 2020, doi: 10.1371/journal.pcbi.1008229}
+implementation: {class: adapted_variant, source_commit: b23161e1de22e39ab3aa470b4f16f1d3dda93fcc}
+determinism:
+  thread_count: 1
+decision_threshold_source: fixed_0.5
+score_kind: probability
+inference_scope: network
+feature_contract:
+  availability_basis: sequence
+  construction: static_89_sequence_plus_64_node2vec
+  feature_dimensions: 153
+  primary_input: feature/{dataset}/{split_strategy}/fold_{outer_fold}/features.parquet
+  split_authority: egbench.data.folds_directory(cohort_id, split_strategy)
+  rebuild_command: python build_features.py build-node2vec
+  training_labels: [essential, nonessential]
+  auxiliary_labels: [excluded, uncertain]
+
+trainable_parameters: 184833
+parameter_rule: >-
+  Neural network: number of elements of the trainable tensors in weights/ of the DEG protein-family folds, integer tensors and batch-normalisation buffers excluded; identical across the five folds

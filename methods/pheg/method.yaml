@@ -1,0 +1,30 @@
+schema_version: "1.0"
+method_id: pheg
+display_name: Pheg
+publication: {year: 2017, doi: 10.1093/bioinformatics/btx055}
+implementation: {class: clean_room_adapted_variant, source_commit: null}
+decision_threshold_source: fixed_0.5
+score_kind: calibrated_probability
+inference_scope: sequence
+feature_contract:
+  availability_basis: sequence
+  construction: static_4545_zcurve_then_fold_local_rfe_cbr_800
+  raw_feature_dimensions: 4545
+  selected_feature_dimensions: 800
+  primary_input: feature/{dataset}/{split_strategy}/fold_{outer_fold}/features.parquet
+  source_input: feature/source/generated/pheg_fv45_4545.parquet
+  split_authority: egbench.data.folds_directory(cohort_id, split_strategy)
+  training_labels: [essential, nonessential]
+  auxiliary_labels: [excluded, uncertain]
+
+deviation_from_publication:
+  linear_svm_solver: >-
+    LinearSVC is fitted in the primal rather than the dual form that LIBLINEAR's
+    command line defaults to. The two solve the same problem and reach the same
+    optimum. The training folds here carry about ten times as many genes as
+    features, and on DEG fold 0 at C=4 the dual form exhausts 200,000 iterations
+    without converging while the primal converges in 10.
+
+trainable_parameters: 803
+parameter_rule: >-
+  Support vector machine: the primal linear SVM has no support vectors, so the weight vector and intercept are counted, plus the two Platt calibration parameters; median over the five DEG protein-family folds

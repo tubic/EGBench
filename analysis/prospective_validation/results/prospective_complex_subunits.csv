@@ -1,0 +1,243 @@
+complex_id,complex,gene_key,gene_symbol,fate,dependent_share_26q1
+CORUM:306,Cytosolic ribosome,HGNC:3597,FAU,essential_23q4,1.0
+CORUM:306,Cytosolic ribosome,HGNC:10298,RPL10,essential_23q4,0.9917218543046358
+CORUM:306,Cytosolic ribosome,HGNC:10299,RPL10A,essential_23q4,1.0
+CORUM:306,Cytosolic ribosome,HGNC:10301,RPL11,essential_23q4,1.0
+CORUM:306,Cytosolic ribosome,HGNC:10302,RPL12,essential_23q4,0.9991721854304636
+CORUM:306,Cytosolic ribosome,HGNC:10303,RPL13,essential_23q4,1.0
+CORUM:306,Cytosolic ribosome,HGNC:10304,RPL13A,essential_23q4,1.0
+CORUM:306,Cytosolic ribosome,HGNC:10305,RPL14,essential_23q4,1.0
+CORUM:306,Cytosolic ribosome,HGNC:10306,RPL15,essential_23q4,1.0
+CORUM:306,Cytosolic ribosome,HGNC:10307,RPL17,essential_23q4,1.0
+CORUM:306,Cytosolic ribosome,HGNC:10310,RPL18,essential_23q4,0.9991721854304636
+CORUM:306,Cytosolic ribosome,HGNC:10311,RPL18A,essential_23q4,1.0
+CORUM:306,Cytosolic ribosome,HGNC:10312,RPL19,essential_23q4,0.9991721854304636
+CORUM:306,Cytosolic ribosome,HGNC:10313,RPL21,essential_23q4,0.9973753280839895
+CORUM:306,Cytosolic ribosome,HGNC:10315,RPL22,essential_23q4,0.3079470198675497
+CORUM:306,Cytosolic ribosome,HGNC:10316,RPL23,essential_23q4,1.0
+CORUM:306,Cytosolic ribosome,HGNC:10317,RPL23A,essential_23q4,1.0
+CORUM:306,Cytosolic ribosome,HGNC:10325,RPL24,essential_23q4,1.0
+CORUM:306,Cytosolic ribosome,HGNC:10327,RPL26,essential_23q4,1.0
+CORUM:306,Cytosolic ribosome,HGNC:10328,RPL27,essential_23q4,1.0
+CORUM:306,Cytosolic ribosome,HGNC:10329,RPL27A,essential_23q4,1.0
+CORUM:306,Cytosolic ribosome,HGNC:10330,RPL28,essential_23q4,0.902317880794702
+CORUM:306,Cytosolic ribosome,HGNC:10331,,not_in_cohort,
+CORUM:306,Cytosolic ribosome,HGNC:10332,RPL3,essential_23q4,1.0
+CORUM:306,Cytosolic ribosome,HGNC:10333,RPL30,essential_23q4,0.9801324503311258
+CORUM:306,Cytosolic ribosome,HGNC:10334,RPL31,essential_23q4,1.0
+CORUM:306,Cytosolic ribosome,HGNC:10336,RPL32,essential_23q4,0.9983443708609272
+CORUM:306,Cytosolic ribosome,HGNC:10340,RPL34,essential_23q4,1.0
+CORUM:306,Cytosolic ribosome,HGNC:10344,RPL35,essential_23q4,0.9991721854304636
+CORUM:306,Cytosolic ribosome,HGNC:10345,RPL35A,essential_23q4,1.0
+CORUM:306,Cytosolic ribosome,HGNC:13631,RPL36,essential_23q4,1.0
+CORUM:306,Cytosolic ribosome,HGNC:10359,RPL36A,essential_23q4,0.9394736842105263
+CORUM:306,Cytosolic ribosome,HGNC:10347,RPL37,essential_23q4,1.0
+CORUM:306,Cytosolic ribosome,HGNC:10348,RPL37A,essential_23q4,1.0
+CORUM:306,Cytosolic ribosome,HGNC:10349,RPL38,essential_23q4,0.9925496688741722
+CORUM:306,Cytosolic ribosome,HGNC:10350,RPL39,essential_23q4,0.869980879541109
+CORUM:306,Cytosolic ribosome,HGNC:10353,RPL4,essential_23q4,1.0
+CORUM:306,Cytosolic ribosome,HGNC:10354,RPL41,unchanged,0.1779816513761468
+CORUM:306,Cytosolic ribosome,HGNC:10360,RPL5,essential_23q4,1.0
+CORUM:306,Cytosolic ribosome,HGNC:10362,RPL6,essential_23q4,1.0
+CORUM:306,Cytosolic ribosome,HGNC:10363,RPL7,essential_23q4,0.9982832618025751
+CORUM:306,Cytosolic ribosome,HGNC:10364,RPL7A,essential_23q4,1.0
+CORUM:306,Cytosolic ribosome,HGNC:10368,RPL8,essential_23q4,1.0
+CORUM:306,Cytosolic ribosome,HGNC:10369,RPL9,essential_23q4,1.0
+CORUM:306,Cytosolic ribosome,HGNC:10371,RPLP0,essential_23q4,0.9983443708609272
+CORUM:306,Cytosolic ribosome,HGNC:10372,RPLP1,essential_23q4,0.9991721854304636
+CORUM:306,Cytosolic ribosome,HGNC:10377,RPLP2,essential_23q4,0.9884105960264901
+CORUM:306,Cytosolic ribosome,HGNC:10383,RPS10,essential_23q4,1.0
+CORUM:306,Cytosolic ribosome,HGNC:10384,RPS11,essential_23q4,1.0
+CORUM:306,Cytosolic ribosome,HGNC:10385,RPS12,essential_23q4,1.0
+CORUM:306,Cytosolic ribosome,HGNC:10386,RPS13,essential_23q4,0.9975165562913907
+CORUM:306,Cytosolic ribosome,HGNC:10387,RPS14,essential_23q4,0.9966887417218543
+CORUM:306,Cytosolic ribosome,HGNC:10388,RPS15,essential_23q4,1.0
+CORUM:306,Cytosolic ribosome,HGNC:10389,RPS15A,essential_23q4,1.0
+CORUM:306,Cytosolic ribosome,HGNC:10396,RPS16,essential_23q4,1.0
+CORUM:306,Cytosolic ribosome,HGNC:10397,RPS17,essential_23q4,1.0
+CORUM:306,Cytosolic ribosome,HGNC:10401,RPS18,essential_23q4,1.0
+CORUM:306,Cytosolic ribosome,HGNC:10402,RPS19,essential_23q4,1.0
+CORUM:306,Cytosolic ribosome,HGNC:10404,RPS2,essential_23q4,1.0
+CORUM:306,Cytosolic ribosome,HGNC:10405,RPS20,essential_23q4,1.0
+CORUM:306,Cytosolic ribosome,HGNC:10409,RPS21,essential_23q4,0.9801324503311258
+CORUM:306,Cytosolic ribosome,HGNC:10410,RPS23,essential_23q4,0.9991721854304636
+CORUM:306,Cytosolic ribosome,HGNC:10411,RPS24,essential_23q4,1.0
+CORUM:306,Cytosolic ribosome,HGNC:10413,RPS25,essential_23q4,0.9950331125827815
+CORUM:306,Cytosolic ribosome,HGNC:10414,,not_in_cohort,
+CORUM:306,Cytosolic ribosome,HGNC:10416,,not_in_cohort,
+CORUM:306,Cytosolic ribosome,HGNC:10417,RPS27A,essential_23q4,0.9983443708609272
+CORUM:306,Cytosolic ribosome,HGNC:10418,RPS28,essential_23q4,0.9990825688073395
+CORUM:306,Cytosolic ribosome,HGNC:10419,RPS29,essential_23q4,1.0
+CORUM:306,Cytosolic ribosome,HGNC:10420,RPS3,essential_23q4,1.0
+CORUM:306,Cytosolic ribosome,HGNC:10421,RPS3A,essential_23q4,1.0
+CORUM:306,Cytosolic ribosome,HGNC:10424,RPS4X,essential_23q4,0.9809602649006622
+CORUM:306,Cytosolic ribosome,HGNC:10425,RPS4Y1,unchanged,0.0
+CORUM:306,Cytosolic ribosome,HGNC:10426,RPS5,essential_23q4,0.9958609271523179
+CORUM:306,Cytosolic ribosome,HGNC:10429,RPS6,essential_23q4,1.0
+CORUM:306,Cytosolic ribosome,HGNC:10440,RPS7,essential_23q4,1.0
+CORUM:306,Cytosolic ribosome,HGNC:10441,RPS8,essential_23q4,1.0
+CORUM:306,Cytosolic ribosome,HGNC:10442,RPS9,essential_23q4,1.0
+CORUM:306,Cytosolic ribosome,HGNC:6502,RPSA,essential_23q4,1.0
+CORUM:306,Cytosolic ribosome,HGNC:12458,UBA52,essential_23q4,0.9991721854304636
+CORUM:181,26S proteasome,HGNC:9530,PSMA1,essential_23q4,1.0
+CORUM:181,26S proteasome,HGNC:9531,PSMA2,essential_23q4,0.9991721854304636
+CORUM:181,26S proteasome,HGNC:9532,PSMA3,essential_23q4,1.0
+CORUM:181,26S proteasome,HGNC:9533,PSMA4,essential_23q4,0.9975165562913907
+CORUM:181,26S proteasome,HGNC:9534,PSMA5,essential_23q4,0.9983443708609272
+CORUM:181,26S proteasome,HGNC:9535,PSMA6,essential_23q4,1.0
+CORUM:181,26S proteasome,HGNC:9536,PSMA7,essential_23q4,1.0
+CORUM:181,26S proteasome,HGNC:9537,PSMB1,essential_23q4,0.9892384105960265
+CORUM:181,26S proteasome,HGNC:9539,PSMB2,essential_23q4,1.0
+CORUM:181,26S proteasome,HGNC:9540,PSMB3,essential_23q4,1.0
+CORUM:181,26S proteasome,HGNC:9541,PSMB4,essential_23q4,1.0
+CORUM:181,26S proteasome,HGNC:9542,PSMB5,essential_23q4,0.9519867549668874
+CORUM:181,26S proteasome,HGNC:9543,PSMB6,essential_23q4,0.9668874172185431
+CORUM:181,26S proteasome,HGNC:9544,PSMB7,essential_23q4,0.9693708609271523
+CORUM:181,26S proteasome,HGNC:9547,PSMC1,essential_23q4,0.9660596026490066
+CORUM:181,26S proteasome,HGNC:9548,PSMC2,essential_23q4,0.9942052980132451
+CORUM:181,26S proteasome,HGNC:9549,PSMC3,essential_23q4,0.9991721854304636
+CORUM:181,26S proteasome,HGNC:9551,PSMC4,essential_23q4,0.9900662251655629
+CORUM:181,26S proteasome,HGNC:9552,PSMC5,essential_23q4,0.9975165562913907
+CORUM:181,26S proteasome,HGNC:9553,PSMC6,essential_23q4,0.9991721854304636
+CORUM:181,26S proteasome,HGNC:9558,PSMD13,essential_23q4,0.9933774834437086
+CORUM:181,26S proteasome,HGNC:9561,PSMD4,essential_23q4,0.9958609271523179
+CORUM:320,Mitochondrial ribosome,HGNC:2673,DAP3,essential_23q4,0.7847682119205298
+CORUM:320,Mitochondrial ribosome,HGNC:16631,KGD4,strongly_selective,0.1697019867549669
+CORUM:320,Mitochondrial ribosome,HGNC:16468,LACTB,unchanged,0.04470198675496689
+CORUM:320,Mitochondrial ribosome,HGNC:14275,MRPL1,strongly_selective,0.1490066225165563
+CORUM:320,Mitochondrial ribosome,HGNC:14055,MRPL10,essential_23q4,0.9279801324503312
+CORUM:320,Mitochondrial ribosome,HGNC:14042,MRPL11,unchanged,0.0695364238410596
+CORUM:320,Mitochondrial ribosome,HGNC:10378,MRPL12,unchanged,0.5190397350993378
+CORUM:320,Mitochondrial ribosome,HGNC:14278,MRPL13,unchanged,0.3253311258278146
+CORUM:320,Mitochondrial ribosome,HGNC:14279,MRPL14,unchanged,0.5099337748344371
+CORUM:320,Mitochondrial ribosome,HGNC:14054,MRPL15,unchanged,0.5281456953642384
+CORUM:320,Mitochondrial ribosome,HGNC:14476,MRPL16,newly_essential,0.6125827814569537
+CORUM:320,Mitochondrial ribosome,HGNC:14053,MRPL17,unchanged,0.5455298013245033
+CORUM:320,Mitochondrial ribosome,HGNC:14477,MRPL18,unchanged,0.5554635761589404
+CORUM:320,Mitochondrial ribosome,HGNC:14052,MRPL19,unchanged,0.41887417218543044
+CORUM:320,Mitochondrial ribosome,HGNC:14056,MRPL2,unchanged,0.48427152317880795
+CORUM:320,Mitochondrial ribosome,HGNC:14478,MRPL20,unchanged,0.4163907284768212
+CORUM:320,Mitochondrial ribosome,HGNC:14479,MRPL21,essential_23q4,0.8501655629139073
+CORUM:320,Mitochondrial ribosome,HGNC:14480,MRPL22,unchanged,0.3087748344370861
+CORUM:320,Mitochondrial ribosome,HGNC:10322,MRPL23,unchanged,0.36920529801324503
+CORUM:320,Mitochondrial ribosome,HGNC:14037,MRPL24,newly_essential,0.44370860927152317
+CORUM:320,Mitochondrial ribosome,HGNC:14483,MRPL27,essential_23q4,0.8302980132450332
+CORUM:320,Mitochondrial ribosome,HGNC:14484,MRPL28,newly_essential,0.5587748344370861
+CORUM:320,Mitochondrial ribosome,HGNC:10379,MRPL3,unchanged,0.5215231788079471
+CORUM:320,Mitochondrial ribosome,HGNC:14036,MRPL30,unchanged,0.10430463576158941
+CORUM:320,Mitochondrial ribosome,HGNC:14035,MRPL32,newly_essential,0.6374172185430463
+CORUM:320,Mitochondrial ribosome,HGNC:14487,MRPL33,newly_essential,0.8418874172185431
+CORUM:320,Mitochondrial ribosome,HGNC:14488,MRPL34,essential_23q4,0.8774834437086093
+CORUM:320,Mitochondrial ribosome,HGNC:14489,MRPL35,essential_23q4,0.7433774834437086
+CORUM:320,Mitochondrial ribosome,HGNC:14490,MRPL36,newly_essential,0.6399006622516556
+CORUM:320,Mitochondrial ribosome,HGNC:14034,MRPL37,unchanged,0.36341059602649006
+CORUM:320,Mitochondrial ribosome,HGNC:14033,MRPL38,essential_23q4,0.8220198675496688
+CORUM:320,Mitochondrial ribosome,HGNC:14027,MRPL39,newly_essential,0.6746688741721855
+CORUM:320,Mitochondrial ribosome,HGNC:14276,MRPL4,essential_23q4,0.8576158940397351
+CORUM:320,Mitochondrial ribosome,HGNC:14491,MRPL40,unchanged,0.2764900662251656
+CORUM:320,Mitochondrial ribosome,HGNC:14492,MRPL41,essential_23q4,0.8079470198675497
+CORUM:320,Mitochondrial ribosome,HGNC:14493,MRPL42,unchanged,0.08112582781456953
+CORUM:320,Mitochondrial ribosome,HGNC:14517,MRPL43,newly_essential,0.7798013245033113
+CORUM:320,Mitochondrial ribosome,HGNC:16650,MRPL44,unchanged,0.3783112582781457
+CORUM:320,Mitochondrial ribosome,HGNC:16651,MRPL45,essential_23q4,0.8832781456953642
+CORUM:320,Mitochondrial ribosome,HGNC:1192,MRPL46,unchanged,0.36009933774834435
+CORUM:320,Mitochondrial ribosome,HGNC:16652,MRPL47,unchanged,0.28394039735099336
+CORUM:320,Mitochondrial ribosome,HGNC:16653,MRPL48,unchanged,0.20281456953642385
+CORUM:320,Mitochondrial ribosome,HGNC:1176,MRPL49,essential_23q4,0.8360927152317881
+CORUM:320,Mitochondrial ribosome,HGNC:16654,MRPL50,newly_essential,0.5728476821192053
+CORUM:320,Mitochondrial ribosome,HGNC:14044,MRPL51,unchanged,0.3526490066225166
+CORUM:320,Mitochondrial ribosome,HGNC:16655,MRPL52,unchanged,0.06622516556291391
+CORUM:320,Mitochondrial ribosome,HGNC:16684,MRPL53,newly_essential,0.7889072847682119
+CORUM:320,Mitochondrial ribosome,HGNC:16685,MRPL54,newly_essential,0.41225165562913907
+CORUM:320,Mitochondrial ribosome,HGNC:16686,MRPL55,newly_essential,0.6887417218543046
+CORUM:320,Mitochondrial ribosome,HGNC:14277,MRPL9,newly_essential,0.4693708609271523
+CORUM:320,Mitochondrial ribosome,HGNC:14502,MRPS10,essential_23q4,0.6473509933774835
+CORUM:320,Mitochondrial ribosome,HGNC:14050,MRPS11,newly_essential,0.7557947019867549
+CORUM:320,Mitochondrial ribosome,HGNC:10380,MRPS12,newly_essential,0.6970198675496688
+CORUM:320,Mitochondrial ribosome,HGNC:14049,MRPS14,newly_essential,0.7210264900662252
+CORUM:320,Mitochondrial ribosome,HGNC:14504,MRPS15,unchanged,0.22847682119205298
+CORUM:320,Mitochondrial ribosome,HGNC:14048,MRPS16,newly_essential,0.7442052980132451
+CORUM:320,Mitochondrial ribosome,HGNC:14047,MRPS17,unchanged,0.20198675496688742
+CORUM:320,Mitochondrial ribosome,HGNC:14515,MRPS18A,essential_23q4,0.6730132450331126
+CORUM:320,Mitochondrial ribosome,HGNC:14516,MRPS18B,newly_essential,0.640728476821192
+CORUM:320,Mitochondrial ribosome,HGNC:16633,MRPS18C,unchanged,0.25165562913907286
+CORUM:320,Mitochondrial ribosome,HGNC:14495,MRPS2,unchanged,0.48841059602649006
+CORUM:320,Mitochondrial ribosome,HGNC:14046,MRPS21,essential_23q4,0.9776490066225165
+CORUM:320,Mitochondrial ribosome,HGNC:14508,MRPS22,essential_23q4,0.6349337748344371
+CORUM:320,Mitochondrial ribosome,HGNC:14509,MRPS23,newly_essential,0.8543046357615894
+CORUM:320,Mitochondrial ribosome,HGNC:14510,MRPS24,unchanged,0.4991721854304636
+CORUM:320,Mitochondrial ribosome,HGNC:14511,MRPS25,unchanged,0.5571192052980133
+CORUM:320,Mitochondrial ribosome,HGNC:14045,MRPS26,unchanged,0.46605960264900664
+CORUM:320,Mitochondrial ribosome,HGNC:14512,MRPS27,newly_essential,0.5769867549668874
+CORUM:320,Mitochondrial ribosome,HGNC:14513,MRPS28,newly_essential,0.3973509933774834
+CORUM:320,Mitochondrial ribosome,HGNC:8769,MRPS30,unchanged,0.3932119205298013
+CORUM:320,Mitochondrial ribosome,HGNC:16632,MRPS31,newly_essential,0.5231788079470199
+CORUM:320,Mitochondrial ribosome,HGNC:16634,MRPS33,unchanged,0.09271523178807947
+CORUM:320,Mitochondrial ribosome,HGNC:16618,MRPS34,newly_essential,0.7607615894039735
+CORUM:320,Mitochondrial ribosome,HGNC:16635,MRPS35,unchanged,0.4991721854304636
+CORUM:320,Mitochondrial ribosome,HGNC:14498,MRPS5,essential_23q4,0.7947019867549668
+CORUM:320,Mitochondrial ribosome,HGNC:14051,MRPS6,unchanged,0.6117549668874173
+CORUM:320,Mitochondrial ribosome,HGNC:14499,MRPS7,newly_essential,0.5405629139072847
+CORUM:320,Mitochondrial ribosome,HGNC:14501,MRPS9,unchanged,0.5049668874172185
+CORUM:178,Respiratory complex I,HGNC:7455,,not_in_cohort,
+CORUM:178,Respiratory complex I,HGNC:7456,,not_in_cohort,
+CORUM:178,Respiratory complex I,HGNC:7458,,not_in_cohort,
+CORUM:178,Respiratory complex I,HGNC:7460,,not_in_cohort,
+CORUM:178,Respiratory complex I,HGNC:7461,,not_in_cohort,
+CORUM:178,Respiratory complex I,HGNC:7462,,not_in_cohort,
+CORUM:178,Respiratory complex I,HGNC:7683,NDUFA1,unchanged,0.271523178807947
+CORUM:178,Respiratory complex I,HGNC:7684,NDUFA10,unchanged,0.271523178807947
+CORUM:178,Respiratory complex I,HGNC:20371,NDUFA11,newly_essential,0.6084437086092715
+CORUM:178,Respiratory complex I,HGNC:23987,NDUFA12,unchanged,0.0041390728476821195
+CORUM:178,Respiratory complex I,HGNC:17194,NDUFA13,essential_23q4,0.29718543046357615
+CORUM:178,Respiratory complex I,HGNC:7685,NDUFA2,newly_essential,0.48758278145695366
+CORUM:178,Respiratory complex I,HGNC:7686,NDUFA3,strongly_selective,0.17466887417218543
+CORUM:178,Respiratory complex I,HGNC:7687,NDUFA4,newly_essential,0.46605960264900664
+CORUM:178,Respiratory complex I,HGNC:7688,NDUFA5,strongly_selective,0.26490066225165565
+CORUM:178,Respiratory complex I,HGNC:7690,NDUFA6,newly_essential,0.5322847682119205
+CORUM:178,Respiratory complex I,HGNC:7691,NDUFA7,unchanged,0.0074503311258278145
+CORUM:178,Respiratory complex I,HGNC:7692,NDUFA8,strongly_selective,0.49834437086092714
+CORUM:178,Respiratory complex I,HGNC:7693,NDUFA9,strongly_selective,0.27897350993377484
+CORUM:178,Respiratory complex I,HGNC:7694,NDUFAB1,essential_23q4,0.7649006622516556
+CORUM:178,Respiratory complex I,HGNC:7695,NDUFB1,essential_23q4,0.774869109947644
+CORUM:178,Respiratory complex I,HGNC:7696,NDUFB10,essential_23q4,0.6597682119205298
+CORUM:178,Respiratory complex I,HGNC:20372,NDUFB11,strongly_selective,0.3054635761589404
+CORUM:178,Respiratory complex I,HGNC:7697,NDUFB2,unchanged,0.2326158940397351
+CORUM:178,Respiratory complex I,HGNC:7698,NDUFB3,essential_23q4,0.6266556291390728
+CORUM:178,Respiratory complex I,HGNC:7699,NDUFB4,essential_23q4,0.5885761589403974
+CORUM:178,Respiratory complex I,HGNC:7700,NDUFB5,unchanged,0.1837748344370861
+CORUM:178,Respiratory complex I,HGNC:7701,NDUFB6,unchanged,0.46771523178807944
+CORUM:178,Respiratory complex I,HGNC:7702,NDUFB7,newly_essential,0.5488410596026491
+CORUM:178,Respiratory complex I,HGNC:7703,NDUFB8,newly_essential,0.4461920529801324
+CORUM:178,Respiratory complex I,HGNC:7704,NDUFB9,essential_23q4,0.554635761589404
+CORUM:178,Respiratory complex I,HGNC:7705,NDUFC1,unchanged,0.20612582781456953
+CORUM:178,Respiratory complex I,HGNC:7706,NDUFC2,strongly_selective,0.39983443708609273
+CORUM:178,Respiratory complex I,HGNC:7707,NDUFS1,strongly_selective,0.40894039735099336
+CORUM:178,Respiratory complex I,HGNC:7708,NDUFS2,newly_essential,0.4644039735099338
+CORUM:178,Respiratory complex I,HGNC:7710,NDUFS3,unchanged,0.29304635761589404
+CORUM:178,Respiratory complex I,HGNC:7711,NDUFS4,strongly_selective,0.011589403973509934
+CORUM:178,Respiratory complex I,HGNC:7712,NDUFS5,newly_essential,0.7549668874172185
+CORUM:178,Respiratory complex I,HGNC:7713,NDUFS6,unchanged,0.0033112582781456954
+CORUM:178,Respiratory complex I,HGNC:7714,NDUFS7,strongly_selective,0.17963576158940397
+CORUM:178,Respiratory complex I,HGNC:7715,NDUFS8,newly_essential,0.5091059602649006
+CORUM:178,Respiratory complex I,HGNC:7716,NDUFV1,unchanged,0.2599337748344371
+CORUM:178,Respiratory complex I,HGNC:7717,NDUFV2,unchanged,0.26903973509933776
+CORUM:178,Respiratory complex I,HGNC:7719,NDUFV3,unchanged,0.0033112582781456954
+CORUM:7305,Cytochrome c oxidase,HGNC:2265,COX4I1,unchanged,0.28807947019867547
+CORUM:7305,Cytochrome c oxidase,HGNC:2267,COX5A,newly_essential,0.6697019867549668
+CORUM:7305,Cytochrome c oxidase,HGNC:2269,COX5B,newly_essential,0.581953642384106
+CORUM:7305,Cytochrome c oxidase,HGNC:2277,COX6A1,essential_23q4,0.5711920529801324
+CORUM:7305,Cytochrome c oxidase,HGNC:2280,COX6B1,unchanged,0.33774834437086093
+CORUM:7305,Cytochrome c oxidase,HGNC:2285,COX6C,newly_essential,0.5165562913907285
+CORUM:7305,Cytochrome c oxidase,HGNC:2288,COX7A2,strongly_selective,0.013054830287206266
+CORUM:7305,Cytochrome c oxidase,HGNC:2291,COX7B,essential_23q4,0.734271523178808
+CORUM:7305,Cytochrome c oxidase,HGNC:2292,COX7C,newly_essential,0.8385761589403974
+CORUM:7305,Cytochrome c oxidase,HGNC:2294,COX8A,unchanged,0.06705298013245033
+CORUM:7305,Cytochrome c oxidase,HGNC:29527,HIGD1A,strongly_selective,0.018211920529801324
+CORUM:7305,Cytochrome c oxidase,HGNC:7419,,not_in_cohort,
+CORUM:7305,Cytochrome c oxidase,HGNC:7421,,not_in_cohort,
+CORUM:7305,Cytochrome c oxidase,HGNC:7422,,not_in_cohort,
+CORUM:7305,Cytochrome c oxidase,HGNC:7687,NDUFA4,newly_essential,0.46605960264900664
+CORUM:7305,Cytochrome c oxidase,HGNC:40038,PET100,not_in_cohort,0.07201986754966887
+CORUM:7305,Cytochrome c oxidase,HGNC:40045,PET117,not_in_cohort,0.34678111587982835
+CORUM:7305,Cytochrome c oxidase,HGNC:9153,PNKD,unchanged,0.0033112582781456954

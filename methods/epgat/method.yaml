@@ -1,0 +1,26 @@
+schema_version: "1.0"
+method_id: epgat
+display_name: EPGAT
+publication: {year: 2022, doi: 10.1109/TCBB.2021.3054738}
+implementation: {class: clean_room_adapted_variant, source_commit: 5f107644b1d491eeae98924297469512c6529916}
+decision_threshold_source: fixed_0.5
+score_kind: probability
+inference_scope: network
+feature_contract:
+  availability_basis: expression
+  construction: fold_local_expression_orthology_localization_and_ppi
+  rebuild_command: python code/acquire_assets.py --output-directory feature/source/annotations
+  selected_feature_dimensions: 150
+  primary_input: feature/{dataset}/{split_strategy}/fold_{outer_fold}/features.parquet
+  expression_source: feature/source/expression/tcga_gene_by_sample.parquet
+  split_authority: egbench.data.folds_directory(cohort_id, split_strategy)
+  training_labels: [essential, nonessential]
+  auxiliary_labels: [excluded, uncertain]
+training:
+  early_stopping: validation class-balanced loss
+  patience_epochs: 100
+  checkpoint: parameters of the best epoch are restored before scoring
+
+trainable_parameters: 9859
+parameter_rule: >-
+  Neural network: number of elements of the trainable tensors in weights/ of the DEG protein-family folds, integer tensors and batch-normalisation buffers excluded; identical across the five folds

@@ -1,0 +1,27 @@
+cohort_id,task,genes,positives,feature,feature_name,feature_group,kind,statistic,point,half_width,p,positive_median,negative_median,positive_share,negative_share,holm_p
+deg,DEG,11216,1984,orth_count,HELP orth_count (number of orthologues),orthology,continuous,auroc,0.7680346039546878,0.010141126237317308,0.0,0.86515089921186,0.0490486867942432,,,0.0
+deg,DEG,11216,1984,yeast_ortholog,Has a Saccharomyces cerevisiae orthologue,orthology,binary,share_difference,0.4025147453457819,0.023025797314777892,2.870862707162261e-257,,,0.5493951612903226,0.14688041594454074,5.741725414324522e-257
+deg,DEG,11216,1984,fly_ortholog,Has a Drosophila melanogaster orthologue,orthology,binary,share_difference,0.38973748392687424,0.02019705169226692,5.1454932996e-313,,,0.797883064516129,0.40814558058925476,1.543647989885e-312
+deg,DEG,11216,1984,hagfish_ortholog,Has an Eptatretus burgeri orthologue,orthology,binary,share_difference,0.3813209314026947,0.019042335983172475,0.0,,,0.8366935483870968,0.45537261698440207,0.0
+deg,DEG,11216,1984,ortholog_species,Number of species with an orthologue (of 194),orthology,continuous,auroc,0.7437349478234891,0.011252434538087202,0.0,186.0,171.0,,,0.0
+deg,DEG,11216,1984,corum_count,Number of CORUM complexes,complex,continuous,auroc,0.774097704731439,0.011564228753100356,0.0,2.0,0.0,,,0.0
+deg,DEG,11216,1984,corum_any,Member of at least one CORUM complex,complex,binary,share_difference,0.5115368354111924,0.022113265379630195,0.0,,,0.6809475806451613,0.16941074523396882,0.0
+deg,DEG,11216,1984,cc_protein_complex,CCcfs protein-containing complex confidence,complex,continuous,auroc,0.8021816702161486,0.01102352109467365,0.0,1.387272171850002,-0.4085120592047896,,,0.0
+deg,DEG,11216,1984,biogrid,HELP BIOGRID (interaction records),interaction and pathway,continuous,auroc,0.8556394996628138,0.008324293500212677,0.0,0.4157758995760879,-0.3899002627462208,,,0.0
+deg,DEG,11216,1984,ppi_degree,BioGRID physical interaction degree,interaction and pathway,continuous,auroc,0.874455976014354,0.007446335329281516,0.0,105.0,16.0,,,0.0
+deg,DEG,11216,1984,reactome,HELP REACTOME (pathway records),interaction and pathway,continuous,auroc,0.5664700183792699,0.015480289513555474,3.902609558265344e-17,0.0,0.0,,,3.902609558265344e-17
+deg,DEG,11216,1984,gtex_median,HELP Gtex_median_expr (GTEx median expression),expression,continuous,auroc,0.7831374184550931,0.00970163421520065,0.0,-0.0215183828952438,-0.05127102162931415,,,0.0
+deg,DEG,11216,1984,tcga_median,TCGA median expression,expression,continuous,auroc,0.836452396904875,0.007871813557005017,0.0,9.95785543438224,6.918545318649597,,,0.0
+depmap,DepMap,13600,1786,orth_count,HELP orth_count (number of orthologues),orthology,continuous,auroc,0.7137672937625392,0.012180794800353315,2.8484898146190254e-259,0.8442252014575621,0.1327514778114347,,,1.7090938887714154e-258
+depmap,DepMap,13600,1786,yeast_ortholog,Has a Saccharomyces cerevisiae orthologue,orthology,binary,share_difference,0.37435731630492863,0.023872490462266187,1.9255201964517022e-207,,,0.5324748040313549,0.15811748772642628,9.627600982258511e-207
+depmap,DepMap,13600,1786,fly_ortholog,Has a Drosophila melanogaster orthologue,orthology,binary,share_difference,0.321191988323683,0.021555004751413188,1.651077967491551e-187,,,0.7637178051511758,0.4425258168274928,6.604311869966204e-187
+depmap,DepMap,13600,1786,hagfish_ortholog,Has an Eptatretus burgeri orthologue,orthology,binary,share_difference,0.302338448262363,0.020317709945941863,5.341915282339776e-187,,,0.8040313549832027,0.5016929067208397,1.6025745847019328e-186
+depmap,DepMap,13600,1786,ortholog_species,Number of species with an orthologue (of 194),orthology,continuous,auroc,0.6588542955185744,0.013459533136695132,2.196089094335822e-118,185.0,176.0,,,4.392178188671644e-118
+depmap,DepMap,13600,1786,corum_count,Number of CORUM complexes,complex,continuous,auroc,0.7418727444103272,0.012236767639625903,0.0,1.0,0.0,,,0.0
+depmap,DepMap,13600,1786,corum_any,Member of at least one CORUM complex,complex,binary,share_difference,0.4469960953191793,0.023058636276804868,7.17334687e-316,,,0.6746920492721165,0.22769595395293718,5.02134281e-315
+depmap,DepMap,13600,1786,cc_protein_complex,CCcfs protein-containing complex confidence,complex,continuous,auroc,0.7740206733673924,0.012203215001388518,0.0,1.390394068330491,-0.3106926361494581,,,0.0
+depmap,DepMap,13600,1786,biogrid,HELP BIOGRID (interaction records),interaction and pathway,continuous,auroc,0.8146260979485875,0.00976465546029678,0.0,0.3940008681619715,-0.3463501999179879,,,0.0
+depmap,DepMap,13600,1786,ppi_degree,BioGRID physical interaction degree,interaction and pathway,continuous,auroc,0.8285895451919838,0.009316505435119544,0.0,131.0,27.0,,,0.0
+depmap,DepMap,13600,1786,reactome,HELP REACTOME (pathway records),interaction and pathway,continuous,auroc,0.5800164067874753,0.015848631318263976,4.356641012583677e-23,0.0,0.0,,,4.356641012583677e-23
+depmap,DepMap,13600,1786,gtex_median,HELP Gtex_median_expr (GTEx median expression),expression,continuous,auroc,0.7608257877656115,0.011066663666413417,0.0,-0.0184659059353581,-0.048900893049944855,,,0.0
+depmap,DepMap,13600,1786,tcga_median,TCGA median expression,expression,continuous,auroc,0.7867369052338117,0.009789786361993524,0.0,9.927235180567674,7.576431810067165,,,0.0

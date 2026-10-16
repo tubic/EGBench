@@ -1,0 +1,29 @@
+schema_version: "1.0"
+method_id: proteomelm
+display_name: ProteomeLM-Ess
+publication: {year: 2026, doi: 10.1073/pnas.2524201123}
+implementation: {class: adapted_variant, source_commit: 0572ee117857f746b551a9ac2a497ab3b602362b}
+feature_contract:
+  availability_basis: sequence
+  construction: dynamic_esmc_600m_then_proteomelm_l_layer_8
+  feature_dimensions: 1152
+  primary_input: feature/{dataset}/{split_strategy}/fold_{outer_fold}/features.parquet
+  source_matrices: feature/source/{cohort_id}_features.parquet
+  source_gene_lists: feature/source/{cohort_id}_common_extractable_genes.parquet
+  model_asset: feature/source/model_assets/proteomelm_l
+  base_embedding_cache: feature/source/esmc_base_embeddings.parquet
+  rebuild_command:
+    - python acquire_assets.py --include-esmc
+    - python build_features.py --dataset deg --dataset depmap
+    - python ../derive_cohort_source_assets.py --cohort <cohort_id> --method proteomelm
+  split_authority: egbench.data.folds_directory(cohort_id, split_strategy)
+  training_labels: [essential, nonessential]
+  auxiliary_labels: [excluded, uncertain]
+decision_threshold_source: fixed_0.5
+score_kind: probability
+inference_scope: sequence
+
+trainable_parameters: 590849
+parameter_rule: >-
+  Neural network: number of elements of the trainable tensors in weights/ of the DEG protein-family folds, integer tensors and batch-normalisation buffers excluded; identical across the five folds
+frozen_upstream_parameters: 903205498

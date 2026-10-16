@@ -1,0 +1,13 @@
+criterion,gene_set,gene_count,study_a,study_b,essential_a,essential_b,intersection,union,jaccard
+own_paper_majority,benchmark_common,11216,Blomen 2015,Wang 2015,1756,1534,1366,1924,0.71
+own_paper_majority,benchmark_common,11216,Blomen 2015,Hart 2015,1756,1295,1142,1909,0.5982
+own_paper_majority,benchmark_common,11216,Wang 2015,Hart 2015,1534,1295,1074,1755,0.612
+own_paper_majority,candidate_universe,19450,Blomen 2015,Wang 2015,2500,1733,1414,2819,0.5016
+own_paper_majority,candidate_universe,19450,Blomen 2015,Hart 2015,2500,1333,1153,2680,0.4302
+own_paper_majority,candidate_universe,19450,Wang 2015,Hart 2015,1733,1333,1087,1979,0.5493
+source_set_union,benchmark_common,11216,Blomen 2015,Wang 2015,1756,1786,1583,1959,0.8081
+source_set_union,benchmark_common,11216,Blomen 2015,Hart 2015,1756,1909,1688,1977,0.8538
+source_set_union,benchmark_common,11216,Wang 2015,Hart 2015,1786,1909,1711,1984,0.8624
+source_set_union,candidate_universe,19450,Blomen 2015,Wang 2015,2500,2735,1786,3449,0.5178
+source_set_union,candidate_universe,19450,Blomen 2015,Hart 2015,2500,4424,1998,4926,0.4056
+source_set_union,candidate_universe,19450,Wang 2015,Hart 2015,2735,4424,2014,5145,0.3914

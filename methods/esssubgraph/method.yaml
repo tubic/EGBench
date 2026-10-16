@@ -1,0 +1,22 @@
+schema_version: "1.0"
+method_id: esssubgraph
+display_name: EssSubgraph
+publication: {year: 2025, doi: 10.1093/gigascience/giaf136}
+implementation: {class: adapted_variant, source_commit: 4906e7221b8a81b5ee398dbf77964303bbafff61}
+decision_threshold_source: fixed_0.5
+score_kind: probability
+inference_scope: network
+feature_contract:
+  availability_basis: expression
+  construction: fold_local_expression_pca_plus_ppi_graph
+  node_feature_dimensions: 50
+  primary_input: feature/{dataset}/{split_strategy}/fold_{outer_fold}/features.parquet
+  expression_source: feature/source/expression/tcga_gene_by_sample.parquet
+  graph_source: feature/source/network/biogrid_physical_edges.parquet
+  split_source: fold_genes/fold_{outer_fold}_genes.parquet under egbench.data.folds_directory(cohort_id, split_strategy)
+  training_labels: [essential, nonessential]
+  auxiliary_labels: [excluded, uncertain]
+
+trainable_parameters: 46081
+parameter_rule: >-
+  Neural network: number of elements of the trainable tensors in weights/ of the DEG protein-family folds, integer tensors and batch-normalisation buffers excluded; identical across the five folds

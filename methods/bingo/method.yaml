@@ -1,0 +1,31 @@
+schema_version: "1.0"
+method_id: bingo
+display_name: Bingo
+publication: {year: 2024, doi: 10.1093/bib/bbad472}
+implementation: {class: clean_room_adapted_variant, source_commit: fe8d579b6c1a0ea68a1c4f6a996b0037796a0375}
+decision_threshold_source: validation_mcc
+score_kind: probability
+inference_scope: sequence
+feature_contract:
+  availability_basis: sequence
+  construction: dynamic_esm2_residue_embeddings_and_contact_graph
+  primary_input: feature/{dataset}/{split_strategy}/fold_{outer_fold}/cache_index.parquet
+  shared_graph_cache: feature/source/esm2_graph_cache/graphs
+  shared_parent_index: feature/source/esm2_graph_cache/cache_index.parquet
+  rebuild_command:
+    - python code/acquire_assets.py --asset-dir feature/source/model_assets
+    - python cache_esm2_graphs.py --device cuda:0
+    - python ../derive_cohort_source_assets.py --cohort <cohort_id> --method bingo
+  split_authority: egbench.data.folds_directory(cohort_id, split_strategy)
+  inference_defaults: {token_budget: 1024, max_batch_size: 2}
+  training_labels: [essential, nonessential]
+  auxiliary_labels: [excluded, uncertain]
+determinism:
+  nondeterministic_operators:
+    - torch_geometric.nn.GATConv neighbour aggregation (torch_scatter scatter_add on CUDA)
+    - torch_geometric.nn.global_max_pool (torch_scatter segment reduction on CUDA)
+
+trainable_parameters: 6585633
+parameter_rule: >-
+  Neural network: number of elements of the trainable tensors in weights/ of the DEG protein-family folds, integer tensors and batch-normalisation buffers excluded; identical across the five folds
+frozen_upstream_parameters: 651085889

@@ -1,0 +1,22 @@
+# Exact versions of the cpu environment of agent/environments.json.
+# xgboost-cpu: the wheel named xgboost draws other row and column subsamples on the CPU, which changes the predictions of XGEP.
+biopython==1.86
+cloudpickle==3.1.2
+joblib==1.6.0
+lightgbm==4.6.0
+narwhals==2.25.0
+networkx==3.6.1
+numpy==2.4.6
+packaging==26.3
+pandas==2.3.3
+pyarrow==22.0.0
+python-dateutil==2.9.0.post0
+pytz==2026.3.post1
+scikit-learn==1.9.0
+scipy==1.17.1
+setuptools==84.0.0
+six==1.17.0
+threadpoolctl==3.6.0
+tzdata==2026.3
+wheel==0.48.0
+xgboost-cpu==3.2.0

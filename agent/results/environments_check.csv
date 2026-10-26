@@ -1,0 +1,16 @@
+method,environment,check,features,preflight,train,predict,genes,largest_absolute_difference,predict_vs_train_difference,auroc,published_auroc,auprc,published_auprc,metrics_identical,features_minutes,preflight_minutes,train_minutes,predict_minutes
+bingo,bingo,original weights,full,full,"started, ran 10.0 min without error, 13400 MiB, 172% CPU, 5.0 GB RSS; stopped",original weights of the fold,2244,1.1920928955078125e-07,,0.9233326832674404,0.9233326832674404,0.7271463461760336,0.7271463461760336,True,0.2,0.1,10.0,0.5
+deepcelless,torch,full,full,full,full,trained fold,2244,0.0,0.0,0.7822420181682053,0.7822420181682053,0.4849313904748135,0.4849313904748135,True,0.8,0.1,2.7,0.1
+deephe,torch,full,full,full,full,trained fold,2244,0.0,0.0,0.9236177121590052,0.9236177121590052,0.7578312974731474,0.7578312974731474,True,0.2,0.1,0.6,0.1
+deeplyessential,torch,full,full,full,full,trained fold,2244,0.0,0.0,0.8502343646651456,0.8502343646651456,0.5918086914502964,0.5918086914502964,True,0.4,0.1,1.8,0.1
+deepsnap,torch,full,full,full,full,trained fold,2244,0.0,1.1920928955078125e-07,0.9552545553481104,0.9552545553481104,0.8515490465917167,0.8515490465917167,True,2.2,0.1,2.4,0.6
+ednn_eg,torch,original weights,"started, ran 30.0 min without error, no GPU memory, 100% CPU, 0.5 GB RSS; stopped",full,"started on the original fold features, ran 10.0 min without error, 386 MiB, 100% CPU, 0.9 GB RSS; stopped",original weights of the fold,2244,0.0,,0.7760736656488362,0.7760736656488362,0.4127401765243366,0.4127401765243366,True,30.0,0.1,10.0,0.2
+epgat,torch,full,full,full,full,trained fold,2244,0.0,0.0,0.9333809745260544,0.9333809745260544,0.7879534557613298,0.7879534557613298,True,4.7,0.1,0.6,0.2
+esssubgraph,torch,full,full,full,full,trained fold,2244,0.0,0.0,0.9601355046443344,0.9601355046443344,0.835992500590996,0.835992500590996,True,4.2,0.1,0.6,0.2
+esstfnet,torch,full,full,full,full,trained fold,2244,0.0,0.0,0.8349682717839126,0.8349682717839126,0.5439637409807083,0.5439637409807083,True,11.3,0.1,3.8,0.6
+gcnn_sfm,torch,full,full,full,full,trained fold,2244,0.0,0.0,0.7314236852190017,0.7314236852190017,0.3794091819303195,0.3794091819303195,True,0.9,0.1,3.3,0.3
+help,cpu,full,full,full,full,trained fold,2244,0.0,0.0,0.9736082339255298,0.9736082339255298,0.8970187299778508,0.8970187299778508,True,0.4,0.1,0.8,0.1
+mahi,mahi,full,full,full,full,trained fold,2244,0.0,0.0,0.9739764530677428,0.9739764530677428,0.8935343024240393,0.8935343024240393,True,0.2,0.1,1.1,0.1
+pheg,cpu,full,full,full,full,trained fold,2244,2.220446049250313e-16,0.0,0.7729806248542466,0.7729806248542466,0.4527714459494713,0.4527714459494713,True,10.3,0.1,3.8,0.1
+proteomelm,proteomelm,full,full,full,full,trained fold,2244,0.0,0.0,0.9412158596075876,0.9412158596075876,0.7805988904532035,0.7805988904532035,True,0.2,0.1,0.1,0.1
+xgep,cpu,full,full,full,full,trained fold,2244,0.0,0.0,0.947419670266577,0.947419670266577,0.8153257593752753,0.8153257593752753,True,0.2,0.1,0.1,0.1

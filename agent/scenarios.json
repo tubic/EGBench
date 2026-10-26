@@ -1,0 +1,279 @@
+[
+  {
+    "id": "tasks_and_leaderboard",
+    "task": "Which tasks does EGBench contain? On the Mouse task, which predictor ranks first, what is its AUPRC, and is it significantly better than the predictor ranked second?",
+    "expect": [
+      [
+        "DEG"
+      ],
+      [
+        "DepMap"
+      ],
+      [
+        "Context"
+      ],
+      [
+        "GeneEffect"
+      ],
+      [
+        "Blood"
+      ],
+      [
+        "Mouse"
+      ],
+      [
+        "Mahi"
+      ],
+      [
+        "0.7236"
+      ],
+      [
+        "HELP"
+      ],
+      [
+        "not significant",
+        "not statistically significant",
+        "no significant",
+        "not distinguishable",
+        "indistinguishable"
+      ]
+    ]
+  },
+  {
+    "id": "explain_gene",
+    "prompt": "explain_gene",
+    "arguments": {
+      "gene": "DHFR"
+    },
+    "expect": [
+      [
+        "DHFR2"
+      ],
+      [
+        "89.5"
+      ],
+      [
+        "-0.8195",
+        "−0.8195"
+      ],
+      [
+        "EssTFNet"
+      ]
+    ]
+  },
+  {
+    "id": "predict_new_genes",
+    "task": "Use the manuscript's core feature set model trained on the DEG task to predict whether POLR2A, TP53, MYC, KRT1, OR1A1 and ZNF208 are essential. For each gene give its score and percentile and say how the score was made. How does the model's AUPRC on DEG compare with the best published predictor?",
+    "expect": [
+      [
+        "0.9141"
+      ],
+      [
+        "Mahi"
+      ],
+      [
+        "0.8881"
+      ],
+      [
+        "0.9953"
+      ],
+      [
+        "0.9377"
+      ],
+      [
+        "fold 0"
+      ]
+    ]
+  },
+  {
+    "id": "score_user_labels",
+    "task": "agent/examples/mouse_lethality_labels.csv lists mouse knockout calls for human genes by symbol (1 lethal, 0 viable). Which published predictor trained on the DEG task separates these labels best, with what AUPRC, and is it significantly better than the second best?",
+    "expect": [
+      [
+        "Mahi"
+      ],
+      [
+        "0.8178"
+      ],
+      [
+        "HELP"
+      ],
+      [
+        "0.8046"
+      ],
+      [
+        "not significant",
+        "not statistically significant",
+        "no significant",
+        "not distinguishable",
+        "indistinguishable"
+      ],
+      [
+        "4559",
+        "4,559"
+      ]
+    ]
+  },
+  {
+    "id": "train_on_user_labels",
+    "task": "agent/examples/mouse_lethality_labels.csv lists mouse knockout calls for human genes by symbol (1 lethal, 0 viable). Split these labels into five protein-family folds as a task named mouse_lethality, train the manuscript's core feature set model on that task, and tell me its AUPRC and AUROC with their intervals and how many test genes and lethal test genes each fold has. Then predict TP53, OR1A1 and POLR2A with the model.",
+    "expect": [
+      [
+        "0.7446"
+      ],
+      [
+        "0.8648"
+      ],
+      [
+        "0.8293"
+      ],
+      [
+        "0.0086"
+      ],
+      [
+        "0.9465"
+      ],
+      [
+        "1380",
+        "1,380"
+      ],
+      [
+        "389"
+      ]
+    ]
+  },
+  {
+    "id": "described_logistic",
+    "python": true,
+    "task": "On the DEG task, with the benchmark's five folds, train a logistic regression that uses the four hallmarks, the gene age layer and the logarithm of the PubMed count of each gene as features. In each fold fit it on the train genes and predict the test genes, save the test-fold predictions of all five folds in one table, check the table, score it, and tell me its AUPRC and AUROC with their intervals and its rank among the published predictors.",
+    "expect": [
+      [
+        "of 16",
+        "out of 16",
+        "/16",
+        "among 16",
+        "16 predictors"
+      ]
+    ]
+  },
+  {
+    "id": "described_forest",
+    "python": true,
+    "task": "On the DEG task, with the benchmark's five folds, train a random forest of 300 trees with a minimum of 5 genes per leaf on the four hallmarks, the gene age layer, the number of paralogues, the protein family size and the PubMed count of each gene. In each fold fit it on the train genes and predict the test genes, save the test-fold predictions of all five folds in one table, check the table, score it, and tell me its AUPRC and its rank among the published predictors and whether it is significantly worse than the best of them.",
+    "expect": [
+      [
+        "of 16",
+        "out of 16",
+        "/16",
+        "among 16",
+        "16 predictors"
+      ],
+      [
+        "Mahi"
+      ]
+    ]
+  },
+  {
+    "id": "flawed_table",
+    "prompt": "evaluate_new_predictor",
+    "arguments": {
+      "task": "deg",
+      "predictions_path": "agent/examples/deg_logistic_flawed.csv"
+    },
+    "expect": [
+      [
+        "HGNC:10861",
+        "ST6GAL2"
+      ],
+      [
+        "HGNC:16191",
+        "NKAIN4"
+      ],
+      [
+        "HGNC:621",
+        "NAE1"
+      ],
+      [
+        "HGNC:23640",
+        "ZNF322"
+      ],
+      [
+        "HGNC:1176",
+        "MRPL49"
+      ]
+    ]
+  },
+  {
+    "id": "gene_list_profile",
+    "task": "Describe these 20 genes from a screen the way the EGBench manuscript describes essential genes, compared with the genes of the DEG task: how many of the four hallmarks each carries, their gene age and how much they have been studied, and which biological processes and protein complexes are enriched among them. PSMA1, PSMB2, PSMC3, PSMD1, POLR2A, POLR2B, SF3B1, SNRPD1, RPL3, RPS6, EIF3A, CDK1, PLK1, MCM2, TP53, BRCA1, OR1A1, ZNF208, KRT1, CD4",
+    "expect": [
+      [
+        "13",
+        "65%",
+        "0.65"
+      ],
+      [
+        "Opisthokonta"
+      ],
+      [
+        "Q4"
+      ],
+      [
+        "proteasom"
+      ],
+      [
+        "PA700-20S-PA28",
+        "26S proteasome",
+        "20S proteasome"
+      ]
+    ]
+  },
+  {
+    "id": "stratified_evaluation",
+    "task": "Score the predictor in agent/examples/deg_logistic.csv on the DEG task separately in each quartile of research attention (PubMed literature count). In which quartile is its AUROC lowest, what is that AUROC, and which published predictor has the highest AUROC in that quartile?",
+    "expect": [
+      [
+        "Q2"
+      ],
+      [
+        "0.8031"
+      ],
+      [
+        "Mahi"
+      ],
+      [
+        "0.9307"
+      ]
+    ]
+  },
+  {
+    "id": "dependency_and_mouse",
+    "task": "For POLR2A, TP53, MYC, KRAS, BRAF, SF3B1, KRT1 and OR1A1, tell me which are common essential in DepMap and what the mean gene effect of MYC is, which lineage depends most on BRAF and with what share of cell lines, which genes have no DepMap measurement, and what the IMPC homozygous knockout call is for TP53, MYC, KRT1 and OR1A1.",
+    "expect": [
+      [
+        "-1.9871",
+        "−1.9871",
+        "-1.99",
+        "−1.99"
+      ],
+      [
+        "Skin"
+      ],
+      [
+        "0.67"
+      ],
+      [
+        "subviable"
+      ],
+      [
+        "lethal"
+      ],
+      [
+        "no one-to-one",
+        "no orthologue",
+        "no orthologous",
+        "no mouse orthologue"
+      ]
+    ]
+  }
+]

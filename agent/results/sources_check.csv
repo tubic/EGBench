@@ -1,0 +1,4 @@
+table,rows,original_rows,columns,original_columns,differing_columns,largest_absolute_difference,identical,bytes,minutes
+gene_reference,19158,19158,17,17,0,0,True,464355,1.0
+tcga_expression,18455,18455,9268,9268,0,0,True,554951638,0.9
+tcga_expression_qa.json,10,10,,,,,True,,

@@ -1,0 +1,35 @@
+item,original,comparison,rows,original_rows,columns,original_columns,differing_columns,differing_rows,differing_values,largest_absolute_difference,identical
+gene_reference,deephe/feature/source/gene_id_map.parquet,bytes,19158,19158,17,17,0,,,,True
+gene_reference,deepsnap/feature/source/gene_reference/gene_id_map.parquet,bytes,19158,19158,17,17,0,,,,True
+gene_reference,xgep/feature/source/gene_id_map.parquet,bytes,19158,19158,17,17,0,,,,True
+tcga_expression,epgat/feature/source/expression/tcga_gene_by_sample.parquet,bytes,18455,18455,9268,9268,0,,,,True
+tcga_expression,esssubgraph/feature/source/expression/tcga_gene_by_sample.parquet,bytes,18455,18455,9268,9268,0,,,,True
+biogrid_edges,deephe/feature/source/biogrid_physical_edges.parquet,"values of gene_key_a, gene_key_b, source_record_count",935203,935203,3,3,0,0,0,0,True
+biogrid_edges,deepsnap/feature/source/network/biogrid_physical_edges.parquet,"values of gene_key_a, gene_key_b, source_record_count",935203,935203,3,3,0,0,0,0,True
+biogrid_edges,epgat/feature/source/network/biogrid_physical_edges.parquet,"values of gene_key_a, gene_key_b, source_record_count",935203,935203,3,3,0,0,0,0,True
+biogrid_edges,esssubgraph/feature/source/network/biogrid_physical_edges.parquet,"values of gene_key_a, gene_key_b, source_record_count",935203,935203,3,3,0,0,0,0,True
+hgnc,mahi/feature/source/gene_reference/hgnc_complete_set_2026-07-07.txt,bytes,,,,,0,,,,True
+goa_human,deepsnap/feature/source/annotations/goa_human.gaf.gz,bytes,,,,,0,,,,True
+corum,deepsnap/feature/source/annotations/corum_human_complexes.tsv,bytes,,,,,0,,,,True
+ensembl_pfam,deepsnap/feature/source/annotations/ensembl_116_human_pfam.tsv,bytes,,,,,0,,,,True
+xgep_essential,xgep/feature/source/vendor/Essential_genes_pancancer_emb_len150,bytes,,,,,0,,,,True
+xgep_nonessential,xgep/feature/source/vendor/Non_essential_genes_pancancer_emb_len150,bytes,,,,,0,,,,True
+xgep_prediction,xgep/feature/source/vendor/Genes_for_prediction_pancancer_emb_len150,bytes,,,,,0,,,,True
+epgat_static,epgat/feature/source/generated/epgat_static.parquet,bytes,19158,19158,208,208,0,,,,True
+xgep_150,xgep/feature/source/xgep_150.parquet,bytes,17621,17621,151,151,0,,,,True
+help_features,help/feature/source/help_features_gene_map.parquet,bytes,19158,19158,3448,3448,0,,,,True
+node2vec_64,deephe/feature/source/node2vec_64.parquet,bytes,19158,19158,65,65,0,,,,True
+node2vec_64,deepsnap/feature/source/network/node2vec_64.parquet,bytes,19158,19158,65,65,0,,,,True
+mahi_global_context,mahi/feature/source/embeddings/mahi_global_context.parquet,bytes,19073,19073,3,3,0,,,,True
+mahi_features,mahi/feature/source/blood/features.parquet,bytes,16978,16978,2,2,0,,,,True
+mahi_features,mahi/feature/source/context/features.parquet,bytes,16978,16978,2,2,0,,,,True
+mahi_features,mahi/feature/source/deg/features.parquet,bytes,18985,18985,2,2,0,,,,True
+mahi_features,mahi/feature/source/depmap/features.parquet,bytes,18312,18312,2,2,0,,,,True
+mahi_features,mahi/feature/source/depmap_23q4/features.parquet,bytes,16978,16978,2,2,0,,,,True
+mahi_features,mahi/feature/source/mouse/features.parquet,bytes,16978,16978,2,2,0,,,,True
+repository file datasets/DEG/data/gene_universe.parquet,esssubgraph/feature/source/datasets/deg_gene_universe.parquet,bytes,19450,19450,14,14,0,,,,True
+repository file datasets/DepMap/data/depmap26q1_gene_universe.parquet,esssubgraph/feature/source/datasets/depmap_gene_universe.parquet,bytes,18467,18467,13,13,0,,,,True
+repository file datasets/DEG/data/gene_universe.parquet,mahi/feature/source/datasets/deg_gene_universe.parquet,bytes,19450,19450,14,14,0,,,,True
+repository file datasets/DepMap/data/depmap26q1_gene_universe.parquet,mahi/feature/source/datasets/depmap_gene_universe.parquet,bytes,18467,18467,13,13,0,,,,True
+deepsnap_source_manifest,deepsnap/feature/source/annotations/source_manifest.json,"sha256 of goa_human, corum_human, ensembl_biomart_pfam",,,,,,,0,,True
+epgat_static from COMPARTMENTS of SHA-256 4d5111723a30,epgat/feature/source/generated/epgat_static.parquet,values of the localisation columns,19158,19158,12,12,12,14860,55573,5,False

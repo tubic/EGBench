@@ -1,0 +1,198 @@
+{
+  "model": "qwen3.8-27b",
+  "sampling": {
+    "temperature": 0.6,
+    "top_p": 0.95,
+    "top_k": 20,
+    "seed": 2026,
+    "max_tokens": 32768
+  },
+  "mcp_version": "2.3.0",
+  "server_command": "python <repository>/agent/server.py",
+  "task": "For POLR2A, TP53, MYC, KRAS, BRAF, SF3B1, KRT1 and OR1A1, tell me which are common essential in DepMap and what the mean gene effect of MYC is, which lineage depends most on BRAF and with what share of cell lines, which genes have no DepMap measurement, and what the IMPC homozygous knockout call is for TP53, MYC, KRT1 and OR1A1.",
+  "prompt": null,
+  "max_steps": 30,
+  "started_at": "2026-10-26T15:01:57+08:00",
+  "server": {
+    "name": "egbench",
+    "version": "0.1.0",
+    "protocol_version": "2026-07-28",
+    "instructions": "EGBench benchmarks 15 published predictors of human gene essentiality on six tasks\n(DEG, DepMap, Context, GeneEffect, Blood, Mouse) plus the DepMap 23Q4 labels of the\nprospective validation. Genes are split into five folds by protein family, so the genes\nof one family never sit on both sides of a split; every gene is a test gene in exactly\none fold. Binary tasks are scored by AUPRC (AUROC is reported too), GeneEffect by the\nSpearman correlation; intervals are point ± half-width of the 95% gene-level bootstrap\ninterval within folds. Start with list_tasks. To evaluate a new predictor: get_fold for\neach fold, train outside this server, write the test predictions of the five folds to one\nCSV with the columns gene_key, y_score, outer_fold, then check_predictions, evaluate and\ncompare. For labels of the user's own, make_task splits them into folds by protein family\nand score_labels shows which published predictor fits them best. These tools need no\ndownloads. The tools of layer 1 read public data that is downloaded on first use:\nannotate_genes and enrichment describe a list of genes as the manuscript does,\nevaluate_by_strata scores predictions within groups of genes, and core_model trains the\nmanuscript's core feature set model on a task to predict other genes. A tool that lacks\nits data returns what is missing instead of a result; call fetch_external with the items\nit names, then call the tool again. layer_status shows what every tool needs. One step\nbelongs to the user: the three DepMap files, which only a browser can download. Pass on the\npage and the path that fetch_external gives, and call it again once the user has saved them.\nThe first call of a layer-1 tool builds tables and the first call of core_model on a task trains\nfor minutes; tell the user before such a call, since a client may stop a call that outlasts\nits time limit. Genes are named by HGNC identifiers such as HGNC:9187; the\ntools also accept symbols. Report numbers as the tools return them."
+  },
+  "tools": [
+    "list_tasks",
+    "get_fold",
+    "leaderboard",
+    "gene_profile",
+    "check_predictions",
+    "evaluate",
+    "compare",
+    "make_task",
+    "score_labels",
+    "fetch_external",
+    "layer_status",
+    "annotate_genes",
+    "enrichment",
+    "evaluate_by_strata",
+    "core_model",
+    "read_resource"
+  ],
+  "resources": [
+    "egbench://methods/bingo",
+    "egbench://methods/deepcelless",
+    "egbench://methods/deephe",
+    "egbench://methods/deeplyessential",
+    "egbench://methods/deepsnap",
+    "egbench://methods/ednn_eg",
+    "egbench://methods/epgat",
+    "egbench://methods/esssubgraph",
+    "egbench://methods/esstfnet",
+    "egbench://methods/gcnn_sfm",
+    "egbench://methods/help",
+    "egbench://methods/mahi",
+    "egbench://methods/pheg",
+    "egbench://methods/proteomelm",
+    "egbench://methods/xgep",
+    "egbench://readme",
+    "egbench://agent-readme"
+  ],
+  "initial_messages": [
+    {
+      "role": "system",
+      "content": "You are a research assistant. You can call the tools of an MCP server. Use the tools to obtain the information you need before you answer. Report numbers exactly as the tools return them and never invent any. Answer in the language of the user.\n\nThe MCP server describes itself as follows:\nEGBench benchmarks 15 published predictors of human gene essentiality on six tasks\n(DEG, DepMap, Context, GeneEffect, Blood, Mouse) plus the DepMap 23Q4 labels of the\nprospective validation. Genes are split into five folds by protein family, so the genes\nof one family never sit on both sides of a split; every gene is a test gene in exactly\none fold. Binary tasks are scored by AUPRC (AUROC is reported too), GeneEffect by the\nSpearman correlation; intervals are point ± half-width of the 95% gene-level bootstrap\ninterval within folds. Start with list_tasks. To evaluate a new predictor: get_fold for\neach fold, train outside this server, write the test predictions of the five folds to one\nCSV with the columns gene_key, y_score, outer_fold, then check_predictions, evaluate and\ncompare. For labels of the user's own, make_task splits them into folds by protein family\nand score_labels shows which published predictor fits them best. These tools need no\ndownloads. The tools of layer 1 read public data that is downloaded on first use:\nannotate_genes and enrichment describe a list of genes as the manuscript does,\nevaluate_by_strata scores predictions within groups of genes, and core_model trains the\nmanuscript's core feature set model on a task to predict other genes. A tool that lacks\nits data returns what is missing instead of a result; call fetch_external with the items\nit names, then call the tool again. layer_status shows what every tool needs. One step\nbelongs to the user: the three DepMap files, which only a browser can download. Pass on the\npage and the path that fetch_external gives, and call it again once the user has saved them.\nThe first call of a layer-1 tool builds tables and the first call of core_model on a task trains\nfor minutes; tell the user before such a call, since a client may stop a call that outlasts\nits time limit. Genes are named by HGNC identifiers such as HGNC:9187; the\ntools also accept symbols. Report numbers as the tools return them."
+    },
+    {
+      "role": "user",
+      "content": "For POLR2A, TP53, MYC, KRAS, BRAF, SF3B1, KRT1 and OR1A1, tell me which are common essential in DepMap and what the mean gene effect of MYC is, which lineage depends most on BRAF and with what share of cell lines, which genes have no DepMap measurement, and what the IMPC homozygous knockout call is for TP53, MYC, KRT1 and OR1A1."
+    }
+  ],
+  "steps": [
+    {
+      "step": 1,
+      "seconds": 6.012,
+      "usage": {
+        "prompt_tokens": 6718,
+        "total_tokens": 7028,
+        "completion_tokens": 310,
+        "prompt_tokens_details": null,
+        "completion_tokens_details": {
+          "reasoning_tokens": 293
+        }
+      },
+      "timings": null,
+      "finish_reason": "tool_calls",
+      "reasoning_content": "The user is asking about the DepMap dependency aspect and the mouse IMPC aspect for a specific set of genes: POLR2A, TP53, MYC, KRAS, BRAF, SF3B1, KRT1, OR1A1.\n\nWhat's being requested:\n1. Which of these are \"common essential\" in DepMap\n2. The mean gene effect of MYC\n3. The lineage that most depends on BRAF and the proportion of cell lines\n4. Which genes have no DepMap measurement\n5. The IMPC homozygous knockout calls for TP53, MYC, KRT1, OR1A1\n\nThese correspond to annotate_genes with aspect=dependency (for 1–4) and aspect=mouse (for 5).\n\nFirst, I should check layer_status to see whether the required data has been downloaded. The dependency aspect requires the DepMap 26Q1 file, and the mouse aspect requires the IMPC and Ensembl files. Let me check layer_status first.\n\nActually, I could just call annotate_genes directly — if data is missing, the tool will tell me what to fetch. But it's better to check layer_status first to know what's needed. Let's do both: call layer_status, and if ready, call annotate_genes with aspect=dependency and aspect=mouse.\n\nLet's start with layer_status first.\n",
+      "content": null,
+      "tool_calls": [
+        {
+          "id": "chatcmpl-tool-89e52c1e043aad08",
+          "type": "function",
+          "function": {
+            "name": "layer_status",
+            "arguments": "{}"
+          }
+        }
+      ],
+      "tool_results": [
+        {
+          "name": "layer_status",
+          "arguments": {},
+          "seconds": 0.007,
+          "is_error": false,
+          "result": "{\n  \"data_root\": \"<data root>\",\n  \"layer_0\": {\n    \"needs\": \"no downloads\",\n    \"ready\": true\n  },\n  \"layer_1\": {\n    \"needs\": \"public downloads, CPU\",\n    \"missing_downloads\": [],\n    \"download_megabytes\": 0.0,\n    \"tools\": {\n      \"annotate_genes\": {\n        \"ready\": true\n      },\n      \"annotate_genes:dependency\": {\n        \"ready\": true\n      },\n      \"annotate_genes:mouse\": {\n        \"ready\": true\n      },\n      \"enrichment\": {\n        \"ready\": true\n      },\n      \"evaluate_by_strata\": {\n        \"ready\": true\n      },\n      \"core_model\": {\n        \"ready\": true\n      }\n    }\n  }\n}"
+        }
+      ]
+    },
+    {
+      "step": 2,
+      "seconds": 3.692,
+      "usage": {
+        "prompt_tokens": 6955,
+        "total_tokens": 7133,
+        "completion_tokens": 178,
+        "prompt_tokens_details": null,
+        "completion_tokens_details": {
+          "reasoning_tokens": 28
+        }
+      },
+      "timings": null,
+      "finish_reason": "tool_calls",
+      "reasoning_content": "All the data is ready. Next, I'll call annotate_genes with aspect=dependency and aspect=mouse for the 8 genes.\n",
+      "content": "All data is in place, so I can query the gene annotations directly.",
+      "tool_calls": [
+        {
+          "id": "chatcmpl-tool-8f61bff447c17466",
+          "type": "function",
+          "function": {
+            "name": "annotate_genes",
+            "arguments": "{\"genes\": \"POLR2A,TP53,MYC,KRAS,BRAF,SF3B1,KRT1,OR1A1\", \"aspect\": \"dependency\"}"
+          }
+        },
+        {
+          "id": "chatcmpl-tool-8e7dd5115f042d46",
+          "type": "function",
+          "function": {
+            "name": "annotate_genes",
+            "arguments": "{\"genes\": \"POLR2A,TP53,MYC,KRAS,BRAF,SF3B1,KRT1,OR1A1\", \"aspect\": \"mouse\"}"
+          }
+        }
+      ],
+      "tool_results": [
+        {
+          "name": "annotate_genes",
+          "arguments": {
+            "genes": "POLR2A,TP53,MYC,KRAS,BRAF,SF3B1,KRT1,OR1A1",
+            "aspect": "dependency"
+          },
+          "seconds": 0.426,
+          "is_error": false,
+          "result": "{\n  \"task\": \"deg\",\n  \"aspect\": \"dependency\",\n  \"genes\": 8,\n  \"in_task\": 2,\n  \"summary\": {\n    \"measured_in_depmap\": 7,\n    \"gene_effect_median\": {\n      \"list\": -0.1796,\n      \"task\": -0.0302\n    },\n    \"dependency_breadth\": [\n      {\n        \"band\": \"0\",\n        \"list_share\": 0.1429,\n        \"task_share\": 0.2827\n      },\n      {\n        \"band\": \"0-1%\",\n        \"list_share\": 0.2857,\n        \"task_share\": 0.4025\n      },\n      {\n        \"band\": \"1-10%\",\n        \"list_share\": 0.1429,\n        \"task_share\": 0.119\n      },\n      {\n        \"band\": \"10-50%\",\n        \"list_share\": 0.0,\n        \"task_share\": 0.0574\n      },\n      {\n        \"band\": \"50-90%\",\n        \"list_share\": 0.1429,\n        \"task_share\": 0.0498\n      },\n      {\n        \"band\": \">90%\",\n        \"list_share\": 0.2857,\n        \"task_share\": 0.0886\n      }\n    ],\n    \"depmap_class\": {\n      \"common essential\": 3,\n      \"neither\": 2,\n      \"strongly selective\": 2\n    },\n    \"lineages_most_dependent\": [\n      {\n        \"lineage\": \"Skin\",\n        \"list_mean_share\": 0.4514,\n        \"task_mean_share\": 0.1447\n      },\n      {\n        \"lineage\": \"Bowel\",\n        \"list_mean_share\": 0.4444,\n        \"task_mean_share\": 0.1393\n      },\n      {\n        \"lineage\": \"Pancreas\",\n        \"list_mean_share\": 0.4286,\n        \"task_mean_share\": 0.1424\n      },\n      {\n        \"lineage\": \"Biliary Tract\",\n        \"list_mean_share\": 0.395,\n        \"task_mean_share\": 0.1448\n      },\n      {\n        \"lineage\": \"Myeloid\",\n        \"list_mean_share\": 0.3937,\n        \"task_mean_share\": 0.1475\n      }\n    ]\n  },\n  \"records\": [\n    {\n      \"gene_key\": \"HGNC:9187\",\n      \"symbol\": \"POLR2A\",\n      \"gene_effect_mean\": null,\n      \"dependent_share\": null,\n      \"dependency_lines\": null,\n      \"dependency_breadth\": null,\n      \"depmap_class\": null,\n      \"lineages_most_dependent\": null,\n      \"lineages_at_least_half\": null\n    },\n    {\n      \"gene_key\": \"HGNC:11998\",\n      \"symbol\": \"TP53\",\n      \"gene_effect_mean\": 0.4242,\n      \"dependent_share\": 0.0041,\n      \"dependency_lines\": 1208,\n      \"dependency_breadth\": \"0-1%\",\n      \"depmap_class\": \"neither\",\n      \"lineages_most_dependent\": \"Kidney 0.03, Myeloid 0.02, Breast 0.02\",\n      \"lineages_at_least_half\": 0\n    },\n    {\n      \"gene_key\": \"HGNC:7553\",\n      \"symbol\": \"MYC\",\n      \"gene_effect_mean\": -1.9871,\n      \"dependent_share\": 0.9536,\n      \"dependency_lines\": 1208,\n      \"dependency_breadth\": \">90%\",\n      \"depmap_class\": \"common essential\",\n      \"lineages_most_dependent\": \"Lymphoid 1.00, Skin 1.00, Esophagus/Stomach 1.00\",\n      \"lineages_at_least_half\": 17\n    },\n    {\n      \"gene_key\": \"HGNC:6407\",\n      \"symbol\": \"KRAS\",\n      \"gene_effect_mean\": -0.7249,\n      \"dependent_share\": 0.5762,\n      \"dependency_lines\": 1208,\n      \"dependency_breadth\": \"50-90%\",\n      \"depmap_class\": \"common essential\",\n      \"lineages_most_dependent\": \"Pancreas 0.96, Bowel 0.87, Soft Tissue 0.73\",\n      \"lineages_at_least_half\": 12\n    },\n    {\n      \"gene_key\": \"HGNC:1097\",\n      \"symbol\": \"BRAF\",\n      \"gene_effect_mean\": -0.1796,\n      \"dependent_share\": 0.0952,\n      \"dependency_lines\": 1208,\n      \"dependency_breadth\": \"1-10%\",\n      \"depmap_class\": \"strongly selective\",\n      \"lineages_most_dependent\": \"Skin 0.67, Bowel 0.29, Biliary Tract 0.12\",\n      \"lineages_at_least_half\": 1\n    },\n    {\n      \"gene_key\": \"HGNC:10768\",\n      \"symbol\": \"SF3B1\",\n      \"gene_effect_mean\": -1.4627,\n      \"dependent_share\": 0.9967,\n      \"dependency_lines\": 1208,\n      \"dependency_breadth\": \">90%\",\n      \"depmap_class\": \"common essential\",\n      \"lineages_most_dependent\": \"Lung 1.00, Lymphoid 1.00, CNS/Brain 1.00\",\n      \"lineages_at_least_half\": 18\n    },\n    {\n      \"gene_key\": \"HGNC:6412\",\n      \"symbol\": \"KRT1\",\n      \"gene_effect_mean\": -0.0432,\n      \"dependent_share\": 0.0033,\n      \"dependency_lines\": 1208,\n      \"dependency_breadth\": \"0-1%\",\n      \"depmap_class\": \"strongly selective\",\n      \"lineages_most_dependent\": \"Bone 0.02, Lung 0.01\",\n      \"lineages_at_least_half\": 0\n    },\n    {\n      \"gene_key\": \"HGNC:8179\",\n      \"symbol\": \"OR1A1\",\n      \"gene_effect_mean\": -0.0218,\n      \"dependent_share\": 0.0,\n      \"dependency_lines\": 1090,\n      \"dependency_breadth\": \"0\",\n      \"depmap_class\": \"neither\",\n      \"lineages_most_dependent\": null,\n      \"lineages_at_least_half\": 0\n    }\n  ]\n}"
+        },
+        {
+          "name": "annotate_genes",
+          "arguments": {
+            "genes": "POLR2A,TP53,MYC,KRAS,BRAF,SF3B1,KRT1,OR1A1",
+            "aspect": "mouse"
+          },
+          "seconds": 0.059,
+          "is_error": false,
+          "result": "{\n  \"task\": \"deg\",\n  \"aspect\": \"mouse\",\n  \"genes\": 8,\n  \"in_task\": 2,\n  \"summary\": {\n    \"impc_viability\": {\n      \"not phenotyped\": 4,\n      \"subviable\": 1,\n      \"lethal\": 1,\n      \"viable\": 1,\n      \"no one-to-one orthologue\": 1\n    },\n    \"lethal_stage\": {\n      \"unstaged\": 1\n    },\n    \"task_lethal_share_of_viable_or_lethal\": 0.2346,\n    \"task_lethal_stage_share\": {\n      \"unstaged\": 0.4306,\n      \"before_organogenesis\": 0.383,\n      \"after_e12\": 0.11,\n      \"during_organogenesis\": 0.0764\n    },\n    \"stage_meanings\": {\n      \"before_organogenesis\": \"embryonic lethal before organogenesis (MP:0013292)\",\n      \"during_organogenesis\": \"embryonic lethal during organogenesis (MP:0006207 or MP:0013293)\",\n      \"after_e12\": \"lethal after E12.5: homozygous embryos recorded at E14.5 to E15.5 or E18.5, or MP:0013294\",\n      \"unstaged\": \"a prenatal to preweaning lethality term but no homozygous embryo record; left out of stage comparisons\",\n      \"embryonic_unstaged\": \"embryonic lethality (MP:0008762) without a stage\",\n      \"no_lethal_assertion\": \"lethal viability call without a lethality phenotype term\"\n    }\n  },\n  \"records\": [\n    {\n      \"gene_key\": \"HGNC:9187\",\n      \"symbol\": \"POLR2A\",\n      \"mouse_gene\": \"Polr2a\",\n      \"mgi_id\": \"MGI:98086\",\n      \"impc_viability\": \"not phenotyped\",\n      \"impc_lethal_stage\": null\n    },\n    {\n      \"gene_key\": \"HGNC:11998\",\n      \"symbol\": \"TP53\",\n      \"mouse_gene\": \"Trp53\",\n      \"mgi_id\": \"MGI:98834\",\n      \"impc_viability\": \"subviable\",\n      \"impc_lethal_stage\": null\n    },\n    {\n      \"gene_key\": \"HGNC:7553\",\n      \"symbol\": \"MYC\",\n      \"mouse_gene\": \"Myc\",\n      \"mgi_id\": \"MGI:97250\",\n      \"impc_viability\": \"lethal\",\n      \"impc_lethal_stage\": \"unstaged\"\n    },\n    {\n      \"gene_key\": \"HGNC:6407\",\n      \"symbol\": \"KRAS\",\n      \"mouse_gene\": \"Kras\",\n      \"mgi_id\": \"MGI:96680\",\n      \"impc_viability\": \"not phenotyped\",\n      \"impc_lethal_stage\": null\n    },\n    {\n      \"gene_key\": \"HGNC:1097\",\n      \"symbol\": \"BRAF\",\n      \"mouse_gene\": \"Braf\",\n      \"mgi_id\": \"MGI:88190\",\n      \"impc_viability\": \"not phenotyped\",\n      \"impc_lethal_stage\": null\n    },\n    {\n      \"gene_key\": \"HGNC:10768\",\n      \"symbol\": \"SF3B1\",\n      \"mouse_gene\": \"Sf3b1\",\n      \"mgi_id\": \"MGI:1932339\",\n      \"impc_viability\": \"not phenotyped\",\n      \"impc_lethal_stage\": null\n    },\n    {\n      \"gene_key\": \"HGNC:6412\",\n      \"symbol\": \"KRT1\",\n      \"mouse_gene\": \"Krt1\",\n      \"mgi_id\": \"MGI:96698\",\n      \"impc_viability\": \"viable\",\n      \"impc_lethal_stage\": null\n    },\n    {\n      \"gene_key\": \"HGNC:8179\",\n      \"symbol\": \"OR1A1\",\n      \"mouse_gene\": null,\n      \"mgi_id\": null,\n      \"impc_viability\": \"no one-to-one orthologue\",\n      \"impc_lethal_stage\": null\n    }\n  ]\n}"
+        }
+      ]
+    },
+    {
+      "step": 3,
+      "seconds": 10.36,
+      "usage": {
+        "prompt_tokens": 9934,
+        "total_tokens": 10532,
+        "completion_tokens": 598,
+        "prompt_tokens_details": null,
+        "completion_tokens_details": {
+          "reasoning_tokens": 129
+        }
+      },
+      "timings": null,
+      "finish_reason": "stop",
+      "reasoning_content": "All the necessary information is in place. Let me summarize:\n\nCommonly essential in DepMap: MYC, KRAS, SF3B1 (3 out of 8).\nMYC's mean gene effect: -1.9871.\nBRAF's most dependent lineage: Skin, 0.67 (67%).\nNo DepMap measurement: POLR2A (all fields are null).\nIMPC: TP53 is subviable, MYC is lethal (stage not recorded), KRT1 is viable, OR1A1 has no 1:1 ortholog.\n",
+      "content": "\n\nHere's what the DepMap 26Q1 and IMPC data show for your eight genes:\n\n**Common essential in DepMap (3 of 8):**\n- **MYC** — mean gene effect **−1.9871**, dependent in 95.36% of measured lines (1208), breadth >90%\n- **KRAS** — mean gene effect −0.7249, dependent in 57.62% of lines, breadth 50–90%\n- **SF3B1** — mean gene effect −1.4627, dependent in 99.67% of lines, breadth >90%\n\n**BRAF's most dependent lineage:** **Skin**, with **67%** (0.67) of skin cell lines dependent (followed by Bowel 0.29 and Biliary Tract 0.12). BRAF overall is classified *strongly selective* (dependent share 9.52%, breadth 1–10%).\n\n**No DepMap measurement:** **POLR2A** — it is the only one of the eight with no gene effect, dependent share or lineage data. (The other seven were measured; OR1A1 was measured in 1090 lines with a dependent share of 0.)\n\n**IMPC homozygous knockout calls:**\n- **TP53** (Trp53): **subviable**\n- **MYC** (Myc): **lethal** (stage unstaged)\n- **KRT1** (Krt1): **viable**\n- **OR1A1**: **no one-to-one mouse orthologue** (no IMPC call possible)\n\nFor context, the remaining genes: TP53 is \"neither\" in DepMap (mean effect +0.4242, dependent share 0.41%), KRT1 is \"strongly selective\" (−0.0432, 0.33% of lines), and OR1A1 is \"neither\" (−0.0218, 0% of lines).",
+      "tool_calls": [],
+      "tool_results": []
+    }
+  ],
+  "summary": {
+    "finished_at": "2026-10-26T15:02:19+08:00",
+    "total_seconds": 22.595,
+    "model_seconds": 20.064,
+    "tool_seconds": 0.492,
+    "model_calls": 3,
+    "tool_calls": 3,
+    "prompt_tokens": 23607,
+    "completion_tokens": 1086,
+    "total_tokens": 24693,
+    "cache_n": 0,
+    "prompt_n": 0,
+    "final_answer": "\n\nHere's what the DepMap 26Q1 and IMPC data show for your eight genes:\n\n**Common essential in DepMap (3 of 8):**\n- **MYC** — mean gene effect **−1.9871**, dependent in 95.36% of measured lines (1208), breadth >90%\n- **KRAS** — mean gene effect −0.7249, dependent in 57.62% of lines, breadth 50–90%\n- **SF3B1** — mean gene effect −1.4627, dependent in 99.67% of lines, breadth >90%\n\n**BRAF's most dependent lineage:** **Skin**, with **67%** (0.67) of skin cell lines dependent (followed by Bowel 0.29 and Biliary Tract 0.12). BRAF overall is classified *strongly selective* (dependent share 9.52%, breadth 1–10%).\n\n**No DepMap measurement:** **POLR2A** — it is the only one of the eight with no gene effect, dependent share or lineage data. (The other seven were measured; OR1A1 was measured in 1090 lines with a dependent share of 0.)\n\n**IMPC homozygous knockout calls:**\n- **TP53** (Trp53): **subviable**\n- **MYC** (Myc): **lethal** (stage unstaged)\n- **KRT1** (Krt1): **viable**\n- **OR1A1**: **no one-to-one mouse orthologue** (no IMPC call possible)\n\nFor context, the remaining genes: TP53 is \"neither\" in DepMap (mean effect +0.4242, dependent share 0.41%), KRT1 is \"strongly selective\" (−0.0432, 0.33% of lines), and OR1A1 is \"neither\" (−0.0218, 0% of lines).",
+    "stop_reason": "answer"
+  }
+}

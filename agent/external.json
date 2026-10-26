@@ -1,0 +1,1026 @@
+{
+  "downloads": [
+    {
+      "id": "hgnc",
+      "title": "HGNC complete set, 2026-07-07",
+      "url": "https://storage.googleapis.com/public-download-files/hgnc/archive/archive/monthly/tsv/hgnc_complete_set_2026-07-07.txt",
+      "path": "hgnc/hgnc_complete_set_2026-07-07.txt",
+      "bytes": 16913890,
+      "licence": "CC0 1.0"
+    },
+    {
+      "id": "hgnc_withdrawn",
+      "title": "HGNC withdrawn and merged identifiers, 2026-07-07",
+      "url": "https://storage.googleapis.com/public-download-files/hgnc/archive/archive/monthly/tsv/withdrawn_2026-07-07.txt",
+      "path": "hgnc/withdrawn_2026-07-07.txt",
+      "bytes": 258931,
+      "licence": "CC0 1.0"
+    },
+    {
+      "id": "gencode_gtf",
+      "title": "GENCODE v50 annotation of the primary assembly, GTF",
+      "url": "https://ftp.ebi.ac.uk/pub/databases/gencode/Gencode_human/release_50/gencode.v50.primary_assembly.annotation.gtf.gz",
+      "path": "raw/gencode_v50/gencode.v50.primary_assembly.annotation.gtf.gz",
+      "bytes": 124650284,
+      "licence": "no restrictions (GENCODE)"
+    },
+    {
+      "id": "gencode_translations",
+      "title": "GENCODE v50 translations of the protein-coding transcripts",
+      "url": "https://ftp.ebi.ac.uk/pub/databases/gencode/Gencode_human/release_50/gencode.v50.pc_translations.fa.gz",
+      "path": "raw/gencode_v50/gencode.v50.pc_translations.fa.gz",
+      "bytes": 21136991,
+      "licence": "no restrictions (GENCODE)"
+    },
+    {
+      "id": "gencode_rankings",
+      "title": "GENCODE v50 transcript rankings",
+      "url": "https://ftp.ebi.ac.uk/pub/databases/gencode/Gencode_human/release_50/gencode.v50.transcript_rankings.txt.gz",
+      "path": "raw/gencode_v50/gencode.v50.transcript_rankings.txt.gz",
+      "bytes": 8631939,
+      "licence": "no restrictions (GENCODE)"
+    },
+    {
+      "id": "gencode_selenocysteine",
+      "title": "GENCODE v50 selenocysteine positions",
+      "url": "https://ftp.ebi.ac.uk/pub/databases/gencode/Gencode_human/release_50/gencode.v50.metadata.Selenocysteine.gz",
+      "path": "raw/gencode_v50/gencode.v50.metadata.Selenocysteine.gz",
+      "bytes": 893,
+      "licence": "no restrictions (GENCODE)"
+    },
+    {
+      "id": "gencode_pc_transcripts",
+      "title": "GENCODE v50 sequences of the protein-coding transcripts",
+      "url": "https://ftp.ebi.ac.uk/pub/databases/gencode/Gencode_human/release_50/gencode.v50.pc_transcripts.fa.gz",
+      "path": "raw/gencode_v50/gencode.v50.pc_transcripts.fa.gz",
+      "bytes": 129953566,
+      "licence": "no restrictions (GENCODE)"
+    },
+    {
+      "id": "ensembl97_cds",
+      "title": "Ensembl 97 coding sequences of Homo sapiens (cds.all)",
+      "url": "https://ftp.ensembl.org/pub/release-97/fasta/homo_sapiens/cds/Homo_sapiens.GRCh38.cds.all.fa.gz",
+      "path": "raw/ensembl_97/Homo_sapiens.GRCh38.cds.all.fa.gz",
+      "bytes": 21628188,
+      "licence": "no restrictions (Ensembl)"
+    },
+    {
+      "id": "ensembl97_pep",
+      "title": "Ensembl 97 protein sequences of Homo sapiens (pep.all)",
+      "url": "https://ftp.ensembl.org/pub/release-97/fasta/homo_sapiens/pep/Homo_sapiens.GRCh38.pep.all.fa.gz",
+      "path": "raw/ensembl_97/Homo_sapiens.GRCh38.pep.all.fa.gz",
+      "bytes": 14155330,
+      "licence": "no restrictions (Ensembl)"
+    },
+    {
+      "id": "depmap_gene_effect",
+      "title": "DepMap Public 26Q1, CRISPRGeneEffect.csv",
+      "url": null,
+      "page": "https://depmap.org/portal/data_page/?tab=allData",
+      "path": "depmap_26q1/CRISPRGeneEffect.csv",
+      "bytes": 440646050,
+      "licence": "CC BY 4.0"
+    },
+    {
+      "id": "depmap_gene_dependency",
+      "title": "DepMap Public 26Q1, CRISPRGeneDependency.csv",
+      "url": null,
+      "page": "https://depmap.org/portal/data_page/?tab=allData",
+      "path": "depmap_26q1/CRISPRGeneDependency.csv",
+      "bytes": 432362817,
+      "licence": "CC BY 4.0"
+    },
+    {
+      "id": "depmap_models",
+      "title": "DepMap Public 26Q1, Model.csv",
+      "url": null,
+      "page": "https://depmap.org/portal/data_page/?tab=allData",
+      "path": "depmap_26q1/Model.csv",
+      "bytes": 697455,
+      "licence": "CC BY 4.0"
+    },
+    {
+      "id": "gene2pubmed",
+      "title": "NCBI gene2pubmed, downloaded 2026-09-02",
+      "url": "https://ftp.ncbi.nlm.nih.gov/gene/DATA/gene2pubmed.gz",
+      "path": "source/annotations/gene2pubmed.gz",
+      "bytes": 284597369,
+      "licence": "no restrictions (NCBI)"
+    },
+    {
+      "id": "corum",
+      "title": "CORUM 5.3 release (2026-04-14), human complexes",
+      "url": "https://mips.helmholtz-muenchen.de/fastapi-corum/public/file/download_current_file?file_id=human&file_format=txt",
+      "intermediate_certificate": "http://crt.harica.gr/HARICA-GEANT-TLS-R1.cer",
+      "path": "source/annotations/corum_human_complexes.tsv",
+      "bytes": 6268940,
+      "licence": "CC BY-NC 4.0"
+    },
+    {
+      "id": "goa_human",
+      "title": "GOA human annotations, GO release 2026-05-19",
+      "url": "https://release.geneontology.org/2026-05-19/annotations/goa_human.gaf.gz",
+      "path": "source/annotations/goa_human.gaf.gz",
+      "bytes": 15041996,
+      "licence": "CC BY 4.0"
+    },
+    {
+      "id": "go_basic",
+      "title": "Gene Ontology go-basic, data version 2026-07-26 (GO release 2026-08-05)",
+      "url": "https://release.geneontology.org/2026-08-05/ontology/go-basic.obo",
+      "path": "source/annotations/go-basic.obo",
+      "bytes": 32227785,
+      "licence": "CC BY 4.0"
+    },
+    {
+      "id": "compara",
+      "title": "Ensembl Compara 115 homologies of Homo sapiens",
+      "url": "https://ftp.ensembl.org/pub/release-115/tsv/ensembl-compara/homologies/homo_sapiens/Compara.115.protein_default.homologies.tsv.gz",
+      "path": "source/annotations/Compara.115.protein_default.homologies.tsv.gz",
+      "bytes": 107298025,
+      "licence": "no restrictions (Ensembl)"
+    },
+    {
+      "id": "help_cccfs",
+      "title": "HELP cellular component features (Human_CCcfs.csv), Zenodo 12597679",
+      "url": "https://zenodo.org/records/12597679/files/Human_CCcfs.csv",
+      "path": "source/annotations/Human_CCcfs.csv",
+      "bytes": 241417080,
+      "licence": "GPL-3.0-or-later"
+    },
+    {
+      "id": "help_bio",
+      "title": "HELP multi-omics annotation (Human_BIO.csv), Zenodo 12597679",
+      "url": "https://zenodo.org/records/12597679/files/Human_BIO.csv",
+      "path": "source/annotations/Human_BIO.csv",
+      "bytes": 1520854,
+      "licence": "GPL-3.0-or-later"
+    },
+    {
+      "id": "impc_genotype_phenotype",
+      "title": "IMPC release 24.0, genotype-phenotype assertions",
+      "url": "https://ftp.ebi.ac.uk/pub/databases/impc/all-data-releases/release-24.0/results/genotype-phenotype-assertions-ALL.csv.gz",
+      "path": "source/annotations/impc_24.0_genotype_phenotype.csv.gz",
+      "bytes": 5001223,
+      "licence": "CC BY 4.0"
+    },
+    {
+      "id": "impc_viability",
+      "title": "IMPC release 24.0, viability calls",
+      "url": "https://ftp.ebi.ac.uk/pub/databases/impc/all-data-releases/release-24.0/results/viability.csv.gz",
+      "path": "source/annotations/impc_24.0_viability.csv.gz",
+      "bytes": 479554,
+      "licence": "CC BY 4.0"
+    },
+    {
+      "id": "mp_ontology",
+      "title": "Mammalian Phenotype Ontology, MGI, release 2026-08-25",
+      "url": "https://purl.obolibrary.org/obo/mp/releases/2026-08-25/mp.obo",
+      "path": "source/annotations/MPheno_OBO.ontology",
+      "bytes": 7679452,
+      "licence": "CC BY 4.0"
+    },
+    {
+      "id": "ensembl_human_mouse",
+      "title": "Ensembl 115 BioMart, human genes and their mouse homologues",
+      "url": "https://sep2025.archive.ensembl.org/biomart/martservice",
+      "query": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><!DOCTYPE Query><Query virtualSchemaName=\"default\" formatter=\"TSV\" header=\"1\" uniqueRows=\"0\" count=\"\" datasetConfigVersion=\"0.6\"><Dataset name=\"hsapiens_gene_ensembl\" interface=\"default\"><Attribute name=\"ensembl_gene_id\" /><Attribute name=\"mmusculus_homolog_ensembl_gene\" /><Attribute name=\"mmusculus_homolog_associated_gene_name\" /><Attribute name=\"mmusculus_homolog_orthology_type\" /><Attribute name=\"mmusculus_homolog_orthology_confidence\" /></Dataset></Query>",
+      "path": "source/annotations/ensembl_115_human_mouse_orthologs.tsv",
+      "bytes": 2902321,
+      "licence": "no restrictions (Ensembl)"
+    },
+    {
+      "id": "ensembl_mouse_mgi",
+      "title": "Ensembl 115 BioMart, mouse genes and their MGI identifiers",
+      "url": "https://sep2025.archive.ensembl.org/biomart/martservice",
+      "query": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><!DOCTYPE Query><Query virtualSchemaName=\"default\" formatter=\"TSV\" header=\"1\" uniqueRows=\"0\" count=\"\" datasetConfigVersion=\"0.6\"><Dataset name=\"mmusculus_gene_ensembl\" interface=\"default\"><Attribute name=\"ensembl_gene_id\" /><Attribute name=\"external_gene_name\" /><Attribute name=\"mgi_id\" /></Dataset></Query>",
+      "path": "source/annotations/ensembl_115_mouse_gene_mgi.tsv",
+      "bytes": 3024648,
+      "licence": "no restrictions (Ensembl)"
+    },
+    {
+      "id": "biogrid",
+      "title": "BioGRID 5.0.259, interactions by organism (TAB 3.0)",
+      "url": "https://downloads.thebiogrid.org/Download/BioGRID/Release-Archive/BIOGRID-5.0.259/BIOGRID-ORGANISM-5.0.259.tab3.zip",
+      "path": "source/network/BIOGRID-ORGANISM-5.0.259.tab3.zip",
+      "bytes": 186580917,
+      "licence": "MIT"
+    },
+    {
+      "id": "tcga_acc",
+      "title": "TCGA RSEM expression of ACC, Zenodo 7885656",
+      "url": "https://zenodo.org/records/7885656/files/accrnaSeq.tar",
+      "path": "raw/zenodo_7885656/accrnaSeq.tar",
+      "bytes": 12216320,
+      "licence": "CC BY 4.0"
+    },
+    {
+      "id": "tcga_blca",
+      "title": "TCGA RSEM expression of BLCA, Zenodo 7885656",
+      "url": "https://zenodo.org/records/7885656/files/blcarnaSeq.tar",
+      "path": "raw/zenodo_7885656/blcarnaSeq.tar",
+      "bytes": 67276800,
+      "licence": "CC BY 4.0"
+    },
+    {
+      "id": "tcga_brca",
+      "title": "TCGA RSEM expression of BRCA, Zenodo 7885656",
+      "url": "https://zenodo.org/records/7885656/files/brcarnaSeq.tar",
+      "path": "raw/zenodo_7885656/brcarnaSeq.tar",
+      "bytes": 192419840,
+      "licence": "CC BY 4.0"
+    },
+    {
+      "id": "tcga_cesc",
+      "title": "TCGA RSEM expression of CESC, Zenodo 7885656",
+      "url": "https://zenodo.org/records/7885656/files/cescrnaSeq.tar",
+      "path": "raw/zenodo_7885656/cescrnaSeq.tar",
+      "bytes": 48803840,
+      "licence": "CC BY 4.0"
+    },
+    {
+      "id": "tcga_chol",
+      "title": "TCGA RSEM expression of CHOL, Zenodo 7885656",
+      "url": "https://zenodo.org/records/7885656/files/cholrnaSeq.tar",
+      "path": "raw/zenodo_7885656/cholrnaSeq.tar",
+      "bytes": 7249920,
+      "licence": "CC BY 4.0"
+    },
+    {
+      "id": "tcga_coad",
+      "title": "TCGA RSEM expression of COAD, Zenodo 7885656",
+      "url": "https://zenodo.org/records/7885656/files/coadrnaSeq.tar",
+      "path": "raw/zenodo_7885656/coadrnaSeq.tar",
+      "bytes": 51302400,
+      "licence": "CC BY 4.0"
+    },
+    {
+      "id": "tcga_dlbc",
+      "title": "TCGA RSEM expression of DLBC, Zenodo 7885656",
+      "url": "https://zenodo.org/records/7885656/files/dlbcrnaSeq.tar",
+      "path": "raw/zenodo_7885656/dlbcrnaSeq.tar",
+      "bytes": 7444480,
+      "licence": "CC BY 4.0"
+    },
+    {
+      "id": "tcga_esca",
+      "title": "TCGA RSEM expression of ESCA, Zenodo 7885656",
+      "url": "https://zenodo.org/records/7885656/files/escarnaSeq.tar",
+      "path": "raw/zenodo_7885656/escarnaSeq.tar",
+      "bytes": 32092160,
+      "licence": "CC BY 4.0"
+    },
+    {
+      "id": "tcga_gbm",
+      "title": "TCGA RSEM expression of GBM, Zenodo 7885656",
+      "url": "https://zenodo.org/records/7885656/files/gbmrnaSeq.tar",
+      "path": "raw/zenodo_7885656/gbmrnaSeq.tar",
+      "bytes": 28160000,
+      "licence": "CC BY 4.0"
+    },
+    {
+      "id": "tcga_hnsc",
+      "title": "TCGA RSEM expression of HNSC, Zenodo 7885656",
+      "url": "https://zenodo.org/records/7885656/files/hnscrnaSeq.tar",
+      "path": "raw/zenodo_7885656/hnscrnaSeq.tar",
+      "bytes": 90470400,
+      "licence": "CC BY 4.0"
+    },
+    {
+      "id": "tcga_kich",
+      "title": "TCGA RSEM expression of KICH, Zenodo 7885656",
+      "url": "https://zenodo.org/records/7885656/files/kichrnaSeq.tar",
+      "path": "raw/zenodo_7885656/kichrnaSeq.tar",
+      "bytes": 14592000,
+      "licence": "CC BY 4.0"
+    },
+    {
+      "id": "tcga_kirc",
+      "title": "TCGA RSEM expression of KIRC, Zenodo 7885656",
+      "url": "https://zenodo.org/records/7885656/files/kircrnaSeq.tar",
+      "path": "raw/zenodo_7885656/kircrnaSeq.tar",
+      "bytes": 96563200,
+      "licence": "CC BY 4.0"
+    },
+    {
+      "id": "tcga_kirp",
+      "title": "TCGA RSEM expression of KIRP, Zenodo 7885656",
+      "url": "https://zenodo.org/records/7885656/files/kirprnaSeq.tar",
+      "path": "raw/zenodo_7885656/kirprnaSeq.tar",
+      "bytes": 51118080,
+      "licence": "CC BY 4.0"
+    },
+    {
+      "id": "tcga_laml",
+      "title": "TCGA RSEM expression of LAML, Zenodo 7885656",
+      "url": "https://zenodo.org/records/7885656/files/lamlrnaSeq.tar",
+      "path": "raw/zenodo_7885656/lamlrnaSeq.tar",
+      "bytes": 25907200,
+      "licence": "CC BY 4.0"
+    },
+    {
+      "id": "tcga_lgg",
+      "title": "TCGA RSEM expression of LGG, Zenodo 7885656",
+      "url": "https://zenodo.org/records/7885656/files/lggrnaSeq.tar",
+      "path": "raw/zenodo_7885656/lggrnaSeq.tar",
+      "bytes": 85104640,
+      "licence": "CC BY 4.0"
+    },
+    {
+      "id": "tcga_lihc",
+      "title": "TCGA RSEM expression of LIHC, Zenodo 7885656",
+      "url": "https://zenodo.org/records/7885656/files/lihcrnaSeq.tar",
+      "path": "raw/zenodo_7885656/lihcrnaSeq.tar",
+      "bytes": 65402880,
+      "licence": "CC BY 4.0"
+    },
+    {
+      "id": "tcga_luad",
+      "title": "TCGA RSEM expression of LUAD, Zenodo 7885656",
+      "url": "https://zenodo.org/records/7885656/files/luadrnaSeq.tar",
+      "path": "raw/zenodo_7885656/luadrnaSeq.tar",
+      "bytes": 91985920,
+      "licence": "CC BY 4.0"
+    },
+    {
+      "id": "tcga_lusc",
+      "title": "TCGA RSEM expression of LUSC, Zenodo 7885656",
+      "url": "https://zenodo.org/records/7885656/files/luscrnaSeq.tar",
+      "path": "raw/zenodo_7885656/luscrnaSeq.tar",
+      "bytes": 88596480,
+      "licence": "CC BY 4.0"
+    },
+    {
+      "id": "tcga_meso",
+      "title": "TCGA RSEM expression of MESO, Zenodo 7885656",
+      "url": "https://zenodo.org/records/7885656/files/mesornaSeq.tar",
+      "path": "raw/zenodo_7885656/mesornaSeq.tar",
+      "bytes": 13813760,
+      "licence": "CC BY 4.0"
+    },
+    {
+      "id": "tcga_ov",
+      "title": "TCGA RSEM expression of OV, Zenodo 7885656",
+      "url": "https://zenodo.org/records/7885656/files/ovrnaSeq.tar",
+      "path": "raw/zenodo_7885656/ovrnaSeq.tar",
+      "bytes": 49694720,
+      "licence": "CC BY 4.0"
+    },
+    {
+      "id": "tcga_paad",
+      "title": "TCGA RSEM expression of PAAD, Zenodo 7885656",
+      "url": "https://zenodo.org/records/7885656/files/paadrnaSeq.tar",
+      "path": "raw/zenodo_7885656/paadrnaSeq.tar",
+      "bytes": 30054400,
+      "licence": "CC BY 4.0"
+    },
+    {
+      "id": "tcga_pcpg",
+      "title": "TCGA RSEM expression of PCPG, Zenodo 7885656",
+      "url": "https://zenodo.org/records/7885656/files/pcpgrnaSeq.tar",
+      "path": "raw/zenodo_7885656/pcpgrnaSeq.tar",
+      "bytes": 29870080,
+      "licence": "CC BY 4.0"
+    },
+    {
+      "id": "tcga_prad",
+      "title": "TCGA RSEM expression of PRAD, Zenodo 7885656",
+      "url": "https://zenodo.org/records/7885656/files/pradrnaSeq.tar",
+      "path": "raw/zenodo_7885656/pradrnaSeq.tar",
+      "bytes": 87173120,
+      "licence": "CC BY 4.0"
+    },
+    {
+      "id": "tcga_read",
+      "title": "TCGA RSEM expression of READ, Zenodo 7885656",
+      "url": "https://zenodo.org/records/7885656/files/readrnaSeq.tar",
+      "path": "raw/zenodo_7885656/readrnaSeq.tar",
+      "bytes": 16711680,
+      "licence": "CC BY 4.0"
+    },
+    {
+      "id": "tcga_sarc",
+      "title": "TCGA RSEM expression of SARC, Zenodo 7885656",
+      "url": "https://zenodo.org/records/7885656/files/sarcrnaSeq.tar",
+      "path": "raw/zenodo_7885656/sarcrnaSeq.tar",
+      "bytes": 41297920,
+      "licence": "CC BY 4.0"
+    },
+    {
+      "id": "tcga_skcm",
+      "title": "TCGA RSEM expression of SKCM, Zenodo 7885656",
+      "url": "https://zenodo.org/records/7885656/files/skcmrnaSeq.tar",
+      "path": "raw/zenodo_7885656/skcmrnaSeq.tar",
+      "bytes": 73420800,
+      "licence": "CC BY 4.0"
+    },
+    {
+      "id": "tcga_stad",
+      "title": "TCGA RSEM expression of STAD, Zenodo 7885656",
+      "url": "https://zenodo.org/records/7885656/files/stadrnaSeq.tar",
+      "path": "raw/zenodo_7885656/stadrnaSeq.tar",
+      "bytes": 72437760,
+      "licence": "CC BY 4.0"
+    },
+    {
+      "id": "tcga_tgct",
+      "title": "TCGA RSEM expression of TGCT, Zenodo 7885656",
+      "url": "https://zenodo.org/records/7885656/files/tgctrnaSeq.tar",
+      "path": "raw/zenodo_7885656/tgctrnaSeq.tar",
+      "bytes": 25425920,
+      "licence": "CC BY 4.0"
+    },
+    {
+      "id": "tcga_thca",
+      "title": "TCGA RSEM expression of THCA, Zenodo 7885656",
+      "url": "https://zenodo.org/records/7885656/files/thcarnaSeq.tar",
+      "path": "raw/zenodo_7885656/thcarnaSeq.tar",
+      "bytes": 90398720,
+      "licence": "CC BY 4.0"
+    },
+    {
+      "id": "tcga_thym",
+      "title": "TCGA RSEM expression of THYM, Zenodo 7885656",
+      "url": "https://zenodo.org/records/7885656/files/thymrnaSeq.tar",
+      "path": "raw/zenodo_7885656/thymrnaSeq.tar",
+      "bytes": 19763200,
+      "licence": "CC BY 4.0"
+    },
+    {
+      "id": "tcga_ucec",
+      "title": "TCGA RSEM expression of UCEC, Zenodo 7885656",
+      "url": "https://zenodo.org/records/7885656/files/ucecrnaSeq.tar",
+      "path": "raw/zenodo_7885656/ucecrnaSeq.tar",
+      "bytes": 31989760,
+      "licence": "CC BY 4.0"
+    },
+    {
+      "id": "tcga_ucs",
+      "title": "TCGA RSEM expression of UCS, Zenodo 7885656",
+      "url": "https://zenodo.org/records/7885656/files/ucsrnaSeq.tar",
+      "path": "raw/zenodo_7885656/ucsrnaSeq.tar",
+      "bytes": 9205760,
+      "licence": "CC BY 4.0"
+    },
+    {
+      "id": "tcga_uvm",
+      "title": "TCGA RSEM expression of UVM, Zenodo 7885656",
+      "url": "https://zenodo.org/records/7885656/files/uvmrnaSeq.tar",
+      "path": "raw/zenodo_7885656/uvmrnaSeq.tar",
+      "bytes": 12308480,
+      "licence": "CC BY 4.0"
+    },
+    {
+      "id": "compartments",
+      "title": "JensenLab COMPARTMENTS, human integrated channel, downloaded 2026-07-13",
+      "url": "https://download.jensenlab.org/human_compartment_integrated_full.tsv",
+      "path": "source/annotations/human_compartment_integrated_full.tsv",
+      "bytes": 302349143,
+      "licence": "CC BY 4.0"
+    },
+    {
+      "id": "ensembl_pfam",
+      "title": "Ensembl 116 BioMart, Pfam domains of human genes",
+      "url": "https://jun2026.archive.ensembl.org/biomart/martservice",
+      "query": "<Query virtualSchemaName=\"default\" formatter=\"TSV\" header=\"1\" uniqueRows=\"0\" count=\"\" datasetConfigVersion=\"0.6\"><Dataset name=\"hsapiens_gene_ensembl\" interface=\"default\"><Attribute name=\"ensembl_gene_id\"/><Attribute name=\"ensembl_peptide_id\"/><Attribute name=\"pfam\"/><Attribute name=\"pfam_start\"/><Attribute name=\"pfam_end\"/></Dataset></Query>",
+      "path": "source/annotations/ensembl_116_human_pfam.tsv",
+      "bytes": 33300473,
+      "licence": "no restrictions (Ensembl)"
+    },
+    {
+      "id": "help_embn2v",
+      "title": "HELP node2vec embedding of the PPI network (Human_EmbN2V_128.csv), Zenodo 12597679",
+      "url": "https://zenodo.org/records/12597679/files/Human_EmbN2V_128.csv",
+      "path": "source/annotations/Human_EmbN2V_128.csv",
+      "bytes": 26539399,
+      "licence": "GPL-3.0-or-later"
+    },
+    {
+      "id": "xgep_essential",
+      "title": "XGEP pan-cancer embedding of essential genes (Essential_genes_pancancer_emb_len150), GitHub BioDataLearning/XGEP at 9db7a566",
+      "url": "https://raw.githubusercontent.com/BioDataLearning/XGEP/9db7a566c18c8718e9988480dd9324a887113ab3/Data/Essential_genes_pancancer_emb_len150",
+      "path": "source/vendor/Essential_genes_pancancer_emb_len150",
+      "bytes": 2669845,
+      "licence": "none stated (the repository has no licence file)"
+    },
+    {
+      "id": "xgep_nonessential",
+      "title": "XGEP pan-cancer embedding of non-essential genes (Non_essential_genes_pancancer_emb_len150), GitHub BioDataLearning/XGEP at 9db7a566",
+      "url": "https://raw.githubusercontent.com/BioDataLearning/XGEP/9db7a566c18c8718e9988480dd9324a887113ab3/Data/Non_essential_genes_pancancer_emb_len150",
+      "path": "source/vendor/Non_essential_genes_pancancer_emb_len150",
+      "bytes": 15981850,
+      "licence": "none stated (the repository has no licence file)"
+    },
+    {
+      "id": "xgep_prediction",
+      "title": "XGEP pan-cancer embedding of the other genes (Genes_for_prediction_pancancer_emb_len150), GitHub BioDataLearning/XGEP at 9db7a566",
+      "url": "https://raw.githubusercontent.com/BioDataLearning/XGEP/9db7a566c18c8718e9988480dd9324a887113ab3/Data/Genes_for_prediction_pancancer_emb_len150",
+      "path": "source/vendor/Genes_for_prediction_pancancer_emb_len150",
+      "bytes": 47205809,
+      "licence": "none stated (the repository has no licence file)"
+    },
+    {
+      "id": "mahi_embeddings",
+      "title": "Mahi gene embeddings of the core tissues, float16, Hugging Face anushaggs/Mahi_gene_embeddings at 3e0582ea",
+      "url": "https://huggingface.co/datasets/anushaggs/Mahi_gene_embeddings/resolve/3e0582eaaac66b3fb5d82c4645ffbcd197cca3bb/mahi_embeddings_core_tissues_float16.parquet",
+      "path": "source/embeddings/mahi_embeddings_core_tissues_float16.parquet",
+      "bytes": 4915511933,
+      "licence": "Princeton Research-Only Data Embeddings License: noncommercial research use only, no public redistribution"
+    },
+    {
+      "id": "esm2_650m",
+      "title": "ESM-2 650M checkpoint esm2_t33_650M_UR50D, fair-esm",
+      "url": "https://dl.fbaipublicfiles.com/fair-esm/models/esm2_t33_650M_UR50D.pt",
+      "path": "pretrained/esm2_t33_650M_UR50D.pt",
+      "bytes": 2604537549,
+      "licence": "MIT"
+    },
+    {
+      "id": "esm2_650m_contact",
+      "title": "Contact-regression weights of ESM-2 650M, fair-esm",
+      "url": "https://dl.fbaipublicfiles.com/fair-esm/regression/esm2_t33_650M_UR50D-contact-regression.pt",
+      "path": "pretrained/esm2_t33_650M_UR50D-contact-regression.pt",
+      "bytes": 3687,
+      "licence": "MIT"
+    },
+    {
+      "id": "esm2_150m",
+      "title": "ESM-2 150M checkpoint esm2_t30_150M_UR50D, fair-esm",
+      "url": "https://dl.fbaipublicfiles.com/fair-esm/models/esm2_t30_150M_UR50D.pt",
+      "path": "pretrained/esm2_t30_150M_UR50D.pt",
+      "bytes": 592774773,
+      "licence": "MIT"
+    },
+    {
+      "id": "esm2_3b",
+      "title": "ESM-2 3B checkpoint esm2_t36_3B_UR50D, fair-esm",
+      "url": "https://dl.fbaipublicfiles.com/fair-esm/models/esm2_t36_3B_UR50D.pt",
+      "path": "pretrained/esm2_t36_3B_UR50D.pt",
+      "bytes": 5678116398,
+      "licence": "MIT"
+    },
+    {
+      "id": "geneformer_weights",
+      "title": "Geneformer-V1-10M weights, Hugging Face ctheodoris/Geneformer at 1f7fbae4",
+      "url": "https://huggingface.co/ctheodoris/Geneformer/resolve/1f7fbae4e469a5f4f1af8c111a529cfe1b3829f5/Geneformer-V1-10M/model.safetensors",
+      "path": "pretrained/geneformer/model.safetensors",
+      "bytes": 41183536,
+      "licence": "Apache-2.0"
+    },
+    {
+      "id": "geneformer_tokens",
+      "title": "Geneformer gene token dictionary token_dictionary_gc30M.pkl, Hugging Face ctheodoris/Geneformer at 1f7fbae4",
+      "url": "https://huggingface.co/ctheodoris/Geneformer/resolve/1f7fbae4e469a5f4f1af8c111a529cfe1b3829f5/geneformer/gene_dictionaries_30m/token_dictionary_gc30M.pkl",
+      "path": "pretrained/geneformer/token_dictionary_gc30M.pkl",
+      "bytes": 788424,
+      "licence": "Apache-2.0"
+    },
+    {
+      "id": "esmc_600m",
+      "title": "ESM-C 600M checkpoint esmc_600m_2024_12_v0, Hugging Face biohub/esmc-600m-2024-12 at e4d83bc7",
+      "url": "https://huggingface.co/biohub/esmc-600m-2024-12/resolve/e4d83bc7e10fd55c92e598e545f4a76bf04a6e5c/data/weights/esmc_600m_2024_12_v0.pth",
+      "path": "pretrained/esmc_600m/data/weights/esmc_600m_2024_12_v0.pth",
+      "bytes": 2300275866,
+      "licence": "MIT"
+    },
+    {
+      "id": "proteomelm_l_config",
+      "title": "ProteomeLM-L configuration, Hugging Face Bitbol-Lab/ProteomeLM-L at 0f834036",
+      "url": "https://huggingface.co/Bitbol-Lab/ProteomeLM-L/resolve/0f834036ae8477bb15b019437aa6374c57d7aa49/config.json",
+      "path": "pretrained/proteomelm_l/config.json",
+      "bytes": 1271,
+      "licence": "none stated on the model card (the ProteomeLM code is Apache-2.0)"
+    },
+    {
+      "id": "proteomelm_l_weights",
+      "title": "ProteomeLM-L weights, Hugging Face Bitbol-Lab/ProteomeLM-L at 0f834036",
+      "url": "https://huggingface.co/Bitbol-Lab/ProteomeLM-L/resolve/0f834036ae8477bb15b019437aa6374c57d7aa49/model.safetensors",
+      "path": "pretrained/proteomelm_l/model.safetensors",
+      "bytes": 656410652,
+      "licence": "none stated on the model card (the ProteomeLM code is Apache-2.0)"
+    },
+    {
+      "id": "proteomelm_source",
+      "title": "ProteomeLM source code, GitHub Bitbol-Lab/ProteomeLM at 0572ee11",
+      "url": "https://github.com/Bitbol-Lab/ProteomeLM/archive/0572ee117857f746b551a9ac2a497ab3b602362b.tar.gz",
+      "path": "source/upstream/ProteomeLM-0572ee117857f746b551a9ac2a497ab3b602362b.tar.gz",
+      "bytes": 26777765,
+      "licence": "Apache-2.0"
+    },
+    {
+      "id": "evo2_7b_base",
+      "title": "Evo 2 7B base checkpoint, Hugging Face arcinstitute/evo2_7b_base at 074097e9",
+      "url": "https://huggingface.co/arcinstitute/evo2_7b_base/resolve/074097e9dc788e8bfe045d6495b9f6153a7c6bfc/evo2_7b_base.pt",
+      "path": "pretrained/evo2_7b_base.pt",
+      "bytes": 13006429947,
+      "licence": "Apache-2.0"
+    },
+    {
+      "id": "esstfnet_feature_columns",
+      "title": "EssTFNet's list of selected feature columns, data/feature_columns.txt of GitHub QIANJINYDX/EssTFNet at 4f9ee839",
+      "url": "https://raw.githubusercontent.com/QIANJINYDX/EssTFNet/4f9ee839bd35eccf00de5580a9ed3d9d1363922e/data/feature_columns.txt",
+      "path": "source/vendor/esstfnet_feature_columns.txt",
+      "bytes": 140486,
+      "licence": "none stated (the repository has no licence file)"
+    }
+  ],
+  "builds": [
+    {
+      "id": "gene_reference",
+      "title": "HGNC, Entrez and Ensembl identifiers of the 19,158 protein-coding genes with a protein sequence",
+      "path": "agent/gene_reference.parquet",
+      "inputs": [
+        "hgnc",
+        "hgnc_withdrawn",
+        "gencode_gtf",
+        "gencode_translations",
+        "gencode_rankings",
+        "gencode_selenocysteine"
+      ],
+      "builder": "sources:gene_reference",
+      "bytes": 464355,
+      "minutes": 1.0
+    },
+    {
+      "id": "tcga_expression",
+      "title": "TCGA RSEM expression, genes by primary tumour samples",
+      "path": "source/expression/tcga_gene_by_sample.parquet",
+      "inputs": [
+        "hgnc",
+        "tcga_acc",
+        "tcga_blca",
+        "tcga_brca",
+        "tcga_cesc",
+        "tcga_chol",
+        "tcga_coad",
+        "tcga_dlbc",
+        "tcga_esca",
+        "tcga_gbm",
+        "tcga_hnsc",
+        "tcga_kich",
+        "tcga_kirc",
+        "tcga_kirp",
+        "tcga_laml",
+        "tcga_lgg",
+        "tcga_lihc",
+        "tcga_luad",
+        "tcga_lusc",
+        "tcga_meso",
+        "tcga_ov",
+        "tcga_paad",
+        "tcga_pcpg",
+        "tcga_prad",
+        "tcga_read",
+        "tcga_sarc",
+        "tcga_skcm",
+        "tcga_stad",
+        "tcga_tgct",
+        "tcga_thca",
+        "tcga_thym",
+        "tcga_ucec",
+        "tcga_ucs",
+        "tcga_uvm"
+      ],
+      "builder": "sources:tcga_expression",
+      "bytes": 554951638,
+      "minutes": 0.9
+    },
+    {
+      "id": "biogrid_edges",
+      "title": "BioGRID physical interactions between genes of the gene reference",
+      "path": "agent/biogrid_physical_edges.parquet",
+      "inputs": [
+        "biogrid",
+        "gene_reference"
+      ],
+      "builder": "annotation:biogrid_edges",
+      "bytes": 5866686,
+      "minutes": 0.7
+    },
+    {
+      "id": "orthology",
+      "title": "Orthologues of each gene in 194 species, Ensembl Compara 115",
+      "path": "agent/orthology.parquet",
+      "inputs": [
+        "compara",
+        "gene_reference"
+      ],
+      "builder": "core_model:orthology",
+      "bytes": 769626,
+      "minutes": 0.3
+    },
+    {
+      "id": "annotation",
+      "title": "Per-gene annotation of the hallmarks and strata: CORUM complexes, gene age, PPI degree, TCGA expression, paralogues and literature",
+      "path": "agent/annotation.parquet",
+      "inputs": [
+        "gene_reference",
+        "orthology",
+        "biogrid_edges",
+        "tcga_expression",
+        "corum",
+        "gene2pubmed"
+      ],
+      "builder": "annotation:annotation_table",
+      "bytes": 702124,
+      "minutes": 0.5
+    },
+    {
+      "id": "core_static",
+      "title": "Static feature groups of the core feature set: CCcfs, HELP multi-omics annotation and orthology",
+      "path": "agent/core_static.parquet",
+      "inputs": [
+        "help_cccfs",
+        "help_bio",
+        "orthology",
+        "gene_reference",
+        "hgnc"
+      ],
+      "builder": "core_model:static_features",
+      "bytes": 40669279,
+      "minutes": 0.3
+    },
+    {
+      "id": "annotation_dependency",
+      "title": "Per-gene DepMap 26Q1 dependency: mean gene effect, share of dependent cell lines and lineage shares",
+      "path": "agent/annotation_dependency.parquet",
+      "inputs": [
+        "depmap_gene_effect",
+        "depmap_gene_dependency",
+        "depmap_models",
+        "gene_reference"
+      ],
+      "builder": "annotation:dependency_table",
+      "bytes": 603609,
+      "minutes": 2.2
+    },
+    {
+      "id": "annotation_mouse",
+      "title": "Per-gene IMPC outcome of the knockout of the one-to-one mouse orthologue: viability call and lethal stage",
+      "path": "agent/annotation_mouse.parquet",
+      "inputs": [
+        "ensembl_human_mouse",
+        "ensembl_mouse_mgi",
+        "impc_viability",
+        "impc_genotype_phenotype",
+        "mp_ontology",
+        "gene_reference"
+      ],
+      "builder": "annotation:mouse_table",
+      "bytes": 388586,
+      "minutes": 0.02
+    },
+    {
+      "id": "ensembl97_sequences",
+      "title": "Ensembl 97 CDS and protein of the longest coding transcript of each HGNC gene, ensembl97.{cds,pep}.fa.gz",
+      "path": "agent/sequences/ensembl97",
+      "inputs": [
+        "hgnc",
+        "ensembl97_cds",
+        "ensembl97_pep"
+      ],
+      "builder": "sequences:ensembl97_sequences",
+      "bytes": 17630228,
+      "minutes": 0.6
+    },
+    {
+      "id": "gencode50_sequences",
+      "title": "GENCODE v50 CDS and protein of the gene reference transcript of each gene, gencode50.{cds,pep}.fa.gz",
+      "path": "agent/sequences/gencode50",
+      "inputs": [
+        "gene_reference",
+        "gencode_translations",
+        "gencode_pc_transcripts"
+      ],
+      "builder": "sequences:gencode50_sequences",
+      "bytes": 16394500,
+      "minutes": 0.9
+    },
+    {
+      "id": "protein_sequences",
+      "title": "Protein FASTA of the six tasks for BiNGO and ProteomeLM, Ensembl 97 first and GENCODE v50 after",
+      "path": "agent/sequences/proteins",
+      "inputs": [
+        "ensembl97_sequences",
+        "gencode50_sequences"
+      ],
+      "builder": "sequences:protein_sequences",
+      "bytes": 37444881,
+      "minutes": 0.08
+    },
+    {
+      "id": "deepcelless_proteins",
+      "title": "Protein FASTA of the six tasks in DeepCellEss's 21-letter alphabet",
+      "path": "agent/sequences/deepcelless_proteins",
+      "inputs": [
+        "ensembl97_sequences",
+        "gencode50_sequences"
+      ],
+      "builder": "sequences:deepcelless_proteins",
+      "bytes": 37441986,
+      "minutes": 0.08
+    },
+    {
+      "id": "cds_sequences",
+      "title": "CDS FASTA of the six tasks, A, C, G and T only, for GCNN-SFM, eDNN-EG and EssTFNet",
+      "path": "agent/sequences/cds",
+      "inputs": [
+        "ensembl97_sequences",
+        "gencode50_sequences"
+      ],
+      "builder": "sequences:cds_sequences",
+      "bytes": 56962666,
+      "minutes": 3.3
+    },
+    {
+      "id": "deephe_sequence_89",
+      "title": "89 sequence features of DeepHE, DeeplyEssential and DeEPsnap: codon and amino-acid frequencies, GC content, lengths, CAI and RSCU",
+      "path": "agent/deephe_sequence_89.parquet",
+      "inputs": [
+        "ensembl97_sequences",
+        "gencode50_sequences"
+      ],
+      "builder": "sequences:deephe_sequence_89",
+      "environment": "cpu",
+      "bytes": 6305530,
+      "minutes": 0.4
+    },
+    {
+      "id": "pheg_fv45",
+      "title": "Pheg's 4,545 FV4,5 Z-curve features of each CDS and their QA table",
+      "path": "agent/pheg_fv45",
+      "inputs": [
+        "ensembl97_sequences",
+        "gencode50_sequences"
+      ],
+      "builder": "sequences:pheg_fv45",
+      "bytes": 267464795,
+      "minutes": 1.3
+    },
+    {
+      "id": "epgat_static",
+      "title": "EPGAT static features: orthologues in 194 species and JensenLab localisation confidences in 11 compartments",
+      "path": "agent/epgat_static.parquet",
+      "inputs": [
+        "orthology",
+        "compartments",
+        "gene_reference"
+      ],
+      "builder": "method_inputs:epgat_static",
+      "environment": "torch",
+      "bytes": 1234352,
+      "minutes": 0.1
+    },
+    {
+      "id": "xgep_150",
+      "title": "XGEP 150-dimensional pan-cancer embedding of the genes it covers",
+      "path": "agent/xgep_150.parquet",
+      "inputs": [
+        "xgep_essential",
+        "xgep_nonessential",
+        "xgep_prediction",
+        "gene_reference"
+      ],
+      "builder": "method_inputs:xgep_150",
+      "environment": "cpu",
+      "bytes": 20040624,
+      "minutes": 0.1
+    },
+    {
+      "id": "deepsnap_source_manifest",
+      "title": "SHA-256 of the GOA, CORUM and Pfam files that DeEPsnap's feature step checks",
+      "path": "agent/deepsnap_source_manifest.json",
+      "inputs": [
+        "goa_human",
+        "corum",
+        "ensembl_pfam"
+      ],
+      "builder": "method_inputs:deepsnap_source_manifest",
+      "bytes": 362,
+      "minutes": 0.01
+    },
+    {
+      "id": "help_features",
+      "title": "HELP feature matrix: the authors' multi-omics annotation, CCcfs and node2vec embedding, scaled and mapped to the gene reference",
+      "path": "agent/help_features_gene_map.parquet",
+      "inputs": [
+        "help_bio",
+        "help_cccfs",
+        "help_embn2v",
+        "gene_reference",
+        "hgnc"
+      ],
+      "builder": "method_inputs:help_features",
+      "bytes": 63389862,
+      "minutes": 0.4
+    },
+    {
+      "id": "node2vec_64",
+      "title": "64-dimensional node2vec embedding of the BioGRID physical network, read by DeepHE and DeEPsnap",
+      "path": "agent/node2vec_64.parquet",
+      "inputs": [
+        "gene_reference",
+        "biogrid_edges"
+      ],
+      "builder": "method_inputs:node2vec_64",
+      "environment": "node2vec",
+      "bytes": 6911872,
+      "minutes": 11.5
+    },
+    {
+      "id": "mahi_global_context",
+      "title": "Mahi global-context embedding of 19,073 Entrez genes",
+      "path": "agent/mahi_global_context.parquet",
+      "inputs": [
+        "mahi_embeddings"
+      ],
+      "builder": "method_inputs:mahi_global_context",
+      "bytes": 138614559,
+      "minutes": 0.2
+    },
+    {
+      "id": "mahi_features",
+      "title": "Mahi embedding matrix of each of the six tasks",
+      "path": "agent/mahi_features",
+      "inputs": [
+        "mahi_global_context",
+        "hgnc"
+      ],
+      "builder": "method_inputs:mahi_features",
+      "bytes": 762099365,
+      "minutes": 0.8
+    },
+    {
+      "id": "bingo_graph_cache",
+      "title": "BiNGO's ESM-2 650M residue embeddings and contact graphs of the 17,121 DEG and DepMap candidate genes",
+      "path": "agent/bingo_graph_cache",
+      "inputs": [
+        "protein_sequences",
+        "esm2_650m",
+        "esm2_650m_contact"
+      ],
+      "builder": "embeddings:bingo_graph_cache",
+      "gpu_gb": 19.0,
+      "environment": "bingo",
+      "bytes": 54618367693,
+      "minutes": 68
+    },
+    {
+      "id": "esmc_embeddings",
+      "title": "Mean ESM-C 600M embeddings of the DEG and DepMap candidate proteins, read by ProteomeLM-Ess",
+      "path": "agent/esmc_base_embeddings.parquet",
+      "inputs": [
+        "protein_sequences",
+        "esmc_600m"
+      ],
+      "builder": "embeddings:esmc_embeddings",
+      "gpu_gb": 8.0,
+      "environment": "proteomelm",
+      "bytes": 37053679,
+      "minutes": 6.0
+    },
+    {
+      "id": "proteomelm_features",
+      "title": "ProteomeLM-L layer-8 matrix of each of the six tasks",
+      "path": "agent/proteomelm_features",
+      "inputs": [
+        "esmc_embeddings",
+        "protein_sequences",
+        "proteomelm_l_config",
+        "proteomelm_l_weights",
+        "proteomelm_source"
+      ],
+      "builder": "embeddings:proteomelm_features",
+      "gpu_gb": 8.0,
+      "environment": "proteomelm",
+      "bytes": 72945365,
+      "minutes": 1.3
+    },
+    {
+      "id": "esstfnet_raw_candidates",
+      "title": "EssTFNet's 86,151 physicochemical candidate features of each of the six tasks, with their column table",
+      "path": "agent/esstfnet_raw_candidates",
+      "inputs": [
+        "cds_sequences"
+      ],
+      "builder": "embeddings:esstfnet_raw_candidates",
+      "environment": "torch",
+      "bytes": 2077226401,
+      "minutes": 5.3
+    },
+    {
+      "id": "evo2_embeddings",
+      "title": "Evo 2 7B base embeddings of the candidate CDS of each of the six tasks, read by EssTFNet",
+      "path": "agent/evo2_embeddings",
+      "inputs": [
+        "cds_sequences",
+        "evo2_7b_base"
+      ],
+      "builder": "embeddings:evo2_embeddings",
+      "gpu_gb": 22.0,
+      "environment": "evo2",
+      "bytes": 274522477,
+      "minutes": 74
+    }
+  ]
+}

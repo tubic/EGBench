@@ -1,0 +1,139 @@
+check,reference,task,fold,quantity,values,published,reproduced,largest_absolute_difference,exact
+orthology table,methods/epgat/feature/source/generated/epgat_static.parquet,,,columns,195,195.0,195.0,,True
+orthology table,methods/epgat/feature/source/generated/epgat_static.parquet,,,genes,19158,19158.0,19158.0,,True
+orthology table,methods/epgat/feature/source/generated/epgat_static.parquet,,,all values,3735810,,,0.0,True
+HELP matrix,methods/help/feature/source/help_features_gene_map.parquet,,,cccfs,63240558,,,0.0,True
+HELP matrix,methods/help/feature/source/help_features_gene_map.parquet,,,help_bio,344844,,,0.0,True
+EPGAT static table,methods/epgat/feature/source/generated/epgat_static.parquet,,,orthology,3735810,,,0.0,True
+analysis cache,analysis/feature_groups/work/cache/deg/cccfs.npy,deg,,cccfs,37024016,,,0.0,True
+analysis cache,analysis/feature_groups/work/cache/deg/help_bio.npy,deg,,help_bio,201888,,,0.0,True
+analysis cache,analysis/feature_groups/work/cache/deg/orthology.npy,deg,,orthology,2187120,,,0.0,True
+analysis cache,analysis/feature_groups/work/cache/depmap/cccfs.npy,depmap,,cccfs,44893600,,,0.0,True
+analysis cache,analysis/feature_groups/work/cache/depmap/help_bio.npy,depmap,,help_bio,244800,,,0.0,True
+analysis cache,analysis/feature_groups/work/cache/depmap/orthology.npy,depmap,,orthology,2652000,,,0.0,True
+analysis cache,analysis/feature_groups/work/cache/context/cccfs.npy,context,,cccfs,30791728,,,0.0,True
+analysis cache,analysis/feature_groups/work/cache/context/help_bio.npy,context,,help_bio,167904,,,0.0,True
+analysis cache,analysis/feature_groups/work/cache/context/orthology.npy,context,,orthology,1818960,,,0.0,True
+analysis cache,analysis/feature_groups/work/cache/blood/cccfs.npy,blood,,cccfs,30841243,,,0.0,True
+analysis cache,analysis/feature_groups/work/cache/blood/help_bio.npy,blood,,help_bio,168174,,,0.0,True
+analysis cache,analysis/feature_groups/work/cache/blood/orthology.npy,blood,,orthology,1821885,,,0.0,True
+analysis cache,analysis/feature_groups/work/cache/mouse/cccfs.npy,mouse,,cccfs,22770298,,,0.0,True
+analysis cache,analysis/feature_groups/work/cache/mouse/help_bio.npy,mouse,,help_bio,124164,,,0.0,True
+analysis cache,analysis/feature_groups/work/cache/mouse/orthology.npy,mouse,,orthology,1345110,,,0.0,True
+principal components,methods/esssubgraph/feature/DEG/family_5fold/fold_0/features.parquet,deg,0,all values,560800,,,1.6484591469634324e-12,False
+principal components,methods/esssubgraph/feature/DEG/family_5fold/fold_1/features.parquet,deg,1,all values,560800,,,3.0588864774472313e-12,False
+principal components,methods/esssubgraph/feature/DEG/family_5fold/fold_2/features.parquet,deg,2,all values,560800,,,2.355449169044732e-12,False
+principal components,methods/esssubgraph/feature/DEG/family_5fold/fold_3/features.parquet,deg,3,all values,560800,,,2.2004620348070603e-12,False
+principal components,methods/esssubgraph/feature/DEG/family_5fold/fold_4/features.parquet,deg,4,all values,560800,,,2.1946888750790094e-12,False
+principal components,methods/esssubgraph/feature/DepMap/family_5fold/fold_0/features.parquet,depmap,0,all values,680000,,,1.5560885913146194e-12,False
+principal components,methods/esssubgraph/feature/DepMap/family_5fold/fold_1/features.parquet,depmap,1,all values,680000,,,5.60262947146839e-12,False
+principal components,methods/esssubgraph/feature/DepMap/family_5fold/fold_2/features.parquet,depmap,2,all values,680000,,,7.567280135845067e-13,False
+principal components,methods/esssubgraph/feature/DepMap/family_5fold/fold_3/features.parquet,depmap,3,all values,680000,,,4.227729277772596e-12,False
+principal components,methods/esssubgraph/feature/DepMap/family_5fold/fold_4/features.parquet,depmap,4,all values,680000,,,1.801225835151854e-12,False
+principal components,methods/esssubgraph/feature/Context/family_5fold/fold_0/features.parquet,context,0,all values,466400,,,1.5765166949677223e-12,False
+principal components,methods/esssubgraph/feature/Context/family_5fold/fold_1/features.parquet,context,1,all values,466400,,,3.8689051962137455e-12,False
+principal components,methods/esssubgraph/feature/Context/family_5fold/fold_2/features.parquet,context,2,all values,466400,,,2.5579538487363607e-12,False
+principal components,methods/esssubgraph/feature/Context/family_5fold/fold_3/features.parquet,context,3,all values,466400,,,9.891643060200295e-12,False
+principal components,methods/esssubgraph/feature/Context/family_5fold/fold_4/features.parquet,context,4,all values,466400,,,1.4175327578413999e-12,False
+principal components,methods/esssubgraph/feature/Blood/family_5fold/fold_0/features.parquet,blood,0,all values,467150,,,4.165556788393587e-12,False
+principal components,methods/esssubgraph/feature/Blood/family_5fold/fold_1/features.parquet,blood,1,all values,467150,,,2.76578759894619e-12,False
+principal components,methods/esssubgraph/feature/Blood/family_5fold/fold_2/features.parquet,blood,2,all values,467150,,,1.943334382303874e-12,False
+principal components,methods/esssubgraph/feature/Blood/family_5fold/fold_3/features.parquet,blood,3,all values,467150,,,2.6787461138155777e-12,False
+principal components,methods/esssubgraph/feature/Blood/family_5fold/fold_4/features.parquet,blood,4,all values,467150,,,2.7888802378583932e-12,False
+principal components,methods/esssubgraph/feature/Mouse/family_5fold/fold_0/features.parquet,mouse,0,all values,344900,,,8.171241461241152e-13,False
+principal components,methods/esssubgraph/feature/Mouse/family_5fold/fold_1/features.parquet,mouse,1,all values,344900,,,1.2705392293810291e-12,False
+principal components,methods/esssubgraph/feature/Mouse/family_5fold/fold_2/features.parquet,mouse,2,all values,344900,,,1.0276224315930449e-12,False
+principal components,methods/esssubgraph/feature/Mouse/family_5fold/fold_3/features.parquet,mouse,3,all values,344900,,,4.162892253134487e-12,False
+principal components,methods/esssubgraph/feature/Mouse/family_5fold/fold_4/features.parquet,mouse,4,all values,344900,,,1.531885729377791e-12,False
+principal components,methods/esssubgraph/feature/DepMap23Q4/family_5fold/fold_0/features.parquet,depmap_23q4,0,all values,846650,,,3.5287328614685975e-12,False
+principal components,methods/esssubgraph/feature/DepMap23Q4/family_5fold/fold_1/features.parquet,depmap_23q4,1,all values,846650,,,1.2922996006636822e-12,False
+principal components,methods/esssubgraph/feature/DepMap23Q4/family_5fold/fold_2/features.parquet,depmap_23q4,2,all values,846650,,,2.573941060290963e-12,False
+principal components,methods/esssubgraph/feature/DepMap23Q4/family_5fold/fold_3/features.parquet,depmap_23q4,3,all values,846650,,,3.915090474038152e-12,False
+principal components,methods/esssubgraph/feature/DepMap23Q4/family_5fold/fold_4/features.parquet,depmap_23q4,4,all values,846650,,,2.7786661860318418e-12,False
+test predictions,analysis/feature_groups/work/fixed/deg_A.csv,deg,0,all values,2244,,,0.0,True
+boosting rounds,analysis/feature_groups/results/core_fixed.csv,deg,0,rounds,1,69.0,69.0,0.0,True
+test predictions,analysis/feature_groups/work/fixed/deg_A.csv,deg,1,all values,2243,,,0.0,True
+boosting rounds,analysis/feature_groups/results/core_fixed.csv,deg,1,rounds,1,73.0,73.0,0.0,True
+test predictions,analysis/feature_groups/work/fixed/deg_A.csv,deg,2,all values,2243,,,0.0,True
+boosting rounds,analysis/feature_groups/results/core_fixed.csv,deg,2,rounds,1,69.0,69.0,0.0,True
+test predictions,analysis/feature_groups/work/fixed/deg_A.csv,deg,3,all values,2243,,,0.0,True
+boosting rounds,analysis/feature_groups/results/core_fixed.csv,deg,3,rounds,1,83.0,83.0,0.0,True
+test predictions,analysis/feature_groups/work/fixed/deg_A.csv,deg,4,all values,2243,,,0.0,True
+boosting rounds,analysis/feature_groups/results/core_fixed.csv,deg,4,rounds,1,73.0,73.0,0.0,True
+test predictions,analysis/feature_groups/work/fixed/depmap_A.csv,depmap,0,all values,2720,,,0.0,True
+boosting rounds,analysis/feature_groups/results/core_fixed.csv,depmap,0,rounds,1,65.0,65.0,0.0,True
+test predictions,analysis/feature_groups/work/fixed/depmap_A.csv,depmap,1,all values,2720,,,0.0,True
+boosting rounds,analysis/feature_groups/results/core_fixed.csv,depmap,1,rounds,1,88.0,88.0,0.0,True
+test predictions,analysis/feature_groups/work/fixed/depmap_A.csv,depmap,2,all values,2720,,,0.0,True
+boosting rounds,analysis/feature_groups/results/core_fixed.csv,depmap,2,rounds,1,66.0,66.0,0.0,True
+test predictions,analysis/feature_groups/work/fixed/depmap_A.csv,depmap,3,all values,2720,,,0.0,True
+boosting rounds,analysis/feature_groups/results/core_fixed.csv,depmap,3,rounds,1,48.0,48.0,0.0,True
+test predictions,analysis/feature_groups/work/fixed/depmap_A.csv,depmap,4,all values,2720,,,0.0,True
+boosting rounds,analysis/feature_groups/results/core_fixed.csv,depmap,4,rounds,1,76.0,76.0,0.0,True
+test predictions,analysis/feature_groups/work/fixed/context_A.csv,context,0,all values,1733,,,0.0,True
+boosting rounds,analysis/feature_groups/results/core_fixed.csv,context,0,rounds,1,57.0,57.0,0.0,True
+test predictions,analysis/feature_groups/work/fixed/context_A.csv,context,1,all values,1725,,,0.0,True
+boosting rounds,analysis/feature_groups/results/core_fixed.csv,context,1,rounds,1,58.0,58.0,0.0,True
+test predictions,analysis/feature_groups/work/fixed/context_A.csv,context,2,all values,1721,,,0.0,True
+boosting rounds,analysis/feature_groups/results/core_fixed.csv,context,2,rounds,1,69.0,69.0,0.0,True
+test predictions,analysis/feature_groups/work/fixed/context_A.csv,context,3,all values,1716,,,0.0,True
+boosting rounds,analysis/feature_groups/results/core_fixed.csv,context,3,rounds,1,49.0,49.0,0.0,True
+test predictions,analysis/feature_groups/work/fixed/context_A.csv,context,4,all values,1723,,,0.0,True
+boosting rounds,analysis/feature_groups/results/core_fixed.csv,context,4,rounds,1,59.0,59.0,0.0,True
+test predictions,analysis/feature_groups/work/fixed/gene_effect_A.csv,gene_effect,0,all values,2623,,,0.0,True
+test predictions,analysis/feature_groups/work/fixed/gene_effect_A.csv,gene_effect,1,all values,2641,,,0.0,True
+test predictions,analysis/feature_groups/work/fixed/gene_effect_A.csv,gene_effect,2,all values,2642,,,0.0,True
+test predictions,analysis/feature_groups/work/fixed/gene_effect_A.csv,gene_effect,3,all values,2636,,,0.0,True
+test predictions,analysis/feature_groups/work/fixed/gene_effect_A.csv,gene_effect,4,all values,2610,,,0.0,True
+test predictions,analysis/feature_groups/work/fixed/blood_A.csv,blood,0,all values,1869,,,0.0,True
+boosting rounds,analysis/feature_groups/results/core_fixed.csv,blood,0,rounds,1,57.0,57.0,0.0,True
+test predictions,analysis/feature_groups/work/fixed/blood_A.csv,blood,1,all values,1869,,,0.0,True
+boosting rounds,analysis/feature_groups/results/core_fixed.csv,blood,1,rounds,1,44.0,44.0,0.0,True
+test predictions,analysis/feature_groups/work/fixed/blood_A.csv,blood,2,all values,1869,,,0.0,True
+boosting rounds,analysis/feature_groups/results/core_fixed.csv,blood,2,rounds,1,40.0,40.0,0.0,True
+test predictions,analysis/feature_groups/work/fixed/blood_A.csv,blood,3,all values,1868,,,0.0,True
+boosting rounds,analysis/feature_groups/results/core_fixed.csv,blood,3,rounds,1,58.0,58.0,0.0,True
+test predictions,analysis/feature_groups/work/fixed/blood_A.csv,blood,4,all values,1868,,,0.0,True
+boosting rounds,analysis/feature_groups/results/core_fixed.csv,blood,4,rounds,1,37.0,37.0,0.0,True
+test predictions,analysis/feature_groups/work/fixed/mouse_A.csv,mouse,0,all values,1380,,,0.0,True
+boosting rounds,analysis/feature_groups/results/core_fixed.csv,mouse,0,rounds,1,90.0,90.0,0.0,True
+test predictions,analysis/feature_groups/work/fixed/mouse_A.csv,mouse,1,all values,1380,,,0.0,True
+boosting rounds,analysis/feature_groups/results/core_fixed.csv,mouse,1,rounds,1,68.0,68.0,0.0,True
+test predictions,analysis/feature_groups/work/fixed/mouse_A.csv,mouse,2,all values,1380,,,0.0,True
+boosting rounds,analysis/feature_groups/results/core_fixed.csv,mouse,2,rounds,1,63.0,63.0,0.0,True
+test predictions,analysis/feature_groups/work/fixed/mouse_A.csv,mouse,3,all values,1379,,,0.0,True
+boosting rounds,analysis/feature_groups/results/core_fixed.csv,mouse,3,rounds,1,55.0,55.0,0.0,True
+test predictions,analysis/feature_groups/work/fixed/mouse_A.csv,mouse,4,all values,1379,,,0.0,True
+boosting rounds,analysis/feature_groups/results/core_fixed.csv,mouse,4,rounds,1,58.0,58.0,0.0,True
+test predictions,core feature set scores of analysis/prospective_validation/prospective_core.py,depmap_23q4,0,all values,3387,,,0.0,True
+boosting rounds,core feature set scores of analysis/prospective_validation/prospective_core.py,depmap_23q4,0,rounds,1,65.0,65.0,0.0,True
+test predictions,core feature set scores of analysis/prospective_validation/prospective_core.py,depmap_23q4,1,all values,3387,,,0.0,True
+boosting rounds,core feature set scores of analysis/prospective_validation/prospective_core.py,depmap_23q4,1,rounds,1,57.0,57.0,0.0,True
+test predictions,core feature set scores of analysis/prospective_validation/prospective_core.py,depmap_23q4,2,all values,3387,,,0.0,True
+boosting rounds,core feature set scores of analysis/prospective_validation/prospective_core.py,depmap_23q4,2,rounds,1,65.0,65.0,0.0,True
+test predictions,core feature set scores of analysis/prospective_validation/prospective_core.py,depmap_23q4,3,all values,3386,,,0.0,True
+boosting rounds,core feature set scores of analysis/prospective_validation/prospective_core.py,depmap_23q4,3,rounds,1,59.0,59.0,0.0,True
+test predictions,core feature set scores of analysis/prospective_validation/prospective_core.py,depmap_23q4,4,all values,3386,,,0.0,True
+boosting rounds,core feature set scores of analysis/prospective_validation/prospective_core.py,depmap_23q4,4,rounds,1,62.0,62.0,0.0,True
+core feature set,analysis/feature_groups/results/core_fixed.csv,deg,,auprc point,1,0.9140641747776996,0.9140641747776996,0.0,True
+core feature set,analysis/feature_groups/results/core_fixed.csv,deg,,auprc half-width,1,0.009442893615305398,0.009442893615305398,0.0,True
+core feature set,analysis/feature_groups/results/core_fixed.csv,deg,,auroc point,1,0.9782599208118954,0.9782599208118954,0.0,True
+core feature set,analysis/feature_groups/results/core_fixed.csv,deg,,auroc half-width,1,0.0025150853825836776,0.0025150853825836776,0.0,True
+core feature set,analysis/feature_groups/results/core_fixed.csv,depmap,,auprc point,1,0.8009450786917588,0.8009450786917588,0.0,True
+core feature set,analysis/feature_groups/results/core_fixed.csv,depmap,,auprc half-width,1,0.01628602055350438,0.01628602055350438,0.0,True
+core feature set,analysis/feature_groups/results/core_fixed.csv,depmap,,auroc point,1,0.9499460464799311,0.9499460464799311,0.0,True
+core feature set,analysis/feature_groups/results/core_fixed.csv,depmap,,auroc half-width,1,0.005493945720502037,0.005493945720502037,0.0,True
+core feature set,analysis/feature_groups/results/core_fixed.csv,context,,auprc point,1,0.4974502224925824,0.4974502224925824,0.0,True
+core feature set,analysis/feature_groups/results/core_fixed.csv,context,,auprc half-width,1,0.028641256206214417,0.028641256206214417,0.0,True
+core feature set,analysis/feature_groups/results/core_fixed.csv,context,,auroc point,1,0.8356753142887781,0.8356753142887781,0.0,True
+core feature set,analysis/feature_groups/results/core_fixed.csv,context,,auroc half-width,1,0.013707099344574664,0.013707099344574664,0.0,True
+core feature set,analysis/feature_groups/results/core_fixed.csv,gene_effect,,spearman point,1,0.4844615781024313,0.4844615781024313,0.0,True
+core feature set,analysis/feature_groups/results/core_fixed.csv,gene_effect,,spearman half-width,1,0.012370983359924446,0.012370983359924446,0.0,True
+core feature set,analysis/feature_groups/results/core_fixed.csv,blood,,auprc point,1,0.6267430589470575,0.6267430589470575,0.0,True
+core feature set,analysis/feature_groups/results/core_fixed.csv,blood,,auprc half-width,1,0.03620497011349258,0.03620497011349258,0.0,True
+core feature set,analysis/feature_groups/results/core_fixed.csv,blood,,auroc point,1,0.9388143527865944,0.9388143527865944,0.0,True
+core feature set,analysis/feature_groups/results/core_fixed.csv,blood,,auroc half-width,1,0.009587527963034671,0.009587527963034671,0.0,True
+core feature set,analysis/feature_groups/results/core_fixed.csv,mouse,,auprc point,1,0.7446386713899656,0.7446386713899656,0.0,True
+core feature set,analysis/feature_groups/results/core_fixed.csv,mouse,,auprc half-width,1,0.017001123438966533,0.017001123438966533,0.0,True
+core feature set,analysis/feature_groups/results/core_fixed.csv,mouse,,auroc point,1,0.864844503127404,0.864844503127404,0.0,True
+core feature set,analysis/feature_groups/results/core_fixed.csv,mouse,,auroc half-width,1,0.009412162797128374,0.009412162797128374,0.0,True

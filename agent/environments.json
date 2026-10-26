@@ -1,0 +1,143 @@
+{
+ "environments": [
+  {
+   "name": "torch",
+   "title": "PyTorch 2.6.0 with CUDA 12.4, torch-geometric, fasttext and einops",
+   "python": "3.11.16",
+   "lock": "environments/torch.txt",
+   "gpu": true,
+   "methods": [
+    "deepcelless",
+    "deephe",
+    "deeplyessential",
+    "deepsnap",
+    "ednn_eg",
+    "epgat",
+    "esssubgraph",
+    "esstfnet",
+    "gcnn_sfm"
+   ],
+   "analyses": [
+    "same_input_mlp/same_input_mlp.py"
+   ],
+   "minutes": 9.7,
+   "gigabytes": 6.4
+  },
+  {
+   "name": "bingo",
+   "title": "PyTorch 2.6.0, fair-esm 2.0.0 and torch-geometric with torch-scatter",
+   "python": "3.12.3",
+   "lock": "environments/bingo.txt",
+   "gpu": true,
+   "methods": [
+    "bingo"
+   ],
+   "analyses": [
+    "foundation_model_probes/esm2_pool.py",
+    "foundation_model_probes/esm2_extract.py"
+   ],
+   "minutes": 11.3,
+   "gigabytes": 6.4
+  },
+  {
+   "name": "proteomelm",
+   "title": "PyTorch 2.6.0, esm 3.2.1 and transformers 4.48.1; esm 3 and fair-esm both install the module esm",
+   "python": "3.12.3",
+   "lock": "environments/proteomelm.txt",
+   "gpu": true,
+   "methods": [
+    "proteomelm"
+   ],
+   "analyses": [],
+   "minutes": 10.6,
+   "gigabytes": 6.7
+  },
+  {
+   "name": "cpu",
+   "title": "numpy, pandas, scikit-learn, LightGBM 4.6.0, the CPU build of XGBoost 3.2.0, Biopython and networkx",
+   "python": "3.11.16",
+   "lock": "environments/cpu.txt",
+   "gpu": false,
+   "methods": [
+    "help",
+    "pheg",
+    "xgep"
+   ],
+   "analyses": [
+    "benchmark_report",
+    "dependency_strength_context/complex_dependence.py",
+    "dependency_strength_context/context_biology.py",
+    "dependency_strength_context/strength_context.py",
+    "essential_gene_hallmarks/feature_biology.py",
+    "essential_gene_hallmarks/four_properties.py",
+    "essential_gene_hallmarks/pc_importance.py",
+    "feature_groups/alone.py",
+    "feature_groups/blocks.py",
+    "feature_groups/cccfs_terms.py",
+    "feature_groups/core_fixed.py",
+    "feature_groups/forward.py",
+    "feature_groups/importance.py",
+    "foundation_model_probes/embedding_probes.py",
+    "foundation_model_probes/geneformer_embeddings.py",
+    "hallmark_exceptions/exception_biology.py",
+    "hallmark_exceptions/hallmark_groups.py",
+    "label_sensitivity/label_definitions.py",
+    "label_sensitivity/screen_agreement.py",
+    "mouse_lethal_stages/lethal_stages.py",
+    "parameter_counts/parameter_counts.py",
+    "prospective_validation/prospective_biology.py",
+    "prospective_validation/prospective_core.py",
+    "research_attention/attention_followup.py",
+    "research_attention/attention_properties.py",
+    "research_attention/attention_trend.py",
+    "research_attention/excluded_genes.py",
+    "research_attention/input_models.py",
+    "research_attention/network_degree.py"
+   ],
+   "minutes": 2.2,
+   "gigabytes": 0.8
+  },
+  {
+   "name": "mahi",
+   "title": "XGBoost 3.2.0 as the wheel named xgboost, with numpy, pandas, scikit-learn and huggingface-hub",
+   "python": "3.11.16",
+   "lock": "environments/mahi.txt",
+   "gpu": false,
+   "methods": [
+    "mahi"
+   ],
+   "analyses": [],
+   "minutes": 2.5,
+   "gigabytes": 1.5
+  },
+  {
+   "name": "node2vec",
+   "title": "gensim 4.4.0 with pandas 3.0.3, for the node2vec embeddings of DeepHE and DeEPsnap",
+   "python": "3.11.15",
+   "lock": "environments/node2vec.txt",
+   "gpu": false,
+   "methods": [],
+   "analyses": [],
+   "input_builders": [
+    "methods/deephe/build_features.py build-node2vec",
+    "methods/deepsnap/code/build_features.py build-node2vec"
+   ],
+   "minutes": 1.9,
+   "gigabytes": 0.7
+  },
+  {
+   "name": "evo2",
+   "title": "Evo 2 0.6.0 with PyTorch 2.6.0 and flash-attn 2.7.4.post1, for the Evo 2 embeddings of EssTFNet",
+   "python": "3.12.3",
+   "lock": "environments/evo2.txt",
+   "gpu": true,
+   "methods": [],
+   "analyses": [],
+   "input_builders": [
+    "methods/esstfnet/code/embed_dna.py"
+   ],
+   "minutes": 26.5,
+   "gigabytes": 7.2
+  }
+ ]
+}

@@ -1,0 +1,12 @@
+scenario,tools,model_calls,tool_calls,tool_errors,total_seconds,model_seconds,tool_seconds,prompt_tokens,cached_prompt_tokens,computed_prompt_tokens,completion_tokens,facts_found,facts_expected,missing_facts,stop_reason
+tasks_and_leaderboard,list_tasks leaderboard,2,2,0,25.259,20.903,2.119,16103,0,0,1114,10,10,,answer
+explain_gene,gene_profile read_resource read_resource read_resource read_resource read_resource read_resource read_resource read_resource read_resource read_resource read_resource read_resource read_resource read_resource read_resource,4,16,0,201.684,197.579,2.037,43062,0,0,11053,4,4,,answer
+predict_new_genes,layer_status core_model compare,4,3,0,53.718,38.347,13.24,30145,0,0,2171,6,6,,answer
+score_user_labels,score_labels,2,1,0,41.024,21.596,17.432,16586,0,0,1118,6,6,,answer
+train_on_user_labels,make_task layer_status core_model check_predictions evaluate,5,5,0,264.98,51.19,211.719,42282,0,0,2850,7,7,,answer
+described_logistic,list_tasks layer_status get_fold get_fold get_fold get_fold get_fold run_python annotate_genes run_python check_predictions evaluate compare,8,13,0,123.663,92.618,28.829,95037,0,0,4655,1,1,,answer
+described_forest,list_tasks layer_status get_fold get_fold get_fold get_fold get_fold run_python annotate_genes run_python check_predictions evaluate compare,7,13,0,112.41,72.75,37.527,86483,0,0,3699,2,2,,answer
+flawed_table,check_predictions,2,1,0,28.584,26.197,0.409,13935,0,0,1520,5,5,,answer
+gene_list_profile,layer_status annotate_genes enrichment,3,3,0,97.236,91.227,3.933,29969,0,0,5414,5,5,,answer
+stratified_evaluation,list_tasks check_predictions layer_status evaluate_by_strata,4,4,0,67.578,24.175,41.36,38105,0,0,1058,4,4,,answer
+dependency_and_mouse,layer_status annotate_genes annotate_genes,3,3,0,22.595,20.064,0.492,23607,0,0,1086,6,6,,answer

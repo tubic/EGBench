@@ -1,0 +1,13 @@
+# Exact versions of the node2vec environment of agent/environments.json.
+gensim==4.4.0
+numpy==2.4.6
+packaging==26.3
+pandas==3.0.3
+pyarrow==24.0.0
+python-dateutil==2.9.0.post0
+scipy==1.17.1
+setuptools==84.0.0
+six==1.17.0
+smart-open==8.0.1
+wheel==0.48.0
+wrapt==2.3.0

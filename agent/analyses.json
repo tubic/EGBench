@@ -1,0 +1,351 @@
+{
+ "benchmark_report": {
+  "models": {
+   "all": [
+    "deg",
+    "depmap",
+    "context",
+    "blood",
+    "mouse"
+   ]
+  },
+  "inputs": [
+   "epgat"
+  ],
+  "external": [
+   "tcga_expression",
+   "gene2pubmed",
+   "hgnc",
+   "corum",
+   "goa_human",
+   "depmap_gene_effect"
+  ],
+  "minutes": 8
+ },
+ "label_sensitivity": {
+  "models": {
+   "all": [
+    "deg"
+   ]
+  },
+  "minutes": 1
+ },
+ "foundation_model_probes": {
+  "models": {
+   "mahi": [
+    "deg",
+    "depmap",
+    "context",
+    "blood",
+    "mouse"
+   ],
+   "bingo": [
+    "deg",
+    "depmap",
+    "context",
+    "blood",
+    "mouse"
+   ],
+   "proteomelm": [
+    "deg",
+    "depmap",
+    "context",
+    "blood",
+    "mouse"
+   ],
+   "esstfnet": [
+    "deg",
+    "depmap",
+    "context",
+    "blood",
+    "mouse"
+   ]
+  },
+  "inputs": [
+   "bingo",
+   "proteomelm",
+   "esstfnet"
+  ],
+  "external": [
+   "esm2_150m",
+   "esm2_3b",
+   "geneformer_weights",
+   "geneformer_tokens",
+   "hgnc"
+  ],
+  "gpu_gb": 10,
+  "minutes": 75
+ },
+ "parameter_counts": {
+  "models": {
+   "all": [
+    "deg"
+   ]
+  },
+  "minutes": 1
+ },
+ "same_input_mlp": {
+  "models": {
+   "mahi": [
+    "deg",
+    "depmap",
+    "context",
+    "blood",
+    "mouse"
+   ],
+   "help": [
+    "deg",
+    "depmap",
+    "context",
+    "blood",
+    "mouse"
+   ]
+  },
+  "gpu_gb": 8,
+  "minutes": 40
+ },
+ "feature_groups": {
+  "models": {
+   "deephe": [
+    "deg",
+    "depmap",
+    "context",
+    "blood",
+    "mouse"
+   ],
+   "deeplyessential": [
+    "deg",
+    "depmap",
+    "context",
+    "blood",
+    "mouse"
+   ],
+   "deepsnap": [
+    "deg",
+    "depmap",
+    "context",
+    "blood",
+    "mouse"
+   ],
+   "ednn_eg": [
+    "deg",
+    "depmap",
+    "context",
+    "blood",
+    "mouse"
+   ],
+   "epgat": [
+    "deg",
+    "depmap",
+    "context",
+    "blood",
+    "mouse"
+   ],
+   "esssubgraph": [
+    "deg",
+    "depmap",
+    "context",
+    "blood",
+    "mouse"
+   ],
+   "esstfnet": [
+    "deg",
+    "depmap",
+    "context",
+    "blood",
+    "mouse"
+   ],
+   "help": [
+    "deg",
+    "depmap",
+    "context",
+    "blood",
+    "mouse"
+   ],
+   "mahi": [
+    "deg",
+    "depmap",
+    "context",
+    "blood",
+    "mouse"
+   ],
+   "pheg": [
+    "deg",
+    "depmap",
+    "context",
+    "blood",
+    "mouse"
+   ],
+   "proteomelm": [
+    "deg",
+    "depmap",
+    "context",
+    "blood",
+    "mouse"
+   ],
+   "xgep": [
+    "deg",
+    "depmap",
+    "context",
+    "blood",
+    "mouse"
+   ]
+  },
+  "inputs": [
+   "epgat"
+  ],
+  "external": [
+   "help_cccfs",
+   "go_basic",
+   "compartments"
+  ],
+  "reads": {
+   "analysis/foundation_model_probes/work/esm2_650m_mean.parquet": "foundation_model_probes"
+  },
+  "minutes": 90
+ },
+ "essential_gene_hallmarks": {
+  "inputs": [
+   "epgat"
+  ],
+  "external": [
+   "go_basic",
+   "tcga_expression",
+   "corum",
+   "goa_human"
+  ],
+  "reads": {
+   "analysis/feature_groups/work/cache": "feature_groups"
+  },
+  "minutes": 2
+ },
+ "research_attention": {
+  "models": {
+   "all": [
+    "deg",
+    "depmap",
+    "context",
+    "blood",
+    "mouse"
+   ]
+  },
+  "inputs": [
+   "epgat"
+  ],
+  "external": [
+   "tcga_expression",
+   "gene2pubmed",
+   "hgnc",
+   "corum",
+   "goa_human"
+  ],
+  "reads": {
+   "analysis/feature_groups/work/cache": "feature_groups",
+   "analysis/feature_groups/work/alone": "feature_groups",
+   "analysis/essential_gene_hallmarks/work/gene_properties_deg.csv": "essential_gene_hallmarks",
+   "analysis/essential_gene_hallmarks/work/gene_properties_depmap.csv": "essential_gene_hallmarks"
+  },
+  "minutes": 9
+ },
+ "hallmark_exceptions": {
+  "models": {
+   "all": [
+    "deg",
+    "depmap"
+   ]
+  },
+  "inputs": [
+   "epgat"
+  ],
+  "external": [
+   "tcga_expression",
+   "gene2pubmed",
+   "hgnc",
+   "corum",
+   "goa_human",
+   "depmap_gene_effect",
+   "depmap_gene_dependency",
+   "go_basic",
+   "compara"
+  ],
+  "reads": {
+   "analysis/essential_gene_hallmarks/work/gene_properties_deg.csv": "essential_gene_hallmarks",
+   "analysis/essential_gene_hallmarks/work/gene_properties_depmap.csv": "essential_gene_hallmarks"
+  },
+  "minutes": 3
+ },
+ "prospective_validation": {
+  "models": {
+   "all": [
+    "depmap_23q4"
+   ]
+  },
+  "inputs": [
+   "epgat"
+  ],
+  "external": [
+   "tcga_expression",
+   "gene2pubmed",
+   "hgnc",
+   "corum",
+   "goa_human",
+   "go_basic",
+   "depmap_gene_dependency"
+  ],
+  "minutes": 6
+ },
+ "dependency_strength_context": {
+  "models": {
+   "all": [
+    "deg",
+    "depmap",
+    "context",
+    "blood",
+    "mouse"
+   ]
+  },
+  "inputs": [
+   "epgat"
+  ],
+  "external": [
+   "tcga_expression",
+   "corum",
+   "goa_human",
+   "go_basic",
+   "depmap_gene_effect",
+   "depmap_gene_dependency",
+   "depmap_models"
+  ],
+  "minutes": 14
+ },
+ "mouse_lethal_stages": {
+  "models": {
+   "all": [
+    "mouse"
+   ],
+   "help": [
+    "depmap",
+    "context"
+   ],
+   "deepsnap": [
+    "mouse"
+   ]
+  },
+  "inputs": [
+   "epgat"
+  ],
+  "external": [
+   "tcga_expression",
+   "gene2pubmed",
+   "hgnc",
+   "corum",
+   "goa_human",
+   "impc_genotype_phenotype",
+   "mp_ontology",
+   "depmap_gene_effect",
+   "depmap_gene_dependency",
+   "go_basic"
+  ],
+  "minutes": 6
+ }
+}

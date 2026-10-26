@@ -1,0 +1,10 @@
+check,task,subject,compared,matching,largest_difference,identical,seconds
+folds,deg,role of each gene in folds 0 to 4,56080,56080,,True,6.1
+folds,depmap,role of each gene in folds 0 to 4,68000,68000,,True,7.2
+folds,context,role of each gene in folds 0 to 4,46640,46640,,True,4.8
+folds,blood,role of each gene in folds 0 to 4,46715,46715,,True,4.5
+folds,mouse,role of each gene in folds 0 to 4,34490,34490,,True,3.3
+folds,depmap_23q4,role of each gene in folds 0 to 4,84665,84665,,True,9.8
+evaluate_task,deg,"example predictor deg_logistic: points, half-widths and fold values",14,14,0.0,True,18.0
+score_labels,deg,AUPRC point and half-width of the 15 predictors,30,30,0.0,True,21.5
+score_labels,deg,"paired test of the top predictor: difference, half-width and p",6,6,0.0,True,21.5

@@ -1,0 +1,27 @@
+item,file,original,comparison,rows,original_rows,differing_rows,differing_values,largest_absolute_difference,identical,file_identical,minutes
+esm2_650m,,bingo/feature/source/model_assets/esm2_t33_650M_UR50D.pt,bytes,,,,,,True,True,
+esm2_650m_contact,,bingo/feature/source/model_assets/esm2_t33_650M_UR50D-contact-regression.pt,bytes,,,,,,True,True,
+esmc_600m,,proteomelm/feature/source/esmc_runtime/data/weights/esmc_600m_2024_12_v0.pth,bytes,,,,,,True,True,
+proteomelm_l_config,,proteomelm/feature/source/model_assets/proteomelm_l/config.json,bytes,,,,,,True,True,
+proteomelm_l_weights,,proteomelm/feature/source/model_assets/proteomelm_l/model.safetensors,bytes,,,,,,True,True,
+esstfnet_feature_columns,,esstfnet/feature/source/feature_contract/feature_columns.txt,bytes,,,,,,True,True,
+bingo_graph_cache,graphs/*.pt x,bingo/feature/source/esm2_graph_cache/graphs,residue embeddings of 100 genes in whole batches of the full build,100,100,0,0,0.0,True,,0.82
+bingo_graph_cache,graphs/*.pt edge_index,bingo/feature/source/esm2_graph_cache/graphs,"contact edges, directed edges in one graph only; largest difference of the contact threshold",100,100,0,0,0.0,True,,0.82
+bingo_graph_cache,graphs/*.pt lengths,bingo/feature/source/esm2_graph_cache/graphs,"protein length, cached length, truncation and protein SHA-256",100,100,0,,,True,,0.82
+esmc_embeddings,,proteomelm/feature/source/esmc_base_embeddings.parquet,values,17121,17121,0,0,0.0,True,True,
+proteomelm_features,blood_features.parquet,proteomelm/feature/source/blood_features.parquet,values,16978,16978,0,0,0.0,True,True,
+proteomelm_features,context_features.parquet,proteomelm/feature/source/context_features.parquet,values,16978,16978,0,0,0.0,True,True,
+proteomelm_features,deg_features.parquet,proteomelm/feature/source/deg_features.parquet,values,17121,17121,0,0,0.0,True,True,
+proteomelm_features,depmap_23q4_features.parquet,proteomelm/feature/source/depmap_23q4_features.parquet,values,16978,16978,0,0,0.0,True,True,
+proteomelm_features,depmap_features.parquet,proteomelm/feature/source/depmap_features.parquet,values,16978,16978,0,0,0.0,True,True,
+proteomelm_features,mouse_features.parquet,proteomelm/feature/source/mouse_features.parquet,values,16978,16978,0,0,0.0,True,True,
+esstfnet_raw_candidates,blood/raw_candidates_86151.parquet,esstfnet/feature/source/blood/raw_candidates_86151.parquet,values,16978,16978,0,0,0.0,True,False,
+esstfnet_raw_candidates,context/raw_candidates_86151.parquet,esstfnet/feature/source/context/raw_candidates_86151.parquet,values,16978,16978,0,0,0.0,True,False,
+esstfnet_raw_candidates,deg/raw_candidates_86151.parquet,esstfnet/feature/source/deg/raw_candidates_86151.parquet,values,17121,17121,0,0,0.0,True,False,
+esstfnet_raw_candidates,depmap/raw_candidates_86151.parquet,esstfnet/feature/source/depmap/raw_candidates_86151.parquet,values,16978,16978,0,0,0.0,True,False,
+esstfnet_raw_candidates,depmap_23q4/raw_candidates_86151.parquet,esstfnet/feature/source/depmap_23q4/raw_candidates_86151.parquet,values,16978,16978,0,0,0.0,True,False,
+esstfnet_raw_candidates,mouse/raw_candidates_86151.parquet,esstfnet/feature/source/mouse/raw_candidates_86151.parquet,values,16978,16978,0,0,0.0,True,False,
+esstfnet_raw_candidates,raw_candidate_columns.parquet,esstfnet/feature/source/feature_contract/raw_candidate_columns.parquet,values,86151,86151,0,0,0.0,True,False,
+evo2_embeddings,deg/evo2_7b_base_embeddings.parquet,esstfnet/feature/source/deg/evo2_7b_base_embeddings.parquet,"20 genes, 6 longer than 8192 nt; largest absolute value 165.5",20,20,20,81918,664.125,False,,0.27
+evo2_embeddings,depmap/evo2_7b_base_embeddings.parquet,esstfnet/feature/source/depmap/evo2_7b_base_embeddings.parquet,"20 genes, 6 longer than 8192 nt; largest absolute value 165.5",20,20,20,81918,664.125,False,,0.27
+proteomelm_source,,proteomelm/code/upstream,files of the archive,52,52,0,,,True,,

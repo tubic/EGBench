@@ -2,6 +2,46 @@
 
 Code and datasets of EGBench, a benchmark of 15 published predictors of human gene essentiality on six tasks under protein-family cross-validation.
 
+## Use EGBench from an AI agent
+
+EGBench is also a Model Context Protocol (MCP) server, so any MCP client can query the benchmark, check and score a new predictor, split your own labels into protein-family folds, train the core feature set model on them and analyse genes. Eleven tools need no downloads; four tools download public data on first use (3.6 GB, CPU). Tested on macOS (the tools without downloads) and Linux x86_64 (all tools); on Windows the server runs through WSL only.
+
+1. Install [uv](https://docs.astral.sh/uv/getting-started/installation/), which runs the server in an environment of its own.
+
+2. Start the server once in a terminal.
+
+   ```
+   uvx --from "egbench[mcp] @ git+https://github.com/tubic/EGBench" egbench-mcp
+   ```
+
+   The first start downloads the package and its 42 dependencies and imports them. It took 3 to 4 minutes with an empty uv cache and about 1 minute with the dependencies cached. When the terminal stops printing, press Ctrl+C. Later starts take a few seconds. This step is what lets a client connect: Claude Code 2.1.287 reported `Failed to connect — Request timed out` after 35 seconds when it started the server for the first time itself, and `Connected` once the server had been started in a terminal.
+
+3. Register the server in your client with the same command.
+
+   ```
+   claude mcp add egbench -- uvx --from "egbench[mcp] @ git+https://github.com/tubic/EGBench" egbench-mcp
+   claude mcp list
+   ```
+
+   For Claude Desktop, add the entry below to `claude_desktop_config.json`. A client started from the desktop may not search your shell's `PATH`; then write the full path that `which uvx` prints as the command.
+
+   ```
+   {"mcpServers": {"egbench": {"command": "uvx",
+                               "args": ["--from", "egbench[mcp] @ git+https://github.com/tubic/EGBench", "egbench-mcp"],
+                               "env": {"EGBENCH_DATA_ROOT": "/path/to/data"}}}}
+   ```
+
+   Downloads and the tables built from them go to `EGBENCH_DATA_ROOT`, `~/egbench-data` when it is unset.
+
+4. Ask for something. For example:
+
+   - Which tasks does EGBench contain? On the Mouse task, which predictor ranks first, and is it significantly better than the second?
+   - Score the predictor in `agent/examples/deg_logistic.csv` on the DEG task and tell me its rank among the published predictors.
+   - `agent/examples/mouse_lethality_labels.csv` lists mouse knockout calls by gene symbol (1 lethal, 0 viable). Split them into protein-family folds as a task named mouse_lethality and train the core feature set model on it. (Your own labels work the same way: a CSV with a gene column and a 0/1 label column.)
+   - Describe these genes by the four hallmarks and tell me which processes and complexes they are enriched in: PSMA1, PSMB2, PSMC3, PSMD1, POLR2A.
+
+   A relative path such as `agent/examples/deg_logistic.csv` is read from the package's copy of the repository; give any other file by its full path. The first call of a tool that downloads data reports what it needs and how long it takes, and the three DepMap files that the dependency analysis reads can only be downloaded with a browser; save them at the path the tool names. [agent/README.md](https://github.com/tubic/EGBench/blob/main/agent/README.md) lists the tools, the data they download, the commands that rerun the 15 methods and the analyses, and how the results were checked.
+
 ## Layout
 
 ```
@@ -13,6 +53,7 @@ src/egbench/           library: fold contracts, data readers, metrics, evaluatio
 methods/<method>/      the 15 methods; run.py has the subcommands features, preflight, train and predict
 analysis/<analysis>/   code of each manuscript analysis and its result tables (results/)
 analysis/common/       helpers shared by the analyses
+agent/                 MCP server that gives AI agents the benchmark as tools, a client for open-weight models, and commands that rerun the methods from public data
 ```
 
 Each task directory holds `folds/` (`split_assignments`, `training_labels/fold_<k>`, `fold_genes/fold_<k>_genes`, `evaluation_truth`, `common_binary` or `common_continuous`, `cluster_projection`, all parquet, and `summary.json`) and, except GeneEffect, `data/` with the label tables.
@@ -28,6 +69,7 @@ Not distributed: external data (`data/`, below), method inputs (`methods/<method
 | neural methods | torch 2.6.0; Bingo and EssSubgraph also torch-geometric 2.6.1; EssTFNet einops 0.8.2; eDNN-EG fasttext 0.9.3 |
 | tree methods | HELP lightgbm 4.6.0 and xgboost 3.0.5; Mahi and XGEP-XGB xgboost 3.2.0 |
 | ESM-2 embeddings | fair-esm 2.0.0, torch 2.6.0 |
+| agent server, client and tools | Python 3.11.17, numpy 2.4.6, pandas 2.3.3, scipy 1.17.1, scikit-learn 1.9.0, pyarrow 22.0.0, mcp 2.3.0; all versions in `agent/requirements.txt` |
 
 Install the library with `pip install -e .`, or set `PYTHONPATH=$PWD/src`. All commands run from the repository root. Before a run:
 
@@ -85,6 +127,10 @@ python -m egbench report --workers 16
 ```
 
 It writes the leaderboard, the fusion of the top five methods, the paired comparisons, the attribute-matched subsets and the false positives to `analysis/benchmark_report/results/` (about 10 minutes).
+
+## Agent interface
+
+[agent/README.md](https://github.com/tubic/EGBench/blob/main/agent/README.md) is the reference of the MCP server: the tools, the data they download, the commands that install the environments of the 15 methods, build their inputs from public data, train and check folds, score new genes with a trained method, rebuild the benchmark report and rerun the analyses below, and how the results were checked against the manuscript.
 
 ## Analyses
 

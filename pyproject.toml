@@ -5,7 +5,19 @@ build-backend = "hatchling.build"
 [project]
 name = "egbench"
 version = "0.1.0"
-description = "Evaluation library of the EGBench human gene essentiality benchmark."
+description = "Evaluation library and MCP server of the EGBench human gene essentiality benchmark."
+readme = "README.md"
+license = "MIT"
+license-files = ["LICENSE"]
+authors = [{name = "Yuqing Geng"}, {name = "Hao Luo"}, {name = "Feng Gao"}]
+keywords = ["essential genes", "benchmark", "machine learning", "model context protocol", "mcp", "bioinformatics"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Science/Research",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.13",
+    "Topic :: Scientific/Engineering :: Bio-Informatics",
+]
 requires-python = ">=3.11"
 dependencies = [
     "numpy",
@@ -13,8 +25,32 @@ dependencies = [
     "pyarrow",
 ]
 
+[project.optional-dependencies]
+# The versions of agent/requirements.txt, with which the tools reproduce the manuscript's values.
+mcp = [
+    "joblib==1.6.0",
+    "mcp==2.3.0",
+    "numpy==2.4.6",
+    "pandas==2.3.3",
+    "pyarrow==22.0.0",
+    "pydantic==2.14.1",
+    "scikit-learn==1.9.0",
+    "scipy==1.17.1",
+]
+
+[project.urls]
+Homepage = "https://github.com/tubic/EGBench"
+Repository = "https://github.com/tubic/EGBench"
+Issues = "https://github.com/tubic/EGBench/issues"
+
 [project.scripts]
 egbench = "egbench.cli:main"
+egbench-mcp = "egbench_mcp.agent.launch:main"
 
 [tool.hatch.build.targets.wheel]
 packages = ["src/egbench"]
+
+[tool.hatch.build.targets.wheel.hooks.custom]
+
+[tool.hatch.build.targets.sdist]
+exclude = ["/data", "**/work", "**/__pycache__", "methods/*/feature", "methods/*/model"]

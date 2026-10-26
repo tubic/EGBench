@@ -1,0 +1,30 @@
+# Exact versions of the mahi environment of agent/environments.json.
+# xgboost: Mahi was trained with this wheel, whose row and column subsamples differ from those of xgboost-cpu in the cpu environment.
+certifi==2026.7.22
+charset-normalizer==3.5.1
+filelock==3.32.4
+fsspec==2026.7.0
+huggingface-hub==0.28.1
+idna==3.19
+joblib==1.5.3
+narwhals==2.25.0
+numpy==2.4.6
+nvidia-nccl-cu12==2.31.2
+packaging==26.3
+pandas==2.3.3
+pyarrow==22.0.0
+python-dateutil==2.9.0.post0
+pytz==2026.3.post1
+pyyaml==6.0.3
+requests==2.34.2
+scikit-learn==1.9.0
+scipy==1.17.1
+setuptools==84.0.0
+six==1.17.0
+threadpoolctl==3.6.0
+tqdm==4.70.0
+typing-extensions==4.16.0
+tzdata==2026.3
+urllib3==2.7.0
+wheel==0.48.0
+xgboost==3.2.0

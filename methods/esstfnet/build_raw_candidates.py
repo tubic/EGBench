@@ -16,8 +16,8 @@ import numpy as np
 import pyarrow as pa
 import pyarrow.parquet as pq
 
+from egbench.contracts import COHORT_IDS
 from build_features import (
-    COHORT_IDS,
     SOURCE_ROOT,
     _raw_path,
     _read_support,

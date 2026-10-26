@@ -57,14 +57,15 @@ Layer 1 needs room under the data root for 3.6 GB of downloads and the tables bu
 
 ### As a package
 
-The repository is the Python package `egbench`: its command `egbench-mcp` starts the server, and its extra `mcp` installs the server's packages at the versions of `requirements.txt`. uv installs it in an environment of its own and starts the server. The package can come from the GitHub repository or from a clone:
+The repository is the Python package `egbench`: its command `egbench-mcp` starts the server, and its extra `mcp` installs the server's packages at the versions of `requirements.txt`. uv installs it in an environment of its own and starts the server. The package can come from PyPI, from the GitHub repository or from a clone:
 
 ```
+uvx --from "egbench[mcp]" egbench-mcp
 uvx --from "egbench[mcp] @ git+https://github.com/tubic/EGBench" egbench-mcp
 uvx --from "egbench[mcp] @ file:///path/to/clone" egbench-mcp
 ```
 
-Measured on macOS, the first start with an empty uv cache took 188, 255 and 356 seconds in three runs (the 42 packages are downloaded, the package is fetched and built and the packages are imported once) and 66 seconds with the packages cached; later starts take 6 to 8 seconds. uv took Python 3.13.15, with which `evaluate` gave the same values as with Python 3.11.17. uv keeps the environment it built for a path; after the clone there changes, `uv cache clean` makes the next start build the package again (with uv 0.13.1, `--refresh` and `uv cache clean egbench` did not). Downloads and the tables built from them go to the data root, `EGBENCH_DATA_ROOT` or `~/egbench-data` when it is unset. Paths passed to the tools are given in full; a relative path is read from the package's copy of the repository, where `agent/examples/` lies.
+Measured on macOS, the first start with an empty uv cache took 188, 255, 347 and 356 seconds in four runs (the 42 packages are downloaded, the package is fetched and built, from PyPI 347 seconds, and the packages are imported once) and 66 seconds with the packages cached; later starts take 6 to 8 seconds. uv took Python 3.13.15, with which `evaluate` gave the same values as with Python 3.11.17. uv keeps the environment it built for a path; after the clone there changes, `uv cache clean` makes the next start build the package again (with uv 0.13.1, `--refresh` and `uv cache clean egbench` did not). Downloads and the tables built from them go to the data root, `EGBENCH_DATA_ROOT` or `~/egbench-data` when it is unset. Paths passed to the tools are given in full; a relative path is read from the package's copy of the repository, where `agent/examples/` lies.
 
 A client gives up before the first start ends, so the first start is made in a terminal before the server is registered. Claude Code 2.1.287 reported `Failed to connect — Request timed out` after 35 seconds on a first start from an empty cache, and `Connected` after the start in a terminal. Raising the limit also works: `MCP_TIMEOUT=600000 claude mcp list` connected after 4 minutes 56 seconds from an empty cache.
 

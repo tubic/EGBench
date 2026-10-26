@@ -11,15 +11,15 @@ EGBench is also a Model Context Protocol (MCP) server, so any MCP client can que
 2. Start the server once in a terminal.
 
    ```
-   uvx --from "egbench[mcp] @ git+https://github.com/tubic/EGBench" egbench-mcp
+   uvx --from "egbench[mcp]" egbench-mcp
    ```
 
-   The first start downloads the package and its 42 dependencies and imports them. It took 3 to 6 minutes with an empty uv cache (three runs: 188, 255 and 356 seconds) and less with the dependencies cached. When the terminal stops printing, press Ctrl+C. Later starts take about 8 seconds. This step is what lets a client connect: Claude Code 2.1.287 reported `Failed to connect — Request timed out` after 35 seconds when it started the server for the first time itself, and `Connected` once the server had been started in a terminal.
+   The first start downloads the package and its 42 dependencies and imports them. It took 3 to 6 minutes with an empty uv cache (four runs: 188, 255, 347 and 356 seconds) and less with the dependencies cached. When the terminal stops printing, press Ctrl+C. Later starts take about 8 seconds. This step is what lets a client connect: Claude Code 2.1.287 reported `Failed to connect — Request timed out` after 35 seconds when it started the server for the first time itself, and `Connected` once the server had been started in a terminal.
 
 3. Register the server in your client with the same command.
 
    ```
-   claude mcp add egbench -- uvx --from "egbench[mcp] @ git+https://github.com/tubic/EGBench" egbench-mcp
+   claude mcp add egbench -- uvx --from "egbench[mcp]" egbench-mcp
    claude mcp list
    ```
 
@@ -27,7 +27,7 @@ EGBench is also a Model Context Protocol (MCP) server, so any MCP client can que
 
    ```
    {"mcpServers": {"egbench": {"command": "uvx",
-                               "args": ["--from", "egbench[mcp] @ git+https://github.com/tubic/EGBench", "egbench-mcp"],
+                               "args": ["--from", "egbench[mcp]", "egbench-mcp"],
                                "env": {"EGBENCH_DATA_ROOT": "/path/to/data"}}}}
    ```
 
